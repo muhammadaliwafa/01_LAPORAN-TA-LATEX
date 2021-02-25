@@ -1,0 +1,25 @@
+\contentsline {chapter}{ABSTRAK}{i}{section*.1}%
+\contentsline {chapter}{ABSTRACT}{ii}{section*.3}%
+\contentsline {chapter}{KATA PENGANTAR}{iii}{section*.5}%
+\contentsline {chapter}{DAFTAR ISI}{iv}{section*.8}%
+\contentsline {chapter}{DAFTAR TABEL}{v}{chapter*.9}%
+\contentsline {chapter}{DAFTAR GAMBAR}{vi}{chapter*.11}%
+\contentsline {chapter}{\numberline {I}PENDAHULUAN}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Latar Belakang}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Rumusan Masalah}{3}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Hipotesis}{3}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Batasan Masalah}{3}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Tujuan Penelitian}{3}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Manfaat Penelitian}{4}{section.1.6}%
+\contentsline {chapter}{\numberline {II}TINJAUAN PUSTAKA}{6}{chapter.2}%
+\contentsline {chapter}{\numberline {III}METODE PENELITIAN}{9}{chapter.3}%
+\contentsline {chapter}{\numberline {IV}HASIL DAN PEMBAHASAN}{11}{chapter.4}%
+\contentsline {chapter}{\numberline {V}KESIMPULAN DAN SARAN}{13}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Kesimpulan}{13}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Saran}{13}{section.5.2}%
+\contentsline {chapter}{DAFTAR PUSTAKA}{15}{section.5.2}%
+\addtolength {\cftchapnumwidth }{-\mylength }
+\renewcommand {\cftchappresnum }{LAMPIRAN }
+\addtolength {\cftchapnumwidth }{\mylonglength }
+\renewcommand {\cftchappresnum }{LAMPIRAN }
+\contentsline {chapter}{\numberline {A}Empirical Binary Entropies for Given Bit-Flipping Probabilities}{17}{appendix.A}%
