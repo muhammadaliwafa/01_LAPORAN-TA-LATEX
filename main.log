@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.2.22)  25 FEB 2021 11:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.2.22)  26 FEB 2021 22:43
 entering extended mode
 **./main.tex
 (main.tex
@@ -1041,7 +1041,7 @@ Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 121.
  (BAB-1/BAB-1.tex
 BAB I.
 
-Overfull \hbox (15.48308pt too wide) in paragraph at lines 9--9
+Overfull \hbox (15.48308pt too wide) in paragraph at lines 10--10
 \OT1/ptm/m/n/10.95 fikasikan kon-disi trans-for-ma-tor daya. Banyaknya data yan
 g terkumpul akan san-gat sulit dalam melakukan
  []
@@ -1098,11 +1098,11 @@ BAB II.
 
 
 ]
-<BAB-2/figures/alfabetbisindo.png, id=228, 914.41624pt x 672.5125pt>
+<BAB-2/figures/alfabetbisindo.png, id=239, 914.41624pt x 672.5125pt>
 File: BAB-2/figures/alfabetbisindo.png Graphic file (type png)
 <use BAB-2/figures/alfabetbisindo.png>
-Package pdftex.def Info: BAB-2/figures/alfabetbisindo.png  used on input line 3
-4.
+Package pdftex.def Info: BAB-2/figures/alfabetbisindo.png  used on input line 4
+3.
 (pdftex.def)             Requested size: 441.01773pt x 324.34158pt.
 ) [7 <./BAB-2/figures/alfabetbisindo.png>]
 File: Includes/Pemisah.pdf Graphic file (type pdf)
@@ -1333,7 +1333,7 @@ Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 144.
 
  (Lampiran-A/Lampiran-A.tex
 LAMPIRAN A.
-<Lampiran-A/figures/binaryEntropiesSystemSetup-eps-converted-to.pdf, id=292, 21
+<Lampiran-A/figures/binaryEntropiesSystemSetup-eps-converted-to.pdf, id=302, 21
 9.82124pt x 131.49126pt>
 File: Lampiran-A/figures/binaryEntropiesSystemSetup-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -1347,13 +1347,19 @@ erted-to.pdf  used on input line 6.
  <./Lampiran-A/figures/binaryEntropiesSystemSetup-eps-converted-to.pdf>]
 (main.aux (BAB-1/BAB-1.aux) (BAB-2/BAB-2.aux) (BAB-3/BAB-3.aux)
 (BAB-4/BAB-4.aux) (BAB-5/BAB-5.aux) (Lampiran-A/Lampiran-A.aux))
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4EAF9744B12FCED7B1EF1988776B7AF9;2719.
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 39D934509BC8BA3BEE036A171759B5FA;2772
+(rerunfilecheck)             After:  30FB847E9F14692767EA3126AF46F3FD;2943.
  ) 
 Here is how much of TeX's memory you used:
- 13860 strings out of 479334
- 210958 string characters out of 2857084
- 779902 words of memory out of 3000000
+ 13870 strings out of 479334
+ 211920 string characters out of 2857084
+ 779907 words of memory out of 3000000
  30926 multiletter control sequences out of 15000+200000
  428066 words of font info for 77 fonts, out of 3000000 for 9000
  1156 hyphenation exceptions out of 8191
@@ -1374,9 +1380,9 @@ C:/Users/muhal/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb>
 <C:/Users/muhal/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
 <C:/Users/muhal/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb
 >
-Output written on main.pdf (28 pages, 1055588 bytes).
+Output written on main.pdf (28 pages, 1055147 bytes).
 PDF statistics:
- 395 PDF objects out of 1000 (max. 8388607)
- 58 named destinations out of 1000 (max. 500000)
+ 407 PDF objects out of 1000 (max. 8388607)
+ 68 named destinations out of 1000 (max. 500000)
  274 words of extra memory for PDF output out of 10000 (max. 10000000)
 
