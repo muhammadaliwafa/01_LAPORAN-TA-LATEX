@@ -16,9 +16,39 @@ Transformator daya merupakan salah satu peralatan tenaga listrik yang berfungsi 
 \end{equation}
 
 \section{Indeks Kesehatan Trafo}
+\section{\textit{Machine Learning}}
+Machine learning merupakan salah satu metode yang digunakan dalam memodelkan pola serangkaian data untuk membuat pediksi pada input yang sama atau menyerupai 
 \section{\textit{Long Short Term Memory (LSTM)}}
+Pada pemodelan dengan menggunakan metode RNN secara umum memiliki kemampuan dalam membuat prediksi yang dipengaruhi oleh input sebelumnya. Namun terdapat kekurangan pada metode tersebut yakni tidak mampu mengatasi dengan  seri yang panjang. misalnya pada sebuah data \textit{time series}, RNN akan sulit mengkorelasikan antara data saat ini dengan data yang sangat lampau, akibatnya jika data yang diproses dalam rentang waktu yang lama maka RNN hanya mampu membuat prediksi yang hanya berkaitan pada waktu yang pendek. kekurangan pada RNN dikarenakan adanya \textit{vanising gradient}, yakni menghapus data yang tidak berkaitan dengan data baru yang dimasukkan. Adanya kekurangan tersebut maka dibutuhkan suatu metode baru yang dapat mengingat data lampau saat menerima input terbaru. 
+LSTM merupakan salah satu turunan dari pemodelan matematis yang digunakan dalam mengenali pola serangkaian data 
 
+kelebihan yang dimiliki LSTM dibandingkan dengan RNN dikarenakan algoritma yang digunakan terdiri dari struktur yang kompleks. Secara umum terdapat 4 bagian pada arsitektur LSTM yakni \textit{forget gate}, \textit{input gate}, \textit{Cell gate}, dan \textit{Output gate}. 
+\subsection{\textit{Forget Gate}}
+Pada \textit{Forget gate} merupakan bagian yang menentukan mengenai informasi pada keluaran sel sebelumnya untuk dipertahankan atau dihapus. hal ini dilakukan dengan memasukkan keluaran sel sebelumnya yang digabungkan dengan masukan baru ke dalam fungsi aktivasi sigmoid. Informasi akan dipertahankan untuk hasil dari sigmoid dengan nilai 1 dan dihapus untuk keluaran yang bernilai 0. secara matematis pada \textit{forget gate} digunakan persamaan sebagai berikut:
+\begin{equation}
+	f_t = \sigma_g(\boldsymbol{W_{f}}.[\boldsymbol{h_{t-1}}, \boldsymbol{x_t}] + \boldsymbol{b_f})
+	\label{func:input_gate}
+\end{equation} 
+berdasarkan persamaan~(\ref{func:input_gate}) dapat diketahui bahwa dengan persamaan tersebut terdapat bentuk $[\boldsymbol{h_{t-1}}, \boldsymbol{x_t}]$. Hal ini merupakan operasi penggabungan vektor yakni penggabungan baris pada $\boldsymbol{h_{t-1}}$ dengan baris pada $\boldsymbol{x_t}$
+\subsection{\textit{Input Gate}}
+Salah satu kelebihan LSTM adalah dapat mengingat informasi data masukan yang lama. Hal ini dikarenakan karena adanya satu bagian yang berperan dalam memperbarui memori berdasarkan informasi penting dari masukan baru. kemampuan ini diperoleh karena ada dua tahapan penting pada \textit{input gate} yakni melalui lapisan \textit{sigmoid} dan \textit{tanh}. lapisan akan memberikan keluaran berupa nilai mana saja yang harus dilakukan pembaruan pada memori sedangkan lapisan \textit{tanh} memberikan keluaran berupa calon ($\boldsymbol{\tilde{C}}$) yang ditambahkan pada memori. 
+\begin{equation}
+	\boldsymbol{i_t} = \sigma_i(\boldsymbol{W_{f}}.[\boldsymbol{h_{t-1}}, \boldsymbol{x_t}] + \boldsymbol{b_i})\\
+	\label{func:input}
+\end{equation}
+\begin{equation}
+	\boldsymbol{\tilde{C}} = tanh(\boldsymbol{W_{C}}.[\boldsymbol{h_{t-1}}, \boldsymbol{x_t}] + \boldsymbol{b_C})
+	\label{func:C-tilde}
+\end{equation}
+Hasil dari komputasi dua lapisan di atas yang terjadi pada \textit{input gate} membuat nilai pada memori yang mengalami pembaruan terjadi dalam hanya dalam jumlah yang sedikit. Oleh karena itu informasi penting pada data yang lampau akan tetap tersimpan untuk jumlah data yang banyak.
 
+\begin{align}
+	f_t &= \sigma_g(W_{f} x_t + U_{f} c_{t-1} + b_f) \\
+	i_t &= \sigma_g(W_{i} x_t + U_{i} c_{t-1} + b_i) \\
+	o_t &= \sigma_g(W_{o} x_t + U_{o} c_{t-1} + b_o) \\
+	c_t &= f_t \circ c_{t-1} + i_t \circ \sigma_c(W_{c} x_t + b_c) \\
+	h_t &= o_t \circ \sigma_h(c_t)
+\end{align}
 \lipsum[5-6]
 \begin{table}[h]
     \centering
