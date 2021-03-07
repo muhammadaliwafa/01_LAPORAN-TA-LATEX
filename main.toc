@@ -17,6 +17,8 @@
 \contentsline {section}{\numberline {2.4}\textit {Long Short Term Memory (LSTM)}}{6}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}\textit {Forget Gate}}{7}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}\textit {Input Gate}}{7}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}\textit {Cell gate}}{7}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}\textit {Output Gate}}{8}{subsection.2.4.4}%
 \contentsline {chapter}{\numberline {III}METODE PENELITIAN}{11}{chapter.3}%
 \contentsline {chapter}{\numberline {IV}HASIL DAN PEMBAHASAN}{13}{chapter.4}%
 \contentsline {chapter}{\numberline {V}KESIMPULAN DAN SARAN}{15}{chapter.5}%
