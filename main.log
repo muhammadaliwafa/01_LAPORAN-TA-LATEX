@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.2.22)  8 MAR 2021 10:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.2.22)  9 MAR 2021 00:38
 entering extended mode
 **./main.tex
 (main.tex
@@ -719,30 +719,41 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 10.
 (C:\Users\muhal\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (5.74341pt too wide) in paragraph at lines 22--23
-[]\OT1/ptm/m/n/10.95 Machine learn-ing meru-pakan salah satu metode yang di-gu-
-na-kan dalam mem-o-d-elkan pola serangka-
- []
+<BAB-2/figures/duval triangle.png, id=132, 301.8778pt x 262.73157pt>
+File: BAB-2/figures/duval triangle.png Graphic file (type png)
+<use BAB-2/figures/duval triangle.png>
+Package pdftex.def Info: BAB-2/figures/duval triangle.png  used on input line 2
+2.
+(pdftex.def)             Requested size: 441.01773pt x 383.82942pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 [4
 
 
 ]
-Overfull \hbox (22.21075pt too wide) in paragraph at lines 33--35
+Overfull \hbox (5.74341pt too wide) in paragraph at lines 31--32
+[]\OT1/ptm/m/n/10.95 Machine learn-ing meru-pakan salah satu metode yang di-gu-
+na-kan dalam mem-o-d-elkan pola serangka-
+ []
+
+[5 <./BAB-2/figures/duval triangle.png (PNG copy)>]
+Overfull \hbox (22.21075pt too wide) in paragraph at lines 42--44
 \OT1/ptm/m/n/10.95 berdasarkan per-samaan ([]2.2[]) da-pat dike-tahui bahwa den
 -gan per-samaan terse-but ter-da-pat ben-tuk $\OT1/cmr/m/n/10.95 [[]\OML/cmm/m/
 it/10.95 ; []\OT1/cmr/m/n/10.95 ]$\OT1/ptm/m/n/10.95 .
  []
 
-[5]
+[6]
 
-LaTeX Warning: Reference `gambar:alfabet bisindo' on page 6 undefined on input 
-line 101.
+LaTeX Warning: Reference `gambar:alfabet bisindo' on page 7 undefined on input 
+line 110.
 
 
-LaTeX Warning: Reference `BAB4:hasil' on page 6 undefined on input line 101.
+LaTeX Warning: Reference `BAB4:hasil' on page 7 undefined on input line 110.
 
-) [6] (main.bbl)
+) [7] (main.bbl)
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf>
 Package pdftex.def Info: Includes/Pemisah.pdf  used on input line 144.
@@ -767,7 +778,7 @@ File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
 Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 144.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-[7
+[8
 
 
 
@@ -784,12 +795,12 @@ File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
 Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 144.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
- [8]
+ [9]
 \openout2 = `Lampiran-A/Lampiran-A.aux'.
 
  (Lampiran-A/Lampiran-A.tex
 LAMPIRAN A.
-<Lampiran-A/figures/binaryEntropiesSystemSetup-eps-converted-to.pdf, id=182, 21
+<Lampiran-A/figures/binaryEntropiesSystemSetup-eps-converted-to.pdf, id=195, 21
 9.82124pt x 131.49126pt>
 File: Lampiran-A/figures/binaryEntropiesSystemSetup-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -797,7 +808,7 @@ c file (type pdf)
 Package pdftex.def Info: Lampiran-A/figures/binaryEntropiesSystemSetup-eps-conv
 erted-to.pdf  used on input line 6.
 (pdftex.def)             Requested size: 219.8207pt x 131.49092pt.
-) [9
+) [10
 
 
  <./Lampiran-A/figures/binaryEntropiesSystemSetup-eps-converted-to.pdf>]
@@ -806,16 +817,16 @@ erted-to.pdf  used on input line 6.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 89428F8F7A4BC198F220BC673C533175;2760.
+(rerunfilecheck)             Checksum: 16BDAEB096CABC574DC88BDE47F97D4F;2760.
  ) 
 Here is how much of TeX's memory you used:
- 13790 strings out of 479334
- 209980 string characters out of 2857084
- 776424 words of memory out of 3000000
- 30907 multiletter control sequences out of 15000+200000
+ 13809 strings out of 479334
+ 210429 string characters out of 2857084
+ 775668 words of memory out of 3000000
+ 30919 multiletter control sequences out of 15000+200000
  422814 words of font info for 73 fonts, out of 3000000 for 9000
  1156 hyphenation exceptions out of 8191
- 81i,17n,88p,1092b,456s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 81i,17n,88p,1474b,456s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/muhal/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
 /Users/muhal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/
 cmbsy8.pfb><C:/Users/muhal/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
@@ -832,14 +843,15 @@ tra/cmmib8.pfb><C:/Users/muhal/AppData/Local/Programs/MiKTeX/fonts/type1/public
 /amsfonts/cm/cmr10.pfb><C:/Users/muhal/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmr8.pfb><C:/Users/muhal/AppData/Local/Programs/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/muhal/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/muhal/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/muhal/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/muhal/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/muhal/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (9 pages, 297349 bytes).
+iKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/muhal/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/muhal/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/muhal/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/muhal/A
+ppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/muhal/A
+ppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (10 pages, 334206 bytes).
 PDF statistics:
- 301 PDF objects out of 1000 (max. 8388607)
- 50 named destinations out of 1000 (max. 500000)
- 180 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 317 PDF objects out of 1000 (max. 8388607)
+ 54 named destinations out of 1000 (max. 500000)
+ 185 words of extra memory for PDF output out of 10000 (max. 10000000)
 

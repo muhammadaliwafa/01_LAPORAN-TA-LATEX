@@ -16,7 +16,16 @@ Transformator daya merupakan salah satu peralatan tenaga listrik yang berfungsi 
 Dalam sistem jaringan tenaga listrik pada umumnya transformator daya yang digunakan saat beroperasi yang memiliki kondisi yang baik agar terhindar dari gangguan. kondisi sebuah transformator secara keseluruhan dapat dievaluasi dengan sebuah metode yakni indeks kesehatan transformator \cite{nurcahyanto2019analysis}. metode ini merupakan hasil kombinasi data hasil inspeksi lapangan, selama beroperasi maupun hasil pengujian transformator daya di laboratorium atau lapangan \cite{ortiz2016health}. Pengujian pada transformator daya dibagi atas pengujian elektrik, pengujian kimia, dan pengujian fisik. Metode-metode yang sering digunakan pada transformator daya diantaranya adalah \textit{Dissolve Gas Analysis} (DGA), kualitas minyak transformator, furan, faktor daya, pemantauan \textit{tap changer}, riwayat pembebanan serta data pemeliharaan \cite{jahromi2009approach}.
 
 \subsection{\textit{Dissolve Gas Analysis} (DGA)}
-DGA merupakan salah satu metode yang digunakan dalam mendeteksi adanya gangguan pada transformator daya. Dalam kondisi normal dielektrik cair pada transformator daya tidak mengalami dekomposisi dengan cepat. Namun jika terjadi adanya gangguan termal atau elektrik dapat mempercepat laju dekomposisi pada dielektrik. Proses dekomposisi dapat menghasilkan gas kontaminan yang dapat mengubah sifat kondutivitas dari isolator yang dapat memicu adanya gangguan lanjutan. Secara umum terdapat beberapa jenis gas hasil dekomposisi yang dilakukan pengecekan diantaranya adalah hidrogen, 
+DGA merupakan salah satu metode yang digunakan dalam mendeteksi adanya gangguan pada transformator daya. Dalam kondisi normal dielektrik cair pada transformator daya tidak mengalami dekomposisi dengan cepat. Namun jika terjadi adanya gangguan termal atau elektrik dapat mempercepat laju dekomposisi pada dielektrik. Proses dekomposisi dapat menghasilkan gas kontaminan yang dapat mengubah sifat kondutivitas dari isolator yang dapat memicu adanya gangguan lanjutan. Secara umum terdapat beberapa jenis gas hasil dekomposisi yang dilakukan pengecekan diantaranya adalah hidrogen (H$_2$), metana (CH$_4$), asetilen (C$_2$H$_2$), etilen (C$_2$H$_4$), etana (C$_2$H$_6$), selain itu bahan dielektrik pada berupa kertas juga mengalami dekomposisi yang menghasilkan karbon monoksida (CO) dan karbon dioksida (CO$_2$) \cite{ahmed2013power}. Setiap konsentrasi masing-masing gas yang telah diketahui kemudian dapat dianalisis dengan menggunakan segitiga Duval untuk menentukan jenis gangguan yang terjadi, yang terdiri dari percikan energi tinggi (\textit{High-energy Arching}), percikan energi rendah \textit{Low-energy Arching}, peluahan korona \textit{Corona Discharges}, titik panas suhu rendah (\textit{Hot spots}, T $<$ 200$^{\circ}$C), titik panas suhu sedang (\textit{Hot spots}, 200$^{\circ}$C $<$ T $<$ 400$^{\circ}$C) dan titik panas suhu rendah (\textit{Hot spots}, T $>$ 400$^{\circ}$C) \cite{duval1989dissolved}.
+\begin{center}
+\begin{figure}[h]
+    \includegraphics[width=\textwidth]{BAB-2/figures/duval triangle.png}	
+	    \caption{Duval Triangle \cite{duval1989dissolved}}
+	    \label{gambar:duval triangle}
+\end{figure}
+\end{center}
+
+
 
 \section{\textit{Machine Learning}}
 Machine learning merupakan salah satu metode yang digunakan dalam memodelkan pola serangkaian data untuk membuat pediksi pada input yang sama atau menyerupai 
