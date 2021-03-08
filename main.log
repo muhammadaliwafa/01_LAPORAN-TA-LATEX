@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.2.22)  7 MAR 2021 15:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.2.22)  8 MAR 2021 10:09
 entering extended mode
 **./main.tex
 (main.tex
@@ -522,8 +522,7 @@ LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
 (C:\Users\muhal\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
-(main.aux (BAB-1/BAB-1.aux) (BAB-2/BAB-2.aux) (BAB-3/BAB-3.aux)
-(BAB-4/BAB-4.aux) (BAB-5/BAB-5.aux) (Lampiran-A/Lampiran-A.aux))
+(main.aux (BAB-1/BAB-1.aux) (BAB-2/BAB-2.aux) (Lampiran-A/Lampiran-A.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 106.
@@ -638,407 +637,10 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: pdftex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(56.9055pt, 455.24411pt, 85.35826pt)
-* v-part:(T,H,B)=(85.35826pt, 658.28194pt, 101.40665pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=455.24411pt
-* \textheight=658.28194pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
-* \topmargin=-18.78552pt
-* \headheight=12.0pt
-* \headsep=19.8738pt
-* \topskip=11.0pt
-* \footskip=48.36958pt
-* \marginparwidth=53.0pt
-* \marginparsep=7.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-<LogoUP.png, id=114, 153.6942pt x 111.7776pt>
-File: LogoUP.png Graphic file (type png)
-<use LogoUP.png>
-Package pdftex.def Info: LogoUP.png  used on input line 109.
-(pdftex.def)             Requested size: 113.73425pt x 82.71582pt.
-
-[1
-
-
-
-{C:/Users/muhal/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./LogoUP.png>]
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: pdftex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(56.9055pt, 455.24411pt, 85.35826pt)
-* v-part:(T,H,B)=(85.35826pt, 658.28194pt, 101.40665pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=455.24411pt
-* \textheight=658.28194pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
-* \topmargin=-18.78552pt
-* \headheight=12.0pt
-* \headsep=19.8738pt
-* \topskip=11.0pt
-* \footskip=48.36958pt
-* \marginparwidth=53.0pt
-* \marginparsep=7.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-File: LogoUP.png Graphic file (type png)
-<use LogoUP.png>
-Package pdftex.def Info: LogoUP.png  used on input line 109.
-(pdftex.def)             Requested size: 113.73425pt x 82.71582pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./Includes/Pemisah.pdf): PDF inclusion: foun
-d PDF version <1.7>, but at most version <1.5> allowed
-<Includes/Pemisah.pdf, id=124, 597.55246pt x 845.07718pt>
-File: Includes/Pemisah.pdf Graphic file (type pdf)
-<use Includes/Pemisah.pdf>
-Package pdftex.def Info: Includes/Pemisah.pdf  used on input line 110.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./Includes/Pemisah.pdf): PDF inclusion: foun
-d PDF version <1.7>, but at most version <1.5> allowed
-File: Includes/Pemisah.pdf Graphic file (type pdf)
-<use Includes/Pemisah.pdf>
-Package pdftex.def Info: Includes/Pemisah.pdf  used on input line 110.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./Includes/Pemisah.pdf): PDF inclusion: foun
-d PDF version <1.7>, but at most version <1.5> allowed
-
-
-pdfTeX warning: pdflatex.exe (file ./Includes/Pemisah.pdf): PDF inclusion: foun
-d PDF version <1.7>, but at most version <1.5> allowed
-<Includes/Pemisah.pdf, id=127, page=1, 597.55246pt x 845.07718pt>
-File: Includes/Pemisah.pdf Graphic file (type pdf)
-<use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 110.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-File: Includes/Pemisah.pdf Graphic file (type pdf)
-<use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 110.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-[2
-
-]
-File: Includes/Pemisah.pdf Graphic file (type pdf)
-<use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 110.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: Includes/Pemisah.pdf Graphic file (type pdf)
-<use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 110.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: Includes/Pemisah.pdf Graphic file (type pdf)
-<use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 110.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
- [3 <./Includes/Pemisah.pdf>]
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: pdftex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(56.9055pt, 455.24411pt, 85.35826pt)
-* v-part:(T,H,B)=(85.35826pt, 658.28194pt, 101.40665pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=455.24411pt
-* \textheight=658.28194pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
-* \topmargin=-18.78552pt
-* \headheight=12.0pt
-* \headsep=19.8738pt
-* \topskip=11.0pt
-* \footskip=48.36958pt
-* \marginparwidth=53.0pt
-* \marginparsep=7.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-
-(C:\Users\muhal\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd)
-(C:\Users\muhal\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd)
-Overfull \hbox (227.62206pt too wide) in paragraph at lines 111--111
-[][] 
- []
-
-[4
-
-]
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: pdftex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(56.9055pt, 455.24411pt, 85.35826pt)
-* v-part:(T,H,B)=(85.35826pt, 658.28194pt, 101.40665pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=455.24411pt
-* \textheight=658.28194pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
-* \topmargin=-18.78552pt
-* \headheight=12.0pt
-* \headsep=19.8738pt
-* \topskip=11.0pt
-* \footskip=48.36958pt
-* \marginparwidth=53.0pt
-* \marginparsep=7.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
- [5
-
-]
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: pdftex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(56.9055pt, 455.24411pt, 85.35826pt)
-* v-part:(T,H,B)=(85.35826pt, 658.28194pt, 101.40665pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=455.24411pt
-* \textheight=658.28194pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
-* \topmargin=-18.78552pt
-* \headheight=12.0pt
-* \headsep=19.8738pt
-* \topskip=11.0pt
-* \footskip=48.36958pt
-* \marginparwidth=53.0pt
-* \marginparsep=7.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
- (Front/abstrakind.tex)pdfTeX warning (ext4): destination with the same identif
-ier (name{page.i}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.113 \abstrakind{Front/abstrakind}
-                                    [1
-
-
-]
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: pdftex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(56.9055pt, 455.24411pt, 85.35826pt)
-* v-part:(T,H,B)=(85.35826pt, 658.28194pt, 101.40665pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=455.24411pt
-* \textheight=658.28194pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
-* \topmargin=-18.78552pt
-* \headheight=12.0pt
-* \headsep=19.8738pt
-* \topskip=11.0pt
-* \footskip=48.36958pt
-* \marginparwidth=53.0pt
-* \marginparsep=7.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
- (Front/abstrakeng.tex)pdfTeX warning (ext4): destination with the same identif
-ier (name{page.ii}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.114 \abstrakeng{Front/abstrakeng}
-                                    [2
-
-
-]
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: pdftex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(56.9055pt, 455.24411pt, 85.35826pt)
-* v-part:(T,H,B)=(85.35826pt, 658.28194pt, 101.40665pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=455.24411pt
-* \textheight=658.28194pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
-* \topmargin=-18.78552pt
-* \headheight=12.0pt
-* \headsep=19.8738pt
-* \topskip=11.0pt
-* \footskip=48.36958pt
-* \marginparwidth=53.0pt
-* \marginparsep=7.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
- (Front/katapengantar.tex)pdfTeX warning (ext4): destination with the same iden
-tifier (name{page.iii}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.116 \daftarisi
-                 [3
-
-
-] (main.tocpdfTeX warning (ext4): destination with the same identifier (name{pa
-ge.iv}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.25 ...mberline {5.1}Kesimpulan}{15}{section.5.1}
-                                                  % [4
-
-])
-\tf@toc=\write4
-\openout4 = `main.toc'.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.v}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.117 \daftartabel
-                   [5] (main.lot)
-\tf@lot=\write5
-\openout5 = `main.lot'.
-
- [6
-
-] (main.lof)
-\tf@lof=\write6
-\openout6 = `main.lof'.
-
- [7
-
-
-]
-File: Includes/Pemisah.pdf Graphic file (type pdf)
-<use Includes/Pemisah.pdf>
-Package pdftex.def Info: Includes/Pemisah.pdf  used on input line 121.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./Includes/Pemisah.pdf): PDF inclusion: foun
-d PDF version <1.7>, but at most version <1.5> allowed
-File: Includes/Pemisah.pdf Graphic file (type pdf)
-<use Includes/Pemisah.pdf>
-Package pdftex.def Info: Includes/Pemisah.pdf  used on input line 121.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./Includes/Pemisah.pdf): PDF inclusion: foun
-d PDF version <1.7>, but at most version <1.5> allowed
-File: Includes/Pemisah.pdf Graphic file (type pdf)
-<use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 121.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-File: Includes/Pemisah.pdf Graphic file (type pdf)
-<use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 121.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: Includes/Pemisah.pdf Graphic file (type pdf)
-<use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 121.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: Includes/Pemisah.pdf Graphic file (type pdf)
-<use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 121.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: Includes/Pemisah.pdf Graphic file (type pdf)
-<use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 121.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-[1
-
-
-]
 \openout2 = `BAB-1/BAB-1.aux'.
 
- (BAB-1/BAB-1.tex
+
+(BAB-1/BAB-1.tex
 BAB I.
 
 Overfull \hbox (15.48308pt too wide) in paragraph at lines 10--10
@@ -1046,10 +648,17 @@ Overfull \hbox (15.48308pt too wide) in paragraph at lines 10--10
 g terkumpul akan san-gat sulit dalam melakukan
  []
 
-[2
+[1
 
 
-] [3]) [4]
+
+
+
+{C:/Users/muhal/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]) [2]
+
+pdfTeX warning: pdflatex.exe (file ./Includes/Pemisah.pdf): PDF inclusion: foun
+d PDF version <1.7>, but at most version <1.5> allowed
+<Includes/Pemisah.pdf, id=99, 597.55246pt x 845.07718pt>
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf>
 Package pdftex.def Info: Includes/Pemisah.pdf  used on input line 124.
@@ -1066,6 +675,11 @@ Package pdftex.def Info: Includes/Pemisah.pdf  used on input line 124.
 
 pdfTeX warning: pdflatex.exe (file ./Includes/Pemisah.pdf): PDF inclusion: foun
 d PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex.exe (file ./Includes/Pemisah.pdf): PDF inclusion: foun
+d PDF version <1.7>, but at most version <1.5> allowed
+<Includes/Pemisah.pdf, id=102, page=1, 597.55246pt x 845.07718pt>
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
 Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 124.
@@ -1086,226 +700,49 @@ File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
 Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 124.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-[5
+[3
 
 
-]
+ <./Includes/Pemisah.pdf>]
 \openout2 = `BAB-2/BAB-2.aux'.
 
  (BAB-2/BAB-2.tex
 BAB II.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 10.
 
-Overfull \hbox (5.74341pt too wide) in paragraph at lines 19--20
+(C:\Users\muhal\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 10.
+
+
+(C:\Users\muhal\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Overfull \hbox (5.74341pt too wide) in paragraph at lines 22--23
 []\OT1/ptm/m/n/10.95 Machine learn-ing meru-pakan salah satu metode yang di-gu-
 na-kan dalam mem-o-d-elkan pola serangka-
  []
 
-[6
+[4
 
 
 ]
-Overfull \hbox (22.21075pt too wide) in paragraph at lines 30--32
+Overfull \hbox (22.21075pt too wide) in paragraph at lines 33--35
 \OT1/ptm/m/n/10.95 berdasarkan per-samaan ([]2.2[]) da-pat dike-tahui bahwa den
 -gan per-samaan terse-but ter-da-pat ben-tuk $\OT1/cmr/m/n/10.95 [[]\OML/cmm/m/
 it/10.95 ; []\OT1/cmr/m/n/10.95 ]$\OT1/ptm/m/n/10.95 .
  []
 
-[7]
-<BAB-2/figures/alfabetbisindo.png, id=298, 914.41624pt x 672.5125pt>
-File: BAB-2/figures/alfabetbisindo.png Graphic file (type png)
-<use BAB-2/figures/alfabetbisindo.png>
-Package pdftex.def Info: BAB-2/figures/alfabetbisindo.png  used on input line 9
-3.
-(pdftex.def)             Requested size: 441.01773pt x 324.34158pt.
+[5]
+
+LaTeX Warning: Reference `gambar:alfabet bisindo' on page 6 undefined on input 
+line 101.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: Reference `BAB4:hasil' on page 6 undefined on input line 101.
 
-) [8] [9 <./BAB-2/figures/alfabetbisindo.png>]
-File: Includes/Pemisah.pdf Graphic file (type pdf)
-<use Includes/Pemisah.pdf>
-Package pdftex.def Info: Includes/Pemisah.pdf  used on input line 126.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./Includes/Pemisah.pdf): PDF inclusion: foun
-d PDF version <1.7>, but at most version <1.5> allowed
-File: Includes/Pemisah.pdf Graphic file (type pdf)
-<use Includes/Pemisah.pdf>
-Package pdftex.def Info: Includes/Pemisah.pdf  used on input line 126.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./Includes/Pemisah.pdf): PDF inclusion: foun
-d PDF version <1.7>, but at most version <1.5> allowed
-File: Includes/Pemisah.pdf Graphic file (type pdf)
-<use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 126.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-File: Includes/Pemisah.pdf Graphic file (type pdf)
-<use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 126.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: Includes/Pemisah.pdf Graphic file (type pdf)
-<use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 126.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: Includes/Pemisah.pdf Graphic file (type pdf)
-<use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 126.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: Includes/Pemisah.pdf Graphic file (type pdf)
-<use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 126.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-[10
-
-
-]
-\openout2 = `BAB-3/BAB-3.aux'.
-
- (BAB-3/BAB-3.tex
-BAB III.
-) [11
-
-
-]
-File: Includes/Pemisah.pdf Graphic file (type pdf)
-<use Includes/Pemisah.pdf>
-Package pdftex.def Info: Includes/Pemisah.pdf  used on input line 128.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./Includes/Pemisah.pdf): PDF inclusion: foun
-d PDF version <1.7>, but at most version <1.5> allowed
-File: Includes/Pemisah.pdf Graphic file (type pdf)
-<use Includes/Pemisah.pdf>
-Package pdftex.def Info: Includes/Pemisah.pdf  used on input line 128.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./Includes/Pemisah.pdf): PDF inclusion: foun
-d PDF version <1.7>, but at most version <1.5> allowed
-File: Includes/Pemisah.pdf Graphic file (type pdf)
-<use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 128.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-File: Includes/Pemisah.pdf Graphic file (type pdf)
-<use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 128.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: Includes/Pemisah.pdf Graphic file (type pdf)
-<use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 128.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: Includes/Pemisah.pdf Graphic file (type pdf)
-<use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 128.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: Includes/Pemisah.pdf Graphic file (type pdf)
-<use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 128.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-[12
-
-
-]
-\openout2 = `BAB-4/BAB-4.aux'.
-
- (BAB-4/BAB-4.tex
-BAB IV.
-) [13
-
-
-]
-File: Includes/Pemisah.pdf Graphic file (type pdf)
-<use Includes/Pemisah.pdf>
-Package pdftex.def Info: Includes/Pemisah.pdf  used on input line 130.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./Includes/Pemisah.pdf): PDF inclusion: foun
-d PDF version <1.7>, but at most version <1.5> allowed
-File: Includes/Pemisah.pdf Graphic file (type pdf)
-<use Includes/Pemisah.pdf>
-Package pdftex.def Info: Includes/Pemisah.pdf  used on input line 130.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./Includes/Pemisah.pdf): PDF inclusion: foun
-d PDF version <1.7>, but at most version <1.5> allowed
-File: Includes/Pemisah.pdf Graphic file (type pdf)
-<use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 130.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-File: Includes/Pemisah.pdf Graphic file (type pdf)
-<use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 130.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: Includes/Pemisah.pdf Graphic file (type pdf)
-<use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 130.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: Includes/Pemisah.pdf Graphic file (type pdf)
-<use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 130.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: Includes/Pemisah.pdf Graphic file (type pdf)
-<use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 130.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-[14
-
-
-]
-\openout2 = `BAB-5/BAB-5.aux'.
-
- (BAB-5/BAB-5.tex
-BAB V.
-) [15
-
-
-]
-File: Includes/Pemisah.pdf Graphic file (type pdf)
-<use Includes/Pemisah.pdf>
-Package pdftex.def Info: Includes/Pemisah.pdf  used on input line 132.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./Includes/Pemisah.pdf): PDF inclusion: foun
-d PDF version <1.7>, but at most version <1.5> allowed
-File: Includes/Pemisah.pdf Graphic file (type pdf)
-<use Includes/Pemisah.pdf>
-Package pdftex.def Info: Includes/Pemisah.pdf  used on input line 132.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./Includes/Pemisah.pdf): PDF inclusion: foun
-d PDF version <1.7>, but at most version <1.5> allowed
-File: Includes/Pemisah.pdf Graphic file (type pdf)
-<use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 132.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-File: Includes/Pemisah.pdf Graphic file (type pdf)
-<use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 132.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: Includes/Pemisah.pdf Graphic file (type pdf)
-<use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 132.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: Includes/Pemisah.pdf Graphic file (type pdf)
-<use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 132.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: Includes/Pemisah.pdf Graphic file (type pdf)
-<use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 132.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-[16
-
-
-] (main.bbl)
+) [6] (main.bbl)
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf>
 Package pdftex.def Info: Includes/Pemisah.pdf  used on input line 144.
@@ -1330,7 +767,9 @@ File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
 Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 144.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-[17
+[7
+
+
 
 ]
 File: Includes/Pemisah.pdf Graphic file (type pdf)
@@ -1345,12 +784,12 @@ File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
 Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 144.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
- [18]
+ [8]
 \openout2 = `Lampiran-A/Lampiran-A.aux'.
 
  (Lampiran-A/Lampiran-A.tex
 LAMPIRAN A.
-<Lampiran-A/figures/binaryEntropiesSystemSetup-eps-converted-to.pdf, id=365, 21
+<Lampiran-A/figures/binaryEntropiesSystemSetup-eps-converted-to.pdf, id=182, 21
 9.82124pt x 131.49126pt>
 File: Lampiran-A/figures/binaryEntropiesSystemSetup-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -1358,21 +797,23 @@ c file (type pdf)
 Package pdftex.def Info: Lampiran-A/figures/binaryEntropiesSystemSetup-eps-conv
 erted-to.pdf  used on input line 6.
 (pdftex.def)             Requested size: 219.8207pt x 131.49092pt.
-) [19
+) [9
 
 
  <./Lampiran-A/figures/binaryEntropiesSystemSetup-eps-converted-to.pdf>]
-(main.aux (BAB-1/BAB-1.aux) (BAB-2/BAB-2.aux) (BAB-3/BAB-3.aux)
-(BAB-4/BAB-4.aux) (BAB-5/BAB-5.aux) (Lampiran-A/Lampiran-A.aux))
+(main.aux (BAB-1/BAB-1.aux) (BAB-2/BAB-2.aux) (Lampiran-A/Lampiran-A.aux))
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 06DD050BBA9FA1E33575B3BEC7678E27;3764.
+(rerunfilecheck)             Checksum: 89428F8F7A4BC198F220BC673C533175;2760.
  ) 
 Here is how much of TeX's memory you used:
- 13930 strings out of 479334
- 212725 string characters out of 2857084
- 779304 words of memory out of 3000000
- 30958 multiletter control sequences out of 15000+200000
- 433299 words of font info for 91 fonts, out of 3000000 for 9000
+ 13790 strings out of 479334
+ 209980 string characters out of 2857084
+ 776424 words of memory out of 3000000
+ 30907 multiletter control sequences out of 15000+200000
+ 422814 words of font info for 73 fonts, out of 3000000 for 9000
  1156 hyphenation exceptions out of 8191
  81i,17n,88p,1092b,456s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/muhal/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
@@ -1396,9 +837,9 @@ cal/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/muhal/AppData/Lo
 cal/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/muhal/AppData/L
 ocal/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/muhal/AppData/L
 ocal/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (31 pages, 1115009 bytes).
+Output written on main.pdf (9 pages, 297349 bytes).
 PDF statistics:
- 490 PDF objects out of 1000 (max. 8388607)
- 84 named destinations out of 1000 (max. 500000)
- 330 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 301 PDF objects out of 1000 (max. 8388607)
+ 50 named destinations out of 1000 (max. 500000)
+ 180 words of extra memory for PDF output out of 10000 (max. 10000000)
 
