@@ -5,11 +5,11 @@ Reallocating 'name_of_file' (item size: 1) to 16 items.
 A level-1 auxiliary file: BAB-1/BAB-1.aux
 Reallocating 'name_of_file' (item size: 1) to 16 items.
 A level-1 auxiliary file: BAB-2/BAB-2.aux
+Reallocating 'name_of_file' (item size: 1) to 16 items.
+A level-1 auxiliary file: BAB-3/BAB-3.aux
 Reallocating 'name_of_file' (item size: 1) to 10 items.
 The style file: IEEEtranN.bst
 Reallocating 'name_of_file' (item size: 1) to 10 items.
-Reallocating 'name_of_file' (item size: 1) to 26 items.
-A level-1 auxiliary file: Lampiran-A/Lampiran-A.aux
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
@@ -23,46 +23,48 @@ Database file #1: Referensi.bib
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
 Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Warning--empty journal in ieee2007ieee
 
 Done.
-You've used 6 entries,
+You've used 9 entries,
             4783 wiz_defined-function locations,
-            978 strings with 9377 characters,
-and the built_in function-call counts, 6367 in all, are:
-= -- 551
-> -- 202
-< -- 53
-+ -- 99
-- -- 44
-* -- 368
-:= -- 966
-add.period$ -- 14
-call.type$ -- 6
-change.case$ -- 12
-chr.to.int$ -- 120
-cite$ -- 6
-duplicate$ -- 406
-empty$ -- 438
-format.name$ -- 55
-if$ -- 1419
+            993 strings with 9892 characters,
+and the built_in function-call counts, 8608 in all, are:
+= -- 757
+> -- 271
+< -- 68
++ -- 134
+- -- 60
+* -- 483
+:= -- 1322
+add.period$ -- 20
+call.type$ -- 9
+change.case$ -- 18
+chr.to.int$ -- 153
+cite$ -- 10
+duplicate$ -- 562
+empty$ -- 593
+format.name$ -- 77
+if$ -- 1912
 int.to.chr$ -- 1
-int.to.str$ -- 7
-missing$ -- 64
-newline$ -- 42
-num.names$ -- 18
-pop$ -- 146
+int.to.str$ -- 10
+missing$ -- 87
+newline$ -- 51
+num.names$ -- 27
+pop$ -- 208
 preamble$ -- 1
-purify$ -- 6
+purify$ -- 9
 quote$ -- 2
-skip$ -- 460
+skip$ -- 627
 stack$ -- 0
-substring$ -- 283
-swap$ -- 330
-text.length$ -- 14
+substring$ -- 362
+swap$ -- 432
+text.length$ -- 17
 text.prefix$ -- 0
 top$ -- 6
-type$ -- 96
-warning$ -- 0
-while$ -- 35
+type$ -- 144
+warning$ -- 1
+while$ -- 45
 width$ -- 0
-write$ -- 97
+write$ -- 129
+(There was 1 warning)

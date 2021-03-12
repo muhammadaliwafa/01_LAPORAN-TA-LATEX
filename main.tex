@@ -32,6 +32,13 @@
 \usepackage{longtable}
 \usepackage{tabularx}
 \usepackage{hyperref}
+\usepackage{csvsimple} % baru
+\usepackage[utf8]{inputenc}% baru
+\usepackage{pgfgantt} % baru
+
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{colortbl}
 %\usepackage{ieeetran}
 \usepackage[numbers]{natbib} % Bibliography with APA Style
 \usepackage{geometry}
@@ -113,7 +120,7 @@
 %\abstrakind{Front/abstrakind}
 %\abstrakeng{Front/abstrakeng}
 %\katapengantar{Front/katapengantar}
-%\daftarisi
+\daftarisi
 %\daftartabel
 %\daftargambar
 
@@ -123,8 +130,8 @@
 \include{BAB-1/BAB-1}
 \includepdf{Includes/Pemisah.pdf}
 \include{BAB-2/BAB-2}
-%\includepdf{Includes/Pemisah.pdf}
-%\include{BAB-3/BAB-3}
+\includepdf{Includes/Pemisah.pdf}
+\include{BAB-3/BAB-3}
 %\includepdf{Includes/Pemisah.pdf}
 %\include{BAB-4/BAB-4}
 %\includepdf{Includes/Pemisah.pdf}
@@ -145,7 +152,7 @@
 
 %% Appendices
 \appendix
-\include{Lampiran-A/Lampiran-A}
+%\include{Lampiran-A/Lampiran-A}
 % tambahkan sendiri folder-folder (lampiran) yang lain
 
 \backmatter
