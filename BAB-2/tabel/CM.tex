@@ -1,0 +1,21 @@
+\documentclass{article}
+\usepackage{makecell}
+\usepackage{multirow}
+
+
+\begin{document}
+\begin{table}
+\centering
+\begin{tabular}{|c|c|c|c|} 
+\hline
+\multicolumn{2}{|c|}{\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Confussion\\Matrix\end{tabular}}} & \multicolumn{2}{c|}{Nilai Aktual}                            \\ 
+\cline{3-4}
+\multicolumn{2}{|c|}{}                                                                            & \multicolumn{1}{l|}{Positif} & \multicolumn{1}{l|}{Negatif}  \\ 
+\hline
+\multirow{2}{*}{\rotcell{\begin{tabular}[c]{@{}c@{}}Nilai\\Terprediksi\end{tabular}}} & Positif   & TP                           & FP                            \\ 
+\cline{2-4}
+                                                                                      & Negatif   & FN                           & TN                            \\
+\hline
+\end{tabular}
+\end{table}
+\end{document}

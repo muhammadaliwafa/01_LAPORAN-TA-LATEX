@@ -3,7 +3,7 @@
 \label{BAB2:tinjauan}
 \section{Transformator Daya}
 
-Transformator daya merupakan salah satu peralatan tenaga listrik yang berfungsi dalam mentrasmisikan daya listrik dengan cara menaikkan dan menurunkan tegangan listrik untuk mengurangi rugi-rugi daya. hal ini dikarenakan rugi-rugi daya akibat impedansi yang timbul akibat jarak transmisi yang panjang dapat dikurangi dengan menaikkan tegangan. oleh karena itu dibutuhkan transformator pada sisi pembangkitan untuk menaikkan tegangan dan pada sisi penerimaan untuk menurunkan tegangan.
+Transformator daya merupakan salah satu peralatan tenaga listrik yang berfungsi dalam mentrasmisikan daya listrik dengan cara menaikkan dan menurunkan tegangan  listrik \cite{sutaryono2015analisa}. Hal ini bertujuan dalam mengurangi rugi-rugi daya yang dikarenakan adanya impedansi yang timbul akibat jarak transmisi yang panjang dapat dikurangi dengan menaikkan tegangan. Transformator daya ditempatkan pada sisi pembangkitan untuk menaikkan tegangan dan pada sisi penerimaan untuk menurunkan tegangan. Merujuk pada standar PLN 61 : 1997 pengelompokan transformator yakni berdasarkan tegangan operasinya yang melebihi 20 kV \cite{sutaryono2015analisa}. Karena beroperasi pada daya dan tegangan tinggi maka diperlukan sistem pengaman pada transformator daya sehingga dapat bekerja dengan aman dan terhindar dari adanya gangguan sistem tenaga listrik. Sistem pengaman pada transformator daya ialah dengan menggunakan bahan dielektrik cair yakni minyak transformator serta berupa dielektrik pada berupa kertas . Selain dalam menahan tegangan yang tinggi adanya minyak transformator juga berfungsi dalam menghantarkan panas dari dalam akibat rugi-rugi daya ke udara bebas sehingga panas berlebih dapat dicegah \cite{krause2012power}.
 
 
 
@@ -38,23 +38,104 @@ DGA merupakan salah satu metode yang digunakan dalam mendeteksi adanya gangguan 
 \subsection{Kualitas Minyak Transformator}
 Pada sebuah transformator daya peranan minyak adalah sebagai isolator cair, penghantar panas ke udara luar serta pelindung bagian dalam. Adapun fungsi sebagai isolator cair adalah untuk mencegah adanya loncatan listrik keluar karena pada umumnya transformator daya beroperasi pada tegangan tinggi. Kegunaan minyak transformator sebagai penghantar panas adalah untuk menjaga kestabilan suhu transformator karena adanya rugi-rugi daya yang berubah menjadi kalor. Sedangkan sebagai pelindung adalah untuk mencegah adanya reaksi kimia dari logam bagian dalam terhadap oksigen yang dapat menyebabkan adanya korosi \cite{pln2003panduan}.
 
-Minyak transformator daya dapat beroperasi dengan baik jika belum melampaui batasan-batasan standar yang ditetapkan di antaranya sifat fisiknya yang dapat dilihat dari \textit{interfacial tension}, kemudian tingkat keasaman serta kandungan airnya yang dapat diketahui melalui pengujian secara kimia \cite{ieee2007ieee}.
+Minyak transformator daya dapat beroperasi dengan baik jika belum melampaui batasan-batasan standar yang ditetapkan di antaranya tingkat keasaman serta kandungan airnya yang dapat diketahui melalui pengujian secara kimia \cite{ieee2007ieee}. Selain itu pengujian secara fisik dapat diperoleh \textit{interfacial tension} yang menjadi indikator banyaknya kontaminan polar tang terlarut dalam minyak \cite{sutaryono2015analisa}. Adapun pengujian elektrik dapat membantu mengetahui batas ambang tegangan yang dapat ditahan oleh bahan dielektrik transformator daya, hal ini dengan tegangan tembus (\textit{breakdown voltage}). Semakin tinggi nilai dari tegangan tembusnya maka semakin aman suatu transformator daya untuk dioperasikan. Tegangan tembus terjadi karena adanya elektron bebas pada bahan dielektrik, adanya elektron bebas pada bahan dielektrik disebabkan keberadaan kontaminan baik berupa gas, cair maupun padat pada sistem isolasi. Standar yang dijadikan rujukan untuk mengetahui kondisi minyak transformator adalah IEC 60422-2013 \cite{standard2013mineral}.
+
+\begin{table}[h]
+	\centering
+	\caption{Standar Pengujian Minyak Tranformator}
+	\label{tabel:standar minyak}
+	\begin{tabular}{|c|c|c|c|c|c|} 
+		\hline
+		\multirow{2}{*}{\textbf{Parameter Uji}}                                                                 & \multirow{2}{*}{\textbf{Metode}}                   & \multicolumn{3}{c|}{\textbf{\textit{Score }(Si) batas IEC 60422:2013}} & \multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}\textbf{Weight}\\~(Wi)\end{tabular}}  \\ 
+		\cline{3-5}
+		&                                                    & \textit{Good}(1) & \textit{Fair (2)} & Poor (3)                        &                                                                                  \\ 
+		\hline
+		\begin{tabular}[c]{@{}c@{}}\textbf{Tegangan Tembus}\\\textbf{(kV/2.5mm)}\end{tabular}                   & IEC 156                                            &  50              & 40 - 50           &  40                             & 3                                                                                \\ 
+		\hline
+		\begin{tabular}[c]{@{}c@{}}\textbf{Kandungan Air}\\\textbf{(mg/kg)}\end{tabular}                        & \begin{tabular}[c]{@{}c@{}}IEC\\60814\end{tabular} &  20              & 20 - 30           &  30                             & 4                                                                                \\ 
+		\hline
+		\begin{tabular}[c]{@{}c@{}}\textbf{Keasaman}\\\textbf{(mgKOH/g)}\end{tabular}                           & C2011K06                                           &  0.1             & 0.15 - 0.2        &  0.2                            & 1                                                                                \\ 
+		\hline
+		\begin{tabular}[c]{@{}c@{}}\textit{\textbf{Interfacial Tension}}\\\textit{\textbf{(mN/m)}}\end{tabular} & ISO 6295                                           &  28              & 22 - 28           &  22                             & 2                                                                                \\
+		\hline
+	\end{tabular}
+\end{table}
+
+\subsection{Pengujian Furan}
+Seiring menurunnya umur dari minyak transformator daya akan membentuk suatu senyawa kimia yang dikenal dengan furan. Pembentukan furan juga disebabkan adanya suhu yang tinggi serta proses oksidasi senyawa asam. kerusakan akibat peningkatan konsentrasi di udara serta keberadaan oksigen dapat meningkatkan proses pembentukan furan. keberadaan furan dapat menjadi acuan mengenai umur dari dielektrik padat yang berupa kertas. Standar pengujian furan disajikan pada Tabel \ref{tabel:standar furan} \cite{sutaryono2015analisa}.
+
+\begin{table}[h]
+	\centering
+	\caption{Standar Pengujian Furan}
+	\label{tabel:standar furan}
+	\begin{tabular}{|c|c|c|c|} 
+		\hline
+		\textbf{No} & \begin{tabular}[c]{@{}c@{}}\textbf{2 FAL saat 55$^{\circ}$C }\\\textbf{(ppb)}\end{tabular} & \begin{tabular}[c]{@{}c@{}}\textbf{Estimasi }\\\textbf{~Umur Kertas (\%)}\end{tabular} & \textbf{Keterangan}                                          \\ 
+		\hline
+		1           & 58                                                                               & 100                                                                                    & \multirow{3}{*}{Penuaan Normal}                       \\ 
+		\cline{1-3}
+		2           & 130                                                                              & 90                                                                                     &                                                              \\ 
+		\cline{1-3}
+		3           & 292                                                                              & 79                                                                                     &                                                              \\ 
+		\hline
+		4           & 654                                                                              & 66                                                                                     & \multirow{4}{*}{Percepatan Penuaan}                   \\ 
+		\cline{1-3}
+		5           & 1464                                                                             & 50                                                                                     &                                                              \\ 
+		\cline{1-3}
+		6           & 1720                                                                             & 46                                                                                     &                                                              \\ 
+		\cline{1-3}
+		7           & 2021                                                                             & 42                                                                                     &                                                              \\ 
+		\hline
+		8           & 2374                                                                             & 38                                                                                     & \multirow{3}{*}{Daerah Peringatan : Penuaan Tidak Normal}  \\ 
+		\cline{1-3}
+		9           & 2789                                                                             & 33                                                                                     &                                                              \\ 
+		\cline{1-3}
+		10          & 3277                                                                             & 29                                                                                     &                                                              \\ 
+		\hline
+		11          & 3851                                                                             & 24                                                                                     & \multirow{2}{*}{Sangat Rentan Gangguan}             \\ 
+		\cline{1-3}
+		12          & 4524                                                                             & 19                                                                                     &                                                              \\ 
+		\hline
+		13          & 5315                                                                             & 13                                                                                     & \multirow{3}{*}{Akhir Pemakaian Kertas}                   \\ 
+		\cline{1-3}
+		14          & 6245                                                                             & 7                                                                                      &                                                              \\ 
+		\cline{1-3}
+		15          & 7337                                                                             & 0                                                                                      &                                                              \\
+		\hline
+	\end{tabular}
+\end{table}
+
+
+
+%Furan adalah senyawa organik yang terbentuk karena penurunan
+%nilai minyak isolasi, panas berlebih, dan oksidasi asam. Kerusakan yang
+%disebabkan oleh kelembaban ditambah dengan oksigen mempercepat
+%penghancuran isolasi dan membentuk senyawa furan. Kandungan furan
+%pada minyak sangat menentukan sisa usia dari kertas isolasi. Estimasi
+%umur kertas isolasi berdasarkan jumlah konsentrasi furan yang ada di
+%dalam minyak isolasi ditampilkan pada Tabel 2.3.
+
+
 
 
 \section{\textit{Machine Learning}}
-Machine learning merupakan salah satu metode yang digunakan dalam memodelkan pola serangkaian data untuk membuat pediksi pada input yang sama atau menyerupai 
+Machine learning merupakan salah satu metode yang digunakan dalam mempelajari pola serangkaian data dengan proses komputasi digital \cite{jordan2015machine}. Secara sederhana algoritma dirancang untuk digunakan dalam mempelajari suatu data kemudian dapat melakukan prediksi berdasarkan \textit{input} baru yang diberikan. Berdasarkan cara belajarnya terdapat pengelompokkan pada \textit{machine learning} yakni \textit{supervised learning} dan \textit{unsupervised learning} . Pada \textit{supervised learning} model dapat mempelajari data yang memiliki fitur yang dilengkapi dengan data target, sedangkan pada \textit{unsupervised learning} model belajar tanpa menggunakan adanya data target sehingga pada proses prediksi model akan memberikan keluaran berupa pengelompokan data \cite{alpaydin2020introduction}.
+
+\textit{Machine Learning} telah mengalami banyak modifikasi untuk menyesuaikan jenis data yang diolah.  Arsitektur baru dari \textit{machine learning} yang banyak digunakan saat ini berupa algoritma yang meniru sistem kerja syaraf manusia yang dikenal dengan algoritma \textit{Artificial Neural Network} (ANN) \cite{braspenning1995artificial}. Dengan menggunakan ANN sistem memungkinkan dalam mengenali objek dalam sebuah gambar merupakan salah satu implementasinya. Adapun pada pengolahan data yang bersifat \textit{time series} atau berupa deret ANN dikembangkan agar dapat melakukan sebuah prediksi berdasarkan input yang diterima sebelumnya sebagai dasar referensi prediksi ke depan. Model tersebut dikenal dengan \textit{Recurrent Neural Network} dimana setiap \textit{input} yang diterima sebelum dilakukan prediksi akan diproses secara berulang pada satu sel RNN sehingga model dapat mengingat informasi pentingnya \cite{medsker2001recurrent}.
+
+
 \section{\textit{Long Short Term Memory (LSTM)}}
 Pada pemodelan dengan menggunakan metode RNN secara umum memiliki kemampuan dalam membuat prediksi yang dipengaruhi oleh input sebelumnya. Namun terdapat kekurangan pada metode tersebut yakni tidak mampu mengatasi dengan  seri yang panjang. misalnya pada sebuah data \textit{time series}, RNN akan sulit mengkorelasikan antara data saat ini dengan data yang sangat lampau, akibatnya jika data yang diproses dalam rentang waktu yang lama maka RNN hanya mampu membuat prediksi yang hanya berkaitan pada waktu yang pendek. kekurangan pada RNN dikarenakan adanya \textit{vanising gradient}, yakni menghapus data yang tidak berkaitan dengan data baru yang dimasukkan. Adanya kekurangan tersebut maka dibutuhkan suatu metode baru yang dapat mengingat data lampau saat menerima input terbaru. 
 LSTM merupakan salah satu turunan dari pemodelan matematis yang digunakan dalam mengenali pola serangkaian data 
 
 kelebihan yang dimiliki LSTM dibandingkan dengan RNN dikarenakan algoritma yang digunakan terdiri dari struktur yang kompleks. Secara umum terdapat 4 bagian pada arsitektur LSTM yakni \textit{forget gate}, \textit{input gate}, \textit{Cell gate}, dan \textit{Output gate}. 
 \subsection{\textit{Forget Gate}}
-Pada \textit{Forget gate} merupakan bagian yang menentukan mengenai informasi pada keluaran sel sebelumnya untuk dipertahankan atau dihapus. hal ini dilakukan dengan memasukkan keluaran sel sebelumnya yang digabungkan dengan masukan baru ke dalam fungsi aktivasi sigmoid. Informasi akan dipertahankan untuk hasil dari sigmoid dengan nilai 1 dan dihapus untuk keluaran yang bernilai 0. secara matematis pada \textit{forget gate} digunakan persamaan sebagai berikut:
+Pada \textit{Forget gate} merupakan bagian yang menentukan mengenai informasi pada keluaran sel sebelumnya untuk dipertahankan atau dihapus. Hal ini dilakukan dengan memasukkan keluaran sel sebelumnya yang digabungkan dengan masukan baru ke dalam fungsi aktivasi sigmoid. Informasi akan dipertahankan untuk hasil dari sigmoid dengan nilai 1 dan dihapus untuk keluaran yang bernilai 0. Secara matematis pada \textit{forget gate} digunakan persamaan sebagai berikut:
 \begin{equation}
 	\boldsymbol{f_t} = \sigma_g(\boldsymbol{W_{f}}.[\boldsymbol{h_{t-1}}, \boldsymbol{x_t}] + \boldsymbol{b_f})
 	\label{func:forget}
 \end{equation} 
-berdasarkan persamaan~(\ref{func:forget}) dapat diketahui bahwa dengan persamaan tersebut terdapat bentuk $[\boldsymbol{h_{t-1}}, \boldsymbol{x_t}]$. Hal ini merupakan operasi penggabungan vektor yakni penggabungan baris pada $\boldsymbol{h_{t-1}}$ dengan baris pada $\boldsymbol{x_t}$
+Berdasarkan persamaan~(\ref{func:forget}) dapat diketahui pada persamaan tersebut terdapat bentuk $[\boldsymbol{h_{t-1}}, \boldsymbol{x_t}]$. Hal ini merupakan operasi penggabungan vektor yakni penggabungan baris pada $\boldsymbol{h_{t-1}}$ dengan baris pada $\boldsymbol{x_t}$.
 \subsection{\textit{Input Gate}}
 Salah satu kelebihan LSTM adalah dapat mengingat informasi data masukan yang lama. Hal ini dikarenakan karena adanya satu bagian yang berperan dalam memperbarui memori berdasarkan informasi penting dari masukan baru. kemampuan ini diperoleh karena ada dua tahapan penting pada \textit{input gate} yakni melalui lapisan \textit{sigmoid} dan \textit{tanh}. lapisan akan memberikan keluaran berupa nilai mana saja yang harus dilakukan pembaruan pada memori sedangkan lapisan \textit{tanh} memberikan keluaran berupa calon ($\boldsymbol{\tilde{C}}$) yang ditambahkan pada memori. 
 \begin{equation}

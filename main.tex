@@ -36,6 +36,8 @@
 \usepackage[utf8]{inputenc}% baru
 \usepackage{pgfgantt} % baru
 
+%\usepackage{rotating}
+\usepackage{makecell}
 \usepackage{graphicx}
 \usepackage{multirow}
 \usepackage{colortbl}
@@ -88,7 +90,7 @@
 \author{Muhammad Ali Wafa}{102117002} % Nama Penulis dan NIM
 \fakultas{Teknologi Industri}
 \prodi{Teknik Elektro}
-\tgllulus{15}{Januari 2020} % Tanggal dan bulan+tahun dipisah
+\tgllulus{15} {2021}%{Januari 2020} % Tanggal dan bulan+tahun dipisah
 \tglpengesahan{29 Januari 2020} % Tanggal, bulan, dan tahun digabung
 \tglpernyataan{29 Januari 2020} % Tanggal, bulan, dan tahun digabung
 \pembimbingsatu{Dr.Eng. Muhammad Abdillah, S.T., M.T.}{116153} % Nama dan NIP
@@ -108,31 +110,31 @@
 %         height = 0.9\paperheight, keepaspectratio] {watermark.jpeg}}}
 
 %% Pemecahan suku kata
-\hyphenation{me-ning-kat-kan di-tu-lis-kan me-ne-ri-ma me-la-lu-i Na-mun or-ga-ni-sa-i pe-ner-je-mah pe-me-rin-tah me-nge-na-li aug-men-ta-tion meng-gu-na-kan di-gu-na-kan learn-ing trans-fer-ing bi-sin-do}
+\hyphenation{me-ning-kat-kan di-tu-lis-kan me-ne-ri-ma me-la-lu-i Na-mun or-ga-ni-sa-i pe-ner-je-mah pe-me-rin-tah me-nge-na-li aug-men-ta-tion meng-gu-na-kan di-gu-na-kan learn-ing trans-fer-ing bi-sin-do me-nam-pil-kan}
 
 \begin{document}
 
 \frontmatter
-%\upcoverpage
-%\includepdf{Includes/Pemisah.pdf}
+\upcoverpage
+\includepdf{Includes/Pemisah.pdf}
 %\lembarpengesahan
 %\lembarpernyataan
 %\abstrakind{Front/abstrakind}
 %\abstrakeng{Front/abstrakeng}
 %\katapengantar{Front/katapengantar}
 \daftarisi
-%\daftartabel
-%\daftargambar
+\daftartabel
+\daftargambar
 
 \mainmatter
-%\includepdf{Includes/Pemisah.pdf}
-%% Chapters
+\includepdf{Includes/Pemisah.pdf}
+% Chapters
 \include{BAB-1/BAB-1}
 \includepdf{Includes/Pemisah.pdf}
 \include{BAB-2/BAB-2}
 \includepdf{Includes/Pemisah.pdf}
 \include{BAB-3/BAB-3}
-%\includepdf{Includes/Pemisah.pdf}
+\includepdf{Includes/Pemisah.pdf}
 %\include{BAB-4/BAB-4}
 %\includepdf{Includes/Pemisah.pdf}
 %\include{BAB-5/BAB-5}

@@ -23,48 +23,49 @@ Database file #1: Referensi.bib
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
 Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Warning--empty journal in gers1999learning
 Warning--empty journal in ieee2007ieee
 
 Done.
-You've used 9 entries,
+You've used 23 entries,
             4783 wiz_defined-function locations,
-            993 strings with 9892 characters,
-and the built_in function-call counts, 8608 in all, are:
-= -- 757
-> -- 271
-< -- 68
-+ -- 134
-- -- 60
-* -- 483
-:= -- 1322
-add.period$ -- 20
-call.type$ -- 9
-change.case$ -- 18
-chr.to.int$ -- 153
-cite$ -- 10
-duplicate$ -- 562
-empty$ -- 593
-format.name$ -- 77
-if$ -- 1912
+            1068 strings with 12251 characters,
+and the built_in function-call counts, 20367 in all, are:
+= -- 1817
+> -- 587
+< -- 159
++ -- 299
+- -- 132
+* -- 1094
+:= -- 3116
+add.period$ -- 52
+call.type$ -- 23
+change.case$ -- 44
+chr.to.int$ -- 359
+cite$ -- 25
+duplicate$ -- 1348
+empty$ -- 1483
+format.name$ -- 179
+if$ -- 4559
 int.to.chr$ -- 1
-int.to.str$ -- 10
-missing$ -- 87
-newline$ -- 51
-num.names$ -- 27
-pop$ -- 208
+int.to.str$ -- 24
+missing$ -- 203
+newline$ -- 93
+num.names$ -- 69
+pop$ -- 505
 preamble$ -- 1
-purify$ -- 9
+purify$ -- 23
 quote$ -- 2
-skip$ -- 627
+skip$ -- 1514
 stack$ -- 0
-substring$ -- 362
-swap$ -- 432
-text.length$ -- 17
+substring$ -- 866
+swap$ -- 1005
+text.length$ -- 35
 text.prefix$ -- 0
 top$ -- 6
-type$ -- 144
-warning$ -- 1
-while$ -- 45
+type$ -- 352
+warning$ -- 2
+while$ -- 105
 width$ -- 0
-write$ -- 129
-(There was 1 warning)
+write$ -- 285
+(There were 2 warnings)

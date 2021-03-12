@@ -17,7 +17,24 @@ digambarkan dalam diagram alir
 Pada perancangan ini pertimbangan utama penggunaan model LSTM adalah karena pada dasarnya LSTM mampu memprediksi suatu klasifikasi dimana vektor masukan (\textit{input}) yang diberikan akan saling mendukung. Dalam diagnosis indeks kesehatan transformator daya prosesnya dilakukan melalui beberapa hasil pengujian yang berupa pengujian kimia, fisik, maupun elektrik. data hasil pengujian pada dasarnya saling berkaitan, misalnya pengujian tegangan tembus erat kaitanya dengan adanya kontaminasi pada bahan dielektrik, di sisi lain pengujian secara kimia dilakukan dengan menggunakan DGA untuk mengetahui kandungan gas yang terlarut. Pada proses pembuatan model LSTM \textit{input} yang akan digunakan nantinya adalah data hasil percobaan pengujian transformator daya. Merujuk pada sifat model LSTM yang mengingat semua \textit{imput} untuk mendapatkan hasil prediksi yang maksimal, maka penggunaan model ini memiliki kecocokan terhadap proses diagnosis indeks kesehatan transformator daya. \par 
 
 
- Menggunakan metode LSTM dalam memodelkan diagnosis indeks kesehatan transformator tidak dapat dilakukan secara langsung. pemodelan harus disesuaikan dengan sistem yang akan diterapkan. Oleh karena itu akan dilakukan beberapa percobaan untuk memodifikasi arsitektur pada LSTM. Terdapat beberapa pertimbangan utama dalam menentukan baik dan tidaknya suatu model dapat dilakukan dengan melihat performa dari sistem tersebut. Performa sistem pada algoritma machine learning umumnya dapat ditentukan dengan menggunakan confusion matrix. Dari confusion matrix selanjutnya akan diperoleh akurasi, presisi, sensitifitas, specificity, dan F1 score.
+Menggunakan metode LSTM dalam memodelkan diagnosis indeks kesehatan transformator tidak dapat dilakukan secara langsung. pemodelan harus disesuaikan dengan sistem yang akan diterapkan. Oleh karena itu akan dilakukan beberapa percobaan untuk memodifikasi arsitektur pada LSTM. Terdapat beberapa pertimbangan utama dalam menentukan baik dan tidaknya suatu model dapat dilakukan dengan melihat performa dari sistem tersebut. Performa sistem pada algoritma machine learning umumnya dapat ditentukan dengan menggunakan confusion matrix. Dari confusion matrix selanjutnya akan diperoleh akurasi, presisi, sensitifitas, specificity, dan F1 score.
+ 
+\begin{table}[h]
+	\centering
+	\caption{\textit{Confussion Matrrix}}
+	\label{tabel::Conf Matrix}
+	\begin{tabular}{|c|c|c|c|} 
+		\hline
+		\multicolumn{2}{|c|}{\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Confussion\\Matrix\end{tabular}}} & \multicolumn{2}{c|}{Nilai Aktual}                            \\ 
+		\cline{3-4}
+		\multicolumn{2}{|c|}{}                                                                            & \multicolumn{1}{l|}{Positif} & \multicolumn{1}{l|}{Negatif}  \\ 
+		\hline
+		\multirow{2}{*}{\rotcell{\begin{tabular}[c]{@{}c@{}}Nilai\\Terprediksi\end{tabular}}} & Positif   & TP                           & FP                            \\ 
+		\cline{2-4}
+		& Negatif   & FN                           & TN                            \\
+		\hline
+	\end{tabular}
+\end{table}
 
 \subsection{Akurasi}
 Nilai akurasi menunjukkan seberapa akurat dalam memprediksi suatu nilai. Dalam 
@@ -64,7 +81,7 @@ Sistem diagnosis indeks kesehatan transformator daya yang diharapkan pada dasarn
 Model LSTM pada dasarnya merupakan pengembangan dari algoritma \textit{Neural Network} sehingga jumlah neuron akan mempengaruhi kapasitas belajar jaringan. Secara umum, lebih banyak neuron akan dapat mempelajari lebih banyak struktur dari dataset namun konsekuensinya akan membutuhkan waktu pelatihan yang lebih lama. Kapasitas belajar yang lebih besar juga menimbulkan masalah kemungkinan \textit{overfitting} pada data pelatihan sehingga akan sensitif terhadap adanya data yang memiliki \textit{noise}.
 
 \subsection{Multilayer layer LSTM}
-Jumlah \textit{layer} LSTM secara umum digunakan dalam meningkatkan peforma sistem karena secara sederhana jika pada penggunaan \textit{single layer} nilai prediksi hanya mempertimbangkan masukan masing-masing sel serta keluaran hanya ditentukan oleh sel terakhir. Pada penggunaan \textit{multilayer} keluaran akhir sistem akan mempertimbangkan keluaran setiap sel pada layer sebelumnya. 
+Jumlah \textit{layer} LSTM secara umum digunakan dalam meningkatkan peforma sistem karena secara sederhana jika pada penggunaan \textit{single layer} nilai prediksi hanya mempertimbangkan masukan masing-masing sel serta keluaran hanya ditentukan oleh sel terakhir. Pada penggunaan \textit{multilayer} keluaran akhir sistem akan mempertimbangkan keluaran setiap sel pada layer sebelumnya. Penambahan \textit{layer} LSTM akan menambah kapasitas belajar dari model yang akan membuat proses pelatihan cenderung lebih lama. Sehingga pada perancangan penambahan \textit{layer} tidak dilakukan pada jumlah yang banyak agar sistem cepat dalam hal komputasi namun performa masih memiliki akurasi yang tinggi. 
 
 \subsection{Rasio Dataset}
 Pada proses pelatihan dan pengujian pada \textit{machine learning} jumlah dataset yang digunakan dapat mempengaruhi peforma sistem. semakin banyak jumlah dataset yang digunakan dalam proses pelatihan secara ideal dapat memperbaiki peforma karena model dapat terlatih dengan banyaknya data. Namun disisi lain dalam proses validasi diperlukan sebagian dari dataset untuk menguji sistem ketika dihadapkan pada data yang belum pernah dikenali. Sehingga diperlukan rasio yang tepat agar model yang dihasilkan memiliki peforma yang baik pada proses pelatihan dan pengujian. Pada perancangan ini akan dilakukan beberapa percobaan dengan variabel bebas berupa rasio dataset pelatihan dan pengujian.
@@ -118,21 +135,32 @@ Pada perancangan ini dalam mendukung proses analisis menggunakan metode LSTM dig
 \begin{table}[h]
 	\centering
 	\caption{Alat dan Bahan}
-	\begin{tabularx}{0.95\textwidth}{ 
-			| c 
-			| >{\raggedright\arraybackslash}X  
-			| >{\raggedright\arraybackslash}X | }
-%		{|l|l|l|}%
-		\hline \bfseries No & \bfseries Alat dan Bahan & \bfseries Jumlah % specify table head
-		\csvreader[
-%		tabular=|l|c|l|, % |r*{7}{|c}|
-%		table head= \hline No & Alat dan Bahan & Jumlah \\ \hline,
-%		head to column names,
-		late after last line=\\\hline
-		]{BAB-3/data/alat_dan_bahan.csv}{}% use head of csv as column names
-		{ \\ \hline\csvcoli & \csvcolii & \csvcoliii}% specify your coloumns here
-		
-	\end{tabularx}
+	\begin{tabular}{|c|l|l|} 
+		\hline
+		\textbf{No} & \textbf{Alat dan Bahan}  & \textbf{Jumlah}  \\ 
+		\hline
+		1           & Personal Komputer (PC)   & 1 Set            \\ 
+		\hline
+		2           & \textit{Executable Code} & 1 Buah           \\ 
+		\hline
+		3           & \textit{Library Python}  & 1 Set            \\
+		\hline
+	\end{tabular}
+%	\begin{tabularx}{0.95\textwidth}{ 
+%			| c 
+%			| >{\raggedright\arraybackslash}X  
+%			| >{\raggedright\arraybackslash}X | }
+%%		{|l|l|l|}%
+%		\hline \bfseries No & \bfseries Alat dan Bahan & \bfseries Jumlah % specify table head
+%		\csvreader[
+%%		tabular=|l|c|l|, % |r*{7}{|c}|
+%%		table head= \hline No & Alat dan Bahan & Jumlah \\ \hline,
+%%		head to column names,
+%		late after last line=\\\hline
+%		]{BAB-3/data/alat_dan_bahan.csv}{}% use head of csv as column names
+%		{ \\ \hline\csvcoli & \csvcolii & \csvcoliii}% specify your coloumns here
+%		
+%	\end{tabularx}
 	\label{tabel:alat dan bahan}
 \end{table}
 
