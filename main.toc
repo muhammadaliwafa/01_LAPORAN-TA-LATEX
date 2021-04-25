@@ -17,22 +17,26 @@
 \contentsline {section}{\numberline {2.3}\textit {Machine Learning}}{8}{section.2.3}%
 \contentsline {section}{\numberline {2.4}\textit {Long Short Term Memory (LSTM)}}{9}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}\textit {Forget Gate}}{9}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}\textit {Input Gate}}{9}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.2}\textit {Input Gate}}{10}{subsection.2.4.2}%
 \contentsline {subsection}{\numberline {2.4.3}\textit {Cell gate}}{10}{subsection.2.4.3}%
 \contentsline {subsection}{\numberline {2.4.4}\textit {Output Gate}}{10}{subsection.2.4.4}%
-\contentsline {chapter}{\numberline {III}KONSEP PERANCANGAN}{12}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Diagram Alir Perancangan}{12}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Pertimbangan Perancangan}{12}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Akurasi}{13}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Presisi}{13}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Sensitifitas (\textit {recall})}{13}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Spesificitiy}{13}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}\textit {F1 Score}}{14}{subsection.3.2.5}%
-\contentsline {subsection}{\numberline {3.2.6}Waktu Pelatihan dan Pengujian}{14}{subsection.3.2.6}%
-\contentsline {section}{\numberline {3.3}Perancangan Model LSTM}{14}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Jumlah \textit {Neuron}}{14}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Multilayer layer LSTM}{14}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Rasio Dataset}{15}{subsection.3.3.3}%
-\contentsline {section}{\numberline {3.4}Analisis Teknis}{15}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Peralatan dan Bahan}{16}{section.3.5}%
-\contentsline {chapter}{DAFTAR PUSTAKA}{18}{table.caption.13}%
+\contentsline {chapter}{\numberline {III}KONSEP PERANCANGAN}{13}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Diagram Alir Perancangan}{13}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Pertimbangan Perancangan}{14}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Akurasi}{14}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Presisi}{14}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Sensitifitas (\textit {recall})}{15}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Spesificitiy}{15}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}\textit {F1 Score}}{15}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.6}Waktu Pelatihan dan Pengujian}{15}{subsection.3.2.6}%
+\contentsline {section}{\numberline {3.3}Perancangan Model LSTM}{15}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Jumlah \textit {Neuron}}{15}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}\textit {Multilayer layer} LSTM}{16}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Rasio Dataset}{16}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}Analisis Teknis}{16}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Peralatan dan Bahan}{17}{section.3.5}%
+\contentsline {chapter}{\numberline {IV}HASIL DAN PEMBAHASAN}{19}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Kombinasi pada Fitur \textit {Input}}{19}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Perubahan Jumlah Neuron}{19}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Diagnosis Indeks Kesehatan Transformator Daya: Perubahan Jumlah Layer}{19}{section.4.3}%
+\contentsline {chapter}{DAFTAR PUSTAKA}{22}{figure.caption.16}%

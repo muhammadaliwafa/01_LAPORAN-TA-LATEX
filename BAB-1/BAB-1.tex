@@ -10,12 +10,12 @@ Pemeliharaan transformator daya sangat penting dilakukan untuk memastikan agar s
 
 Metode DGA memungkinkan bagi teknisi operator dalam mengetahui adanya kontaminan pada minyak transformator daya. Kadar gas kontaminan dapat menjadi indikator kondisi sebuah transformator daya untuk dapat beroperasi secara normal atau tidak \cite{duval1989dissolved}. Pada sisi yang lain adanya pengujian pada transformator daya baik pengujian fisik, pengujian elektrik dan pengujian kimia dapat memberikan data penting mengenai kondisi transformator daya. Pada pengujian fisik akan diperoleh kekuatan minyak transformator dalam menahan tekanan fisik \cite{7076831}. Pada pengujian dapat diperoleh informasi mengenai breakdown voltage yang untuk mengetahui tegangan yang dapat diizinkan beroperasi pada transformator daya. Pengujian kimia berkontribusi dalam memberikan informasi mengenai tingkat keasaman serta kandungan air dalam minyak transformator yang dapat memicu adanya elektron bebas sebagai penghantar listrik dalam isolator \cite{wahab1999novel}. Selain itu adanya furan yang merupakan salah satu kontaminan dalam minyak transformator daya dapat memberikan informasi mengenai estimasi umur kertas isolasi.\par
 
-Dalam setiap metode yang digunakan dalam pengujian transformator daya memiliki tujuan tertentu mengenai bagian yang ingin dilakukan pengecekan. Diagnosis kondisi keseluruhan sebuah transformator dapat dilakukan dengan menggunakan metode indeks kesehatan transformator daya yang melibatkan seluruh pengujian pada masing-masing bagian\cite{jahromi2009approach}. Dengan menggunakan metode tersebut memungkinkan dalam mengetahui kapan transformator daya harus dilakukan pemeliharaan yang berupa pergantian komponen secara akurat. Namun penggunaan keseluruhan hasil pengujian transformator daya berdampak dalam proses diagnosis yang harus dilakukan dalam waktu yang lama. Selain itu akan dibutuhkan biaya yang tinggi karena banyaknya pengujian yang harus dilakukan dalam satu kali diagnosis. 
+Dalam setiap metode yang digunakan dalam pengujian transformator daya memiliki tujuan tertentu mengenai bagian yang ingin dilakukan pengecekan. Diagnosis kondisi keseluruhan sebuah transformator dapat dilakukan dengan menggunakan metode indeks kesehatan transformator daya yang melibatkan seluruh pengujian pada masing-masing bagian\cite{jahromi2009approach}. Dengan menggunakan metode tersebut memungkinkan dalam mengetahui kapan transformator daya harus dilakukan pemeliharaan yang berupa pergantian komponen secara akurat. Namun penggunaan keseluruhan hasil pengujian transformator daya berdampak dalam proses diagnosis yang harus dilakukan dalam waktu yang lama. 
 
 %Merujuk pada permasalahan di atas maka diperlukan suatu metode baru yang dapat melakuka
 Peninjauan pada sisi yang lain, seiring dengan perkembangan komputer saat ini mulai dikembangkan metode komputasi dalam mengelola sebuah data. Metode tersebut dikenal dengan istilah \textit{Machine Learning} \cite{jordan2015machine}, yakni algoritma komputer yang disusun secara matematis untuk mempelajari sebuah data. Dalam perkembangannya \textit{Machine Learning} telah mengalami banyak perbaikan hingga melahirkan metode baru yang meniru sistem kerja syaraf manusia yang dikenal dengan algoritma \textit{Artificial Neural Network} (ANN) \cite{braspenning1995artificial}. Pengembangan dari ANN telah banyak disesuaikan dengan jenis data yang diolah diantaranya dalam mengolah data sekuensial adalah \textit{Recurrent Neural Network} (RNN). Data sekuensial merupakan data yang tersusun pada pola berurutan dan saling berkaitan contohnya data yang berkaitan dengan waktu. Beberapa implementasi dari RNN adalah pada prediksi beban listrik \cite{tokgoz2018rnn, tang2019application, deihimi2012application}, pengenalan suara \cite{miao2015eesen, amberkar2018speech}, atau dalam memprediksi hujan \cite{habi2019rnn}. Secara sederhana RNN tidak mampu menangani data dengan deret yang panjang karena adanya pengaruh \textit{vanishing gradient}. Modifikasi pada RNN melahirkan metode baru yakni \textit{Long Short-Term Memory} (LSTM) yang dapat mengingat semua data walaupun pada deret yang panjang sehingga dapat memprediksi secara terus menerus \cite{gers1999learning}. \par 
 
-Merujuk pada permasalahan di atas memperlihatkan adanya sebuah solusi dalam metode diagnosis indeks kesehatan transformator daya. Dengan adanya data yang telah terkumpul pada penggunaan metode indeks kesehatan transformator daya dapat dijadikan sebuah objek data yang dapat dipelajari menggunakan \textit{Machine learning}. Hal ini memungkinkan dalam membuat sebuah sistem yang dapat menerima \textit{input} dengan beberapa pengujian saja yang dapat memberikan \textit{output} diagnosis indeks kesehatan transformator. Pada tugas akhir ini akan dirancang sebuah model LSTM yang menyesuaikan terhadap data pengujian transformator daya. Perancangan dilakukan dengan memodifikasi arsitektur LSTM sehingga diperoleh akurasi yang tinggi dalam mendiagnosis indeks kesehatan transformator daya. 
+Merujuk pada permasalahan di atas memperlihatkan adanya sebuah solusi dalam metode diagnosis indeks kesehatan transformator daya. Dengan adanya data yang telah terkumpul pada penggunaan metode indeks kesehatan transformator daya dapat dijadikan sebuah objek data yang dapat dipelajari menggunakan \textit{Machine learning}. Hal ini memungkinkan dalam membuat sebuah sistem yang dapat menerima \textit{input} dengan beberapa pengujian yang dapat memberikan \textit{output} diagnosis indeks kesehatan transformator. Dalam perancangan sebelumnya telah digunakan metode ANN dalam kasus yang sama dengan perolehan akurasi 53.42\% untuk input DGA dan 69.86\% untuk input pengujian minyak isolasi \cite{sutaryono2015analisa}. Sehingga masih tergolong kurang optimal dalam proses diagnosis. Pada tugas akhir ini akan dirancang sebuah model LSTM yang menyesuaikan terhadap data pengujian transformator daya. Perancangan dilakukan dengan memodifikasi arsitektur LSTM sehingga diperoleh akurasi yang tinggi dalam mendiagnosis indeks kesehatan transformator daya. 
 
 %Pendekatan dengan menggunakan \textit{machine learning} sebelumnya telah dilakukan namun dengan arsitektur berbeda seperti ANN \cite{sutaryono2015analisa, nurcahyanto2019analysis}, 
 
@@ -28,7 +28,7 @@ Merujuk pada permasalahan di atas memperlihatkan adanya sebuah solusi dalam meto
 \section{Rumusan Masalah}
 Merujuk pada latar belakang yang telah disampaikan, maka diperoleh rumusan masalah sebagai berikut:
 \begin{enumerate}
-	\item Bagaimana perancangan sistem LSTM sehingga dapat mengklasifikasikan indeks kesehatan transformator daya dengan akurasi yang tinggi dan dengan waktu yang lebih cepat?
+	\item Bagaimana perancangan sistem LSTM sehingga dapat mendiagnosis indeks kesehatan transformator daya dengan akurasi yang tinggi?
 	\item Bagaimana pengaruh hyperparameter dalam meningkatkan performa dari sistem yang dirancang?
 \end{enumerate}
 
@@ -38,23 +38,24 @@ Merujuk pada latar belakang yang telah disampaikan, maka diperoleh rumusan masal
 \section{Batasan Masalah}
 Agar perancangan yang diharapkan sesuai dan dapat tercapai, maka dalam perancangan sistem tersebut, ditentukan ruang lingkup perancangan sebagai berikut:
 \begin{enumerate}
-	\item Perancangan model metode Long Short Term Memory (LSTM) dilakukan pada lingkup klasifikasi pada data pengujian transformator daya
-	\item Hasil perancangan dapat diimplementasikan untuk diagnosis indeks kesehatan transformator daya dengan parameter \textit{input} yang dibutuhkan sesuai dengan dataset yang digunakan
+	\item Proses perancangan yang diterapkan pada sistem dilakukan dalam lingkup metode Long Short Term Memory (LSTM).
+	\item Hasil perancangan dapat diimplementasikan untuk diagnosis indeks kesehatan transformator daya dengan parameter \textit{input} yang dibutuhkan sesuai dengan dataset yang digunakan.
 \end{enumerate}
 
 \section{Tujuan Perancangan}
 Adapun tujuan perancangan ini terdiri dari:
 \begin{enumerate}
 	\item Merancang sistem diagnosa indeks kesehatan pada transformator daya menggunakan metode LSTM sehingga diperoleh arsitektur yang optimal.
-	\item Menganalisis kemampuan dari hasil perancangan sistem yang dalam mendiagnosis indeks kesehatan transformator daya.
+	\item Menganalisis kemampuan dari hasil perancangan sistem dalam mendiagnosis indeks kesehatan transformator daya.
 \end{enumerate}
 
 
 \section{Manfaat Perancangan}
 \begin{enumerate}
-	\item Dapat melakukan pemeliharaan (maintenance) dini pada transformator daya untuk mencegah terjadinya gangguan pada transformator daya.
-	\item Dapat menjaga performa dari transformator daya agar dapat bekerja secara normal.
-	\item Dapat meminimalisir biaya pemeliharaan karena dapat terjadwal dengan optimal.
+	\item Menghasilkan \textit{software} dalam membantu operator dalam mendiagnosis indeks kesehatan transformator daya
+	\item Dapat melakukan penjadwalan pemeliharaan (\textit{maintenance}) pada transformator daya untuk mencegah terjadinya gangguan pada transformator daya.
+	\item Dapat menjadi masukan dalam menjaga performa dari transformator daya agar dapat bekerja secara normal.
+	 
 \end{enumerate}
 
 \section{Waktu Pelaksanaan Perancangan}

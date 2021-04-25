@@ -125,8 +125,14 @@ Machine learning merupakan salah satu metode yang digunakan dalam mempelajari po
 
 
 \section{\textit{Long Short Term Memory (LSTM)}}
-Pada pemodelan dengan menggunakan metode RNN secara umum memiliki kemampuan dalam membuat prediksi yang dipengaruhi oleh \textit{input} sebelumnya. Namun terdapat kekurangan pada metode tersebut yakni tidak mampu mengatasi dengan  seri yang panjang, misalnya pada sebuah data \textit{time series}, RNN akan sulit mengkorelasikan antara data saat ini dengan data yang sangat lampau, akibatnya jika data yang diproses dalam rentang waktu yang lama maka RNN hanya mampu membuat prediksi yang hanya berkaitan pada waktu yang pendek. Kekurangan pada RNN dikarenakan adanya \textit{vanising gradient}, yakni menghapus data yang tidak berkaitan dengan data baru yang dimasukkan. Adanya kekurangan tersebut maka dibutuhkan suatu metode baru yang dapat mengingat data lampau saat menerima \textit{input} terbaru. 
-LSTM merupakan salah satu turunan dari pemodelan matematis yang digunakan dalam mengenali pola serangkaian data 
+Pada pemodelan dengan menggunakan metode RNN secara umum memiliki kemampuan dalam membuat prediksi yang dipengaruhi oleh \textit{input} sebelumnya. Namun terdapat kekurangan pada metode tersebut yakni tidak mampu mengatasi dengan  seri yang panjang, misalnya pada sebuah data \textit{time series}, RNN akan sulit mengkorelasikan antara data saat ini dengan data yang sangat lampau, akibatnya jika data yang diproses dalam rentang waktu yang lama maka RNN hanya mampu membuat prediksi yang hanya berkaitan pada waktu yang pendek. Kekurangan pada RNN dikarenakan adanya \textit{vanising gradient}, yakni menghapus data yang tidak berkaitan dengan data baru yang dimasukkan. Adanya kekurangan tersebut maka dibutuhkan suatu metode baru yang dapat mengingat data lampau saat menerima \textit{input} terbaru. LSTM merupakan salah satu turunan dari pemodelan matematis yang digunakan dalam mengenali pola serangkaian data. Sel LSTM dalam sebuah jaringan dapat dilihat pada \ref{gambar:sel LSTM}.
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[width=0.7\textwidth]{BAB-2/figures/LSTM3-chain.png}	
+		\caption{Sel LSTM \cite{olah2015understanding}}
+		\label{gambar:sel LSTM}
+	\end{center}
+\end{figure}
 
 Kelebihan yang dimiliki LSTM dibandingkan dengan RNN dikarenakan algoritma yang digunakan terdiri dari struktur yang kompleks. Secara umum terdapat 4 bagian pada arsitektur LSTM yakni \textit{forget gate}, \textit{input gate}, \textit{Cell gate}, dan \textit{Output gate}. 
 \subsection{\textit{Forget Gate}}

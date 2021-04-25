@@ -1,4 +1,39 @@
 \chapter{HASIL DAN PEMBAHASAN}
 \label{BAB4:hasil}
 
-\lipsum[3-4]
+\section{Kombinasi pada Fitur \textit{Input}}
+pada percobaan ini dilakukan percobaan untuk mengetahui pengaruh urutan fitur terhadap akurasi sistem. pada dasarnya penggunaan kombinasi fitur tidak menjadi masalah selama pada saat pengujian urutan yang digunakan untuk input pada sistem adalah sama dengan pada saat pelatihan.
+\section{Perubahan Jumlah Neuron}
+pada percobaan perubahan neuron akan dilakukan beberapa percobaan unutk mengetahui pengaruh penambahan jumlah neuron pada model lstm
+\section{Diagnosis Indeks Kesehatan Transformator Daya: Perubahan Jumlah Layer}
+Pada percobaan ini dilakukan untuk menentukan jumlah \textit{layer} pada LSTM yang optimal. Model LSTM yang digunakan ialah dengan jumlah unit 5 buah serta dengan perbandingan dataset pelatihan dan pengujian adalah 7:3. Jumlah \textit{layer} yang akan dicoba meliputi \textit{layer} tunggal hingga jumlah layer 5 buah kemudian dipilih yang memiliki \textit{layer} tertinggi. Berikut merupakan 
+%\begin{figure}[h]
+%	\begin{center}
+%		\input{BAB-4/plot/loss_single_layer.pgf}
+%%		\includegraphics[width=0.7\textwidth]{BAB-3/figures/diagram alir.png}
+%	\end{center}
+%	\caption{Plot Grafik Loss terhadap \textit{Epochs}}
+%\end{figure}
+
+\begin{figure}[h]
+%	\begin{center}
+	\centering
+	\input{BAB-4/plot/accuracy_single_layer.pgf}
+	\caption{Plot Grafik Akurasi Single Layer}
+	\label{gambar:plot single layer}
+\end{figure}
+ini test gambar \ref{gambar:plot 2 layer}
+\begin{figure}[h]
+	\centering
+	\input{BAB-4/plot/accuracy_double_layer.pgf}
+	\caption{Plot Grafik Akurasi 2 Layer}
+	\label{gambar:plot 2 layer}
+\end{figure}
+ini test gambar \ref{gambar:plot 2 layer}
+
+%\begin{figure}
+%	\centering
+%	\includegraphics[width=0.5\textwidth]{BAB-4/plot/accuracy_single_layer.pgf}
+%	\caption{test}
+%	
+%\end{figure}

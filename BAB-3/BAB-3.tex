@@ -7,7 +7,7 @@ transformator daya. Pada Gambar \ref{gambar:diagram alir} merupakan tahapan pera
 digambarkan dalam diagram alir
 \begin{figure}[h]
 	\begin{center}
-		\includegraphics[width=0.5\textwidth]{BAB-3/figures/diagram alir.png}	
+		\includegraphics[width=0.7\textwidth]{BAB-3/figures/diagram alir.png}	
 		\caption{Diagram Alir Perancangan Sistem Model LSTM}
 		\label{gambar:diagram alir}
 	\end{center}
@@ -80,7 +80,7 @@ Sistem diagnosis indeks kesehatan transformator daya yang diharapkan pada dasarn
 \subsection{Jumlah \textit{Neuron}}
 Model LSTM pada dasarnya merupakan pengembangan dari algoritma \textit{Neural Network} sehingga jumlah neuron akan mempengaruhi kapasitas belajar jaringan. Secara umum, lebih banyak neuron akan dapat mempelajari lebih banyak struktur dari dataset namun konsekuensinya akan membutuhkan waktu pelatihan yang lebih lama. Kapasitas belajar yang lebih besar juga menimbulkan masalah kemungkinan \textit{overfitting} pada data pelatihan sehingga akan sensitif terhadap adanya data yang memiliki \textit{noise}.
 
-\subsection{Multilayer layer LSTM}
+\subsection{\textit{Multilayer layer} LSTM}
 Jumlah \textit{layer} LSTM secara umum digunakan dalam meningkatkan performa sistem karena secara sederhana jika pada penggunaan \textit{single layer} nilai prediksi hanya mempertimbangkan masukan masing-masing sel serta keluaran hanya ditentukan oleh sel terakhir. Pada penggunaan \textit{multilayer} keluaran akhir sistem akan mempertimbangkan keluaran setiap sel pada layer sebelumnya. Penambahan \textit{layer} LSTM akan menambah kapasitas belajar dari model yang akan membuat proses pelatihan cenderung lebih lama. Sehingga pada perancangan penambahan \textit{layer} tidak dilakukan pada jumlah yang banyak agar sistem cepat dalam hal komputasi namun performa masih memiliki akurasi yang tinggi. 
 
 \subsection{Rasio Dataset}
@@ -88,9 +88,11 @@ Pada proses pelatihan dan pengujian pada \textit{machine learning} jumlah datase
 
 \section{Analisis Teknis}
 
-Hasil dari perancangan ini merupakan sebuah pemodelan indeks kesehatan transformator. Dalam implementasinya model akan memberikan keluaran berupa indeks kesehatan transformator dengan menggunakan \textit{input} berupa hasil pengujian laboratorium atau lapangan. \textit{Input} yang digunakan berupa fitur data yang digunakan dalam proses pelatihan dan pengujian. Selama proses perancangan jumlah \textit{input} yang digunakan tidak sebanyak yang digunakan dalam menentukan indeks kesehatan transformator secara manual dengan menggunakan pemodelan matematika. Oleh karena itu pada proses pengolahan data pertama kali akan dilakukan perhitungan indeks kesehatan transformator daya yang merupakan data target dengan menggunakan persamaan matematis. Pada tahap selanjutnya data yang akan digunakan dalam percobaan baik pada pelatihan maupun pada pengujian ialah data yang sudah direduksi beberapa fiturnya. Reduksi fitur data dilakukan pada data yang memiliki banyak data pencilan, sehingga data yang terdistribusi dengan baik saja yang akan dilakukan dalam proses perancangan. \par
+Hasil dari perancangan ini merupakan sebuah pemodelan indeks kesehatan transformator. Dalam implementasinya model akan memberikan keluaran berupa indeks kesehatan transformator dengan menggunakan \textit{input} berupa hasil pengujian laboratorium atau lapangan. \textit{Input} yang digunakan berupa fitur data yang digunakan dalam proses pelatihan dan pengujian. Dataset yang digunakan adalah dataset yang telah terdapat hasil klasifikasi berupa indeks kesehatan yang diubah dalam bilangan numerik. Hal ini bertujuan agar LSTM mampu melakukan komputasi. Pada perolehan data akan dilakukan pra-proses data untuk mengatasi adanya \textit{missing data} atau data yang tidak lengkap untuk tidak dimasukkan ke dalam proses pelatihan.
 
-Pada dasarnya model dirancang untuk tetap memberikan keluaran berupa diagnosis indeks kesehatan transformator daya tanpa menggunakan semua data pengujian laboratorium atau lapangan. Model hasil perancangan ini merupakan sebuah komputasi dalam sebuah program berbasis bahasa pemrograman python. Hal ini tentu akan sulit dipahami bagi orang yang belum mengenal bahasa pemrograman. Oleh karena itu pada tahapan akhir perancangan ini model yang dihasilkan akan diteruskan pada pembuatan tampilan antar muka sistem. Untuk memenuhi kebutuhan tersebut model dikonversikan ke dalam bentuk aplikasi baik pada perangkat portabel maupun yang berbasis \textit{Personal Computer} (PC). Desain aplikasi yang dirancang adalah berupa tampilan beberapa kolom \textit{input} untuk memasukkan data hasil pengujian transformator daya, kemudian setelah semua \textit{input} diberikan, pengguna akan memberikan perintah berupa tombol untuk memproses \textit{input} agar sistem dapat menampilkan hasil diagnosis indeks kesehatan transformator daya. Penggunaan metode tersebut secara signifikan dapat mengurangi waktu dalam menentukan indeks kesehatan transformator daya yang dengan cara konvensional membutuhkan data pengujian yang lengkap. Sehingga diharapkan dapat mengurangi jumlah pengujian transformator daya dan secara tidak langsung berperan dalam mengurangi biaya dalam pemeliharaan transformator daya. 
+%Selama proses perancangan jumlah \textit{input} yang digunakan tidak sebanyak yang digunakan dalam menentukan indeks kesehatan transformator secara manual dengan menggunakan pemodelan matematika. Oleh karena itu pada proses pengolahan data pertama kali akan dilakukan perhitungan indeks kesehatan transformator daya yang merupakan data target dengan menggunakan persamaan matematis. Pada tahap selanjutnya data yang akan digunakan dalam percobaan baik pada pelatihan maupun pada pengujian ialah data yang sudah direduksi beberapa fiturnya. Reduksi fitur data dilakukan pada data yang memiliki banyak data pencilan, sehingga data yang terdistribusi dengan baik saja yang akan dilakukan dalam proses perancangan. \par
+
+Pada dasarnya model dirancang untuk tetap memberikan keluaran berupa diagnosis indeks kesehatan transformator daya tanpa menggunakan semua data pengujian laboratorium atau lapangan. Model hasil perancangan ini merupakan sebuah komputasi dalam sebuah program berbasis bahasa pemrograman python. Hal ini tentu akan sulit dipahami bagi orang yang belum mengenal bahasa pemrograman. Oleh karena itu pada tahapan akhir perancangan ini model yang dihasilkan akan diteruskan pada pembuatan tampilan antar muka sistem. Untuk memenuhi kebutuhan tersebut model dikonversikan ke dalam bentuk aplikasi baik pada perangkat portabel maupun yang berbasis \textit{Personal Computer} (PC). Desain aplikasi yang dirancang adalah berupa tampilan beberapa kolom \textit{input} untuk memasukkan data hasil pengujian transformator daya, kemudian setelah semua \textit{input} diberikan, pengguna akan memberikan perintah berupa tombol untuk memproses \textit{input} agar sistem dapat menampilkan hasil diagnosis indeks kesehatan transformator daya. Penggunaan metode tersebut secara signifikan dapat mengurangi waktu dalam menentukan indeks kesehatan transformator daya yang yang dapat menggantikan cara konvensional. \par
 
 
 
@@ -131,7 +133,7 @@ Pada dasarnya model dirancang untuk tetap memberikan keluaran berupa diagnosis i
 
 \section{Peralatan dan Bahan}
 
-Pada perancangan ini dalam mendukung proses analisis menggunakan metode LSTM digunakan peralatan dan bahan yang ditunjukkan pada Tabel \ref{tabel:alat dan bahan}.\par 
+Pada perancangan ini dalam mendukung proses analisis menggunakan metode LSTM digunakan peralatan dan bahan yang ditunjukkan pada Tabel \ref{tabel:alat dan bahan}. 
 \begin{table}[h]
 	\centering
 	\caption{Alat dan Bahan}

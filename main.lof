@@ -3,5 +3,9 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Segitiga Duval \cite {duval1989dissolved}\relax }}{7}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Sel LSTM \cite {olah2015understanding}\relax }}{9}{figure.caption.11}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagram Alir Perancangan Sistem Model LSTM\relax }}{12}{figure.caption.11}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagram Alir Perancangan Sistem Model LSTM\relax }}{13}{figure.caption.12}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Plot Grafik Akurasi Single Layer\relax }}{19}{figure.caption.15}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Plot Grafik Akurasi 2 Layer\relax }}{20}{figure.caption.16}%
