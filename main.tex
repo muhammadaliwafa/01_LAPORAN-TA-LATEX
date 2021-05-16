@@ -46,6 +46,7 @@
 \usepackage{multirow}
 \usepackage{colortbl}
 %\usepackage{ieeetran}
+\usepackage{caption}
 \usepackage[numbers]{natbib} % Bibliography with APA Style
 \usepackage{geometry}
 \usepackage{pdfpages}
@@ -57,7 +58,7 @@
  right=2.5cm,
  }
  
-\setlength{\footskip}{1.7cm}
+\setlength{\footskip}{1.3cm}
 %% Line Spacing
 \linespread{1.103} % Jangan dihapus. Ini untuk memastikan line spacing ~15pt. Cara pengecekan: ketik "\the\baselineskip" di dalam dokumen
 %% Paragraph spacing
@@ -94,7 +95,7 @@
 \author{Muhammad Ali Wafa}{102117002} % Nama Penulis dan NIM
 \fakultas{Teknologi Industri}
 \prodi{Teknik Elektro}
-\tgllulus{15} {2021}%{Januari 2020} % Tanggal dan bulan+tahun dipisah
+\tgllulus{15} {Juni 2021} {2021}%{Januari 2020} % Tanggal dan bulan+tahun dipisah
 \tglpengesahan{29 Januari 2020} % Tanggal, bulan, dan tahun digabung
 \tglpernyataan{29 Januari 2020} % Tanggal, bulan, dan tahun digabung
 \pembimbingsatu{Dr.Eng. Muhammad Abdillah, S.T., M.T.}{116153} % Nama dan NIP
@@ -114,18 +115,18 @@
 %         height = 0.9\paperheight, keepaspectratio] {watermark.jpeg}}}
 
 %% Pemecahan suku kata
-\hyphenation{me-ning-kat-kan di-tu-lis-kan me-ne-ri-ma me-la-lu-i Na-mun or-ga-ni-sa-i pe-ner-je-mah pe-me-rin-tah me-nge-na-li aug-men-ta-tion meng-gu-na-kan di-gu-na-kan learn-ing trans-fer-ing bi-sin-do me-nam-pil-kan ber-da-sar-kan}
+\hyphenation{me-ning-kat-kan di-tu-lis-kan me-ne-ri-ma me-la-lu-i Na-mun or-ga-ni-sa-i pe-ner-je-mah pe-me-rin-tah me-nge-na-li aug-men-ta-tion meng-gu-na-kan di-gu-na-kan learn-ing trans-fer-ing bi-sin-do me-nam-pil-kan ber-da-sar-kan me-la-ku-kan}
 
 \begin{document}
 
 \frontmatter
 \upcoverpage
 \includepdf{Includes/Pemisah.pdf}
-%\lembarpengesahan
-%\lembarpernyataan
-%\abstrakind{Front/abstrakind}
-%\abstrakeng{Front/abstrakeng}
-%\katapengantar{Front/katapengantar}
+\lembarpengesahan
+\lembarpernyataan
+\abstrakind{Front/abstrakind}
+\abstrakeng{Front/abstrakeng}
+\katapengantar{Front/katapengantar}
 \daftarisi
 \daftartabel
 \daftargambar
@@ -141,8 +142,8 @@
 \includepdf{Includes/Pemisah.pdf}
 \include{BAB-4/BAB-4}
 \includepdf{Includes/Pemisah.pdf}
-%\include{BAB-5/BAB-5}
-%\includepdf{Includes/Pemisah.pdf}
+\include{BAB-5/BAB-5}
+\includepdf{Includes/Pemisah.pdf}
 
 %------------------------------------------------------------
 % BIBLIOGRAPHY %
@@ -154,7 +155,7 @@
   \bibliography{Referensi}
 \end{singlespace}
 
-%\includepdf{Includes/Pemisah.pdf}
+\includepdf{Includes/Pemisah.pdf}
 
 %% Appendices
 \appendix

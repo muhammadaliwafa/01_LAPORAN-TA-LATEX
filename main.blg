@@ -1,72 +1,70 @@
-This is BibTeX, Version 0.99d
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
-Reallocating 'name_of_file' (item size: 1) to 16 items.
 A level-1 auxiliary file: BAB-1/BAB-1.aux
-Reallocating 'name_of_file' (item size: 1) to 16 items.
 A level-1 auxiliary file: BAB-2/BAB-2.aux
-Reallocating 'name_of_file' (item size: 1) to 16 items.
 A level-1 auxiliary file: BAB-3/BAB-3.aux
-Reallocating 'name_of_file' (item size: 1) to 10 items.
+A level-1 auxiliary file: BAB-4/BAB-4.aux
+A level-1 auxiliary file: BAB-5/BAB-5.aux
 The style file: IEEEtranN.bst
-Reallocating 'name_of_file' (item size: 1) to 10 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'wiz_functions' (item size: 4) to 6000 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: Referensi.bib
--- IEEEtranN.bst version 1.13 (2008/09/30) by Michael Shell.
+-- IEEEtranN.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 ** Natbib version - not for normal IEEE work.
-Reallocating 'glb_str_end' (item size: 4) to 20 items.
-Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
-Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Warning--empty journal in olah2015understanding
 Warning--empty journal in gers1999learning
 Warning--empty journal in ieee2007ieee
+Warning--empty journal in shah2016predict
 
 Done.
-You've used 24 entries,
-            4783 wiz_defined-function locations,
-            1071 strings with 12316 characters,
-and the built_in function-call counts, 20802 in all, are:
-= -- 1859
-> -- 594
-< -- 160
-+ -- 303
-- -- 134
-* -- 1112
-:= -- 3195
-add.period$ -- 54
-call.type$ -- 24
-change.case$ -- 46
-chr.to.int$ -- 360
-cite$ -- 27
-duplicate$ -- 1384
-empty$ -- 1519
-format.name$ -- 182
-if$ -- 4649
+You've used 26 entries,
+            4855 wiz_defined-function locations,
+            1092 strings with 12694 characters,
+and the built_in function-call counts, 22557 in all, are:
+= -- 2010
+> -- 634
+< -- 174
++ -- 325
+- -- 142
+* -- 1255
+:= -- 3445
+add.period$ -- 58
+call.type$ -- 26
+change.case$ -- 50
+chr.to.int$ -- 392
+cite$ -- 30
+duplicate$ -- 1494
+empty$ -- 1629
+format.name$ -- 193
+if$ -- 5086
 int.to.chr$ -- 1
-int.to.str$ -- 25
-missing$ -- 208
-newline$ -- 96
-num.names$ -- 72
-pop$ -- 522
+int.to.str$ -- 27
+missing$ -- 223
+newline$ -- 102
+num.names$ -- 78
+pop$ -- 559
 preamble$ -- 1
-purify$ -- 24
+purify$ -- 26
 quote$ -- 2
-skip$ -- 1548
+skip$ -- 1671
 stack$ -- 0
-substring$ -- 869
-swap$ -- 1019
-text.length$ -- 35
+substring$ -- 945
+swap$ -- 1100
+text.length$ -- 38
 text.prefix$ -- 0
 top$ -- 6
-type$ -- 368
-warning$ -- 3
-while$ -- 107
+type$ -- 400
+warning$ -- 4
+while$ -- 115
 width$ -- 0
-write$ -- 294
-(There were 3 warnings)
+write$ -- 316
+(There were 4 warnings)

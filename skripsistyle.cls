@@ -49,7 +49,7 @@
 
 \newenvironment{front}
 {%---title page layouts
-\newgeometry{left=2cm, right=3cm, top=3cm} % DON'T CHANGE !
+\newgeometry{left=3cm, right=2.5cm, top=2.5cm} % DON'T CHANGE !
 \setlength{\parindent}{0cm}
 %\linespread{0.6} 
 }
@@ -61,6 +61,7 @@
 
 \newenvironment{mytabularx}
   {\trivlist\item
+  	\setlength{\extrarowheight}{6pt}
    \tabularx{\textwidth}{lcX}}
   {\endtabularx\endtrivlist}
 
@@ -134,9 +135,11 @@
 
 \newcommand{\up@tgllulus}{}
 \newcommand{\up@bulantahun}{}
-\providecommand{\tgllulus}[2]{
+\newcommand{\up@tahun}{}
+\providecommand{\tgllulus}[3]{
 	\renewcommand{\up@tgllulus}{#1}
 	\renewcommand{\up@bulantahun}{#2}
+	\renewcommand{\up@tahun}{#3}
 	}
 
 \newcommand{\up@tglpengesahan}{}
@@ -169,7 +172,7 @@
 	{\Large \bf FAKULTAS \MakeUppercase{\up@fakultas} \par%
 	            PROGRAM STUDI \MakeUppercase{\up@prodi} \par%
 	            UNIVERSITAS PERTAMINA \par%
-	            \MakeUppercase{\up@bulantahun} \par}	 
+	            \MakeUppercase{\up@tahun} \par}	 
 	}                       
 \end{center}
 \end{front}
@@ -198,7 +201,7 @@
 	{\Large \bf FAKULTAS \MakeUppercase{\up@fakultas} \par%
 	            PROGRAM STUDI \MakeUppercase{\up@prodi} \par%
 	            UNIVERSITAS PERTAMINA \par%
-	            \MakeUppercase{\up@bulantahun} \par}	 
+	            \MakeUppercase{\up@tahun} \par}	 
 	}                       
 \end{center}
 \end{front}
@@ -227,28 +230,28 @@
 	Jakarta, \up@tglpengesahan \par
 	MENGESAHKAN \par
 	
-	\begin{mytabular}
-		Pembimbing I & Pembimbing II \\%
-		& \\%
-		& \\%
-		& \\%
-		& \\%
-		& \\%
-		\up@pembimbingsatu &  \up@pembimbingdua \\%	 
-		NIP.\up@nippembimbingsatu & NIP.\up@nippembimbingdua
-	\end{mytabular}	
+%	\begin{mytabular}
+%		Pembimbing I & Pembimbing II \\%
+%		& \\%
+%		& \\%
+%		& \\%
+%		& \\%
+%		& \\%
+%		\up@pembimbingsatu &  \up@pembimbingdua \\%	 
+%		NIP.\up@nippembimbingsatu & NIP.\up@nippembimbingdua
+%	\end{mytabular}	
 	
 		
-%	\begin{mytabular}
-%		\row{Pembimbing I}{: Nama}{: \up@pembimbingsatu}
-%		\row{}{\,\, NIP}{: \up@nippembimbingsatu}
-%		\row{Pembimbing II}{: Nama}{: \up@pembimbingdua}
-%		\row{}{\,\, NIP}{: \up@nippembimbingdua}
-%%		\row{Penguji I}{: Nama}{: \up@pengujisatu}
-%%		\row{}{\,\, NIP}{: \up@nippengujisatu}
-%%		\row{Penguji II}{: Nama}{: \up@pengujidua}
-%%		\row{}{\,\, NIP}{: \up@nippengujidua}
-%	\end{mytabular}
+	\begin{mytabularx}
+		\row{Pembimbing I}{: \,Nama}{: \up@pembimbingsatu}
+		\row{}{\,\,NIP}{: \up@nippembimbingsatu}
+		\row{Pembimbing II}{: \,Nama}{: \up@pembimbingdua}
+		\row{}{\,\,NIP}{: \up@nippembimbingdua}
+%		\row{Penguji I}{: Nama}{: \up@pengujisatu}
+%		\row{}{\,\, NIP}{: \up@nippengujisatu}
+%		\row{Penguji II}{: Nama}{: \up@pengujidua}
+%		\row{}{\,\, NIP}{: \up@nippengujidua}
+	\end{mytabularx}
 	\vfill
 	MENGETAHUI, \par
 	Ketua Program Studi \par

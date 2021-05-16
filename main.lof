@@ -2,10 +2,17 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Segitiga Duval \cite {duval1989dissolved}\relax }}{7}{figure.caption.8}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Sel LSTM \cite {olah2015understanding}\relax }}{9}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Segitiga Duval \cite {duval1989dissolved}\relax }}{7}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Sel LSTM \cite {olah2015understanding}\relax }}{9}{figure.caption.17}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagram Alir Perancangan Sistem Model LSTM\relax }}{13}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagram Alir Perancangan Sistem Model LSTM\relax }}{13}{figure.caption.18}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Plot Grafik Akurasi Single Layer\relax }}{19}{figure.caption.15}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Plot Grafik Akurasi 2 Layer\relax }}{20}{figure.caption.16}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Pengaruh \textit {Epochs} terhadap Akurasi dengan Dataset-1\relax }}{19}{figure.4.1}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Pengaruh Urutan Fitur dengan Dataset-1\relax }}{20}{figure.4.2}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Akurasi Percobaan Perubahan Layer dengan Dataset-1\relax }}{21}{figure.4.3}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces \textit {Confusion Matrix} LSTM dengan 2 \textit {Hidden Layer} Dataset-1\relax }}{22}{figure.4.4}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Akurasi Percobaan Perubahan Layer dengan Dataset-2\relax }}{22}{figure.4.5}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Akurasi Percobaan Perubahan Fungsi Aktivasi dengan Dataset-1\relax }}{23}{figure.4.6}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Akurasi Percobaan Perubahan Fungsi Aktivasi dengan Dataset-2\relax }}{23}{figure.4.7}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces \textit {Confusion Matrix} Menggunakan Fungsi Aktivasi \textit {Selu} Dataset-1\relax }}{24}{figure.4.8}%
+\addvspace {10\p@ }

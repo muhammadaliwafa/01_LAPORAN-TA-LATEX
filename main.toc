@@ -1,11 +1,14 @@
-\contentsline {chapter}{DAFTAR ISI}{iv}{section*.2}%
-\contentsline {chapter}{DAFTAR TABEL}{vi}{chapter*.3}%
-\contentsline {chapter}{DAFTAR GAMBAR}{vii}{chapter*.5}%
+\contentsline {chapter}{ABSTRAK}{i}{section*.1}%
+\contentsline {chapter}{ABSTRACT}{ii}{section*.3}%
+\contentsline {chapter}{KATA PENGANTAR}{iii}{section*.5}%
+\contentsline {chapter}{DAFTAR ISI}{iv}{section*.8}%
+\contentsline {chapter}{DAFTAR TABEL}{vi}{chapter*.9}%
+\contentsline {chapter}{DAFTAR GAMBAR}{vii}{chapter*.11}%
 \contentsline {chapter}{\numberline {I}PENDAHULUAN}{2}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Latar Belakang}{2}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Rumusan Masalah}{3}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Batasan Masalah}{3}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Tujuan Perancangan}{3}{section.1.4}%
+\contentsline {section}{\numberline {1.4}Tujuan Perancangan}{4}{section.1.4}%
 \contentsline {section}{\numberline {1.5}Manfaat Perancangan}{4}{section.1.5}%
 \contentsline {section}{\numberline {1.6}Waktu Pelaksanaan Perancangan}{4}{section.1.6}%
 \contentsline {chapter}{\numberline {II}TINJAUAN PUSTAKA}{6}{chapter.2}%
@@ -14,12 +17,12 @@
 \contentsline {subsection}{\numberline {2.2.1}\textit {Dissolve Gas Analysis} (DGA)}{6}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Kualitas Minyak Transformator}{7}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3}Pengujian Furan}{8}{subsection.2.2.3}%
-\contentsline {section}{\numberline {2.3}\textit {Machine Learning}}{8}{section.2.3}%
+\contentsline {section}{\numberline {2.3}\textit {Machine Learning}}{9}{section.2.3}%
 \contentsline {section}{\numberline {2.4}\textit {Long Short Term Memory (LSTM)}}{9}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}\textit {Forget Gate}}{9}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.1}\textit {Forget Gate}}{10}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}\textit {Input Gate}}{10}{subsection.2.4.2}%
 \contentsline {subsection}{\numberline {2.4.3}\textit {Cell gate}}{10}{subsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.4.4}\textit {Output Gate}}{10}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.4}\textit {Output Gate}}{11}{subsection.2.4.4}%
 \contentsline {chapter}{\numberline {III}KONSEP PERANCANGAN}{13}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Diagram Alir Perancangan}{13}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Pertimbangan Perancangan}{14}{section.3.2}%
@@ -30,13 +33,20 @@
 \contentsline {subsection}{\numberline {3.2.5}\textit {F1 Score}}{15}{subsection.3.2.5}%
 \contentsline {subsection}{\numberline {3.2.6}Waktu Pelatihan dan Pengujian}{15}{subsection.3.2.6}%
 \contentsline {section}{\numberline {3.3}Perancangan Model LSTM}{15}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Jumlah \textit {Neuron}}{15}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.1}Jumlah \textit {Neuron}}{16}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {3.3.2}\textit {Multilayer layer} LSTM}{16}{subsection.3.3.2}%
 \contentsline {subsection}{\numberline {3.3.3}Rasio Dataset}{16}{subsection.3.3.3}%
 \contentsline {section}{\numberline {3.4}Analisis Teknis}{16}{section.3.4}%
 \contentsline {section}{\numberline {3.5}Peralatan dan Bahan}{17}{section.3.5}%
 \contentsline {chapter}{\numberline {IV}HASIL DAN PEMBAHASAN}{19}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Kombinasi pada Fitur \textit {Input}}{19}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Perubahan Jumlah Neuron}{19}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Diagnosis Indeks Kesehatan Transformator Daya: Perubahan Jumlah Layer}{19}{section.4.3}%
-\contentsline {chapter}{DAFTAR PUSTAKA}{22}{figure.caption.16}%
+\contentsline {section}{\numberline {4.1}Spesfiksi Perangkat Keras dan Perangkat Lunak}{19}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Menentukan Jumlah \textit {Backpropagation} (\textit {Epochs})}{19}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Kombinasi pada Fitur \textit {Input}}{20}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Diagnosis Indeks Kesehatan Transformator Daya: Perubahan Jumlah Layer}{21}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Perubahan Fungsi Aktivasi}{23}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Diagnosis Indeks Kesehatan Transformator Daya: Perubahan Rasio Dataset}{24}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Perbandingan Terhadap Metode \textit {Artificial Neural Network} (ANN) Sederhana}{24}{section.4.7}%
+\contentsline {chapter}{\numberline {V}KESIMPULAN DAN SARAN}{26}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Kesimpulan}{26}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Saran}{26}{section.5.2}%
+\contentsline {chapter}{DAFTAR PUSTAKA}{28}{section.5.2}%

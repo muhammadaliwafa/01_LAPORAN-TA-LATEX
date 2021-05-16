@@ -1,35 +1,131 @@
 \chapter{HASIL DAN PEMBAHASAN}
 \label{BAB4:hasil}
 
+Dalam merancang model LSTM untuk mendiagnosis indeks kesehatan transformator daya, digunakan dua buah dataset yang berbeda. Dataset pertama yang selanjutnya disebut sebagai dataset-1 diperoleh dari sumber \cite{shah2016predict}, dan dataset kedua (dataset-2) merujuk pada \cite{abu2012calculation}. Sebelum proses pelatihan dilakukan, dilakukan perubahan pada data target yakni hasil diagnosis indeks kesehatan transformator daya diubah dalam bentuk numerik agar dapat dilakukan komputasi pada model. 
+\section{Spesfiksi Perangkat Keras dan Perangkat Lunak}
+Adapun komponen yang digunakan dalam proses komputasi pembuatan model yang digunakan dalam diagnosis indeks kesehatan transformator daya memiliki spesifikasi sebagai berikut:
+\begin{enumerate}
+	\setlength{\itemsep}{0pt}%
+	\item Processor Intel(R) Core(TM) i3-4030U CPU @ 1.90GHz
+	\item Random Access Memory (RAM) 6GB
+	\item Sistem Operasi Linux Ubuntu 20.04 focal
+	\item Google Colaboratory (Intel(R) Xeon(R) CPU @ 2.20GHz)
+\end{enumerate}
+
+\section{Menentukan Jumlah \textit{Backpropagation} (\textit{Epochs})}
+Percobaan menentukan jumlah \textit{epochs} dilakukan sebagai dasar percobaan selanjutnya dalam melakukan pelatihan. Dalam percobaan ini dilakukan dengan menggunakan model LSTM yang digunakan pada pengaturan bawaan pada \textit{library} keras serta jumlah \textit{hidden layer} yang digunakan adalah sebanyak 1 buah. Adapun data yang digunakan adalah dataset-1 yang terbagi atas data latih dan data uji dengan perbandingan 7:3. Hasil percobaan ini digambarkan pada grafik akurasi terhadap jumlah \textit{epochs} yang disajikan pada Gambar \ref{gambar:akurasi vs epoch}. 
+
+\begin{minipage}{\textwidth}
+	\centering
+	\input{BAB-4/plot/accuracy_vs_epochs.pgf}%diperoleh pada folder 26 April dengan menggunakan pengolah 25 April yang berada pada folder tersebut
+	\captionof{figure}{Pengaruh \textit{Epochs} terhadap Akurasi dengan Dataset-1}
+	\label{gambar:akurasi vs epoch}
+\end{minipage}
+
+Berdasarkan hasil percobaan pada Gambar \ref{gambar:akurasi vs epoch} memperlihatkan adanya perbedaan dimana akurasi pelatihan lebih besar dari pengujian pada \textit{epochs} di daerah 1000. Pada \textit{epochs} tersebut tidak akan digunakan, hal ini dikarenakan pada dasarnya jumlah data pelatihan yang lebih besar dibandingkan pengujian, jadi walaupun terlihat pada pengujian lebih tinggi dikhawatirkan jika data pengujian yang digunakan lebih banyak pada saat sistem digunakan nantinya, sistem memiliki akurasi yang lebih rendah. Di sisi lain hal ini akan berlaku yang sama jika saat sistem digunakan dan data \textit{input} yang digunakan menyerupai data latih maka akurasi akan sama dengan saat pelatihan. Oleh karena itu pada percobaan ini akan diambil \textit{epochs} ketika akurasi pelatihan yang lebih tinggi dibandingkan pengujian. Hal ini dapat diambil pada saat \textit{epochs} yang digunakan adalah 2000. \textit{Epochs} yang lebih tinggi tidak digunakan dengan alasan pada percobaan selanjutnya akan dilakukan modifikasi pada \textit{hyperparameter} LSTM sehingga model dapat melakukan pelatihan dengan menggunakan \textit{epochs} yang tidak terlampau besar, sehingga lebih efisien dalam komputasi. 
+
 \section{Kombinasi pada Fitur \textit{Input}}
-pada percobaan ini dilakukan percobaan untuk mengetahui pengaruh urutan fitur terhadap akurasi sistem. pada dasarnya penggunaan kombinasi fitur tidak menjadi masalah selama pada saat pengujian urutan yang digunakan untuk input pada sistem adalah sama dengan pada saat pelatihan.
-\section{Perubahan Jumlah Neuron}
-pada percobaan perubahan neuron akan dilakukan beberapa percobaan unutk mengetahui pengaruh penambahan jumlah neuron pada model lstm
+Pada percobaan ini dilakukan percobaan untuk mengetahui pengaruh urutan fitur terhadap akurasi sistem. Pada dasarnya penggunaan kombinasi fitur tidak menjadi masalah selama pada saat pengujian urutan yang digunakan untuk input pada sistem adalah sama dengan pada saat pelatihan. Hal ini dapat dapat terjadi karena pada dasarnya penggunaan LSTM untuk penggunaan data deret untuk \textit{input} dengan tipe yang sama. Sedangkan pada perancangan diagnosis indeks kesehatan transformator daya input diolah menyerupai data deret dimana panjang deret menyatakan \textit{time-stamp} dan setiap waktu kejadian merupakan input pada sistem. Dengan manipulasi inilah perancangan dilakukan, maka pada percobaan selanjutnya urutan fitur yang digunakan adalah urutan dasar pada dataset yang digunakan.
+
+\centerline{\begin{minipage}{\textwidth}
+%	\centering
+	\vspace{12 pt}
+	\input{BAB-4/plot/kombinasi_fitur.pgf}
+	\captionof{figure}{Pengaruh Urutan Fitur dengan Dataset-1}
+	\label{gambar:kombinasi fitur}
+\end{minipage}}
+
+Berdasarkan Gambar \ref{gambar:kombinasi fitur} dapat diperoleh informasi bahwa tidak ada nilai urutan yang mutlak memiliki akurasi yang konstan besar. Semua urutan memiliki peluang yang sama bergantung pada nilai inisiasi \textit{weight} pada saat proses pelatihan. Hal ini dapat dijelaskan karena umumnya LSTM dapat bekerja dengan baik pada data deret pada sebuah variabel yang sama, sedangkan perancangan ini merupakan manipulasi setiap fitur data menjadi sebuah data deret, sehingga dalam penggunaanya selama saat pengujian urutan data fitur yang digunakan sesuai dengan ketika proses pelatihan maka tidak menjadi permasalahan.
+%\section{Perubahan Jumlah Neuron}
+%pada percobaan perubahan neuron akan dilakukan beberapa percobaan unutk mengetahui pengaruh penambahan jumlah neuron pada model lstm
 \section{Diagnosis Indeks Kesehatan Transformator Daya: Perubahan Jumlah Layer}
-Pada percobaan ini dilakukan untuk menentukan jumlah \textit{layer} pada LSTM yang optimal. Model LSTM yang digunakan ialah dengan jumlah unit 5 buah serta dengan perbandingan dataset pelatihan dan pengujian adalah 7:3. Jumlah \textit{layer} yang akan dicoba meliputi \textit{layer} tunggal hingga jumlah layer 5 buah kemudian dipilih yang memiliki \textit{layer} tertinggi. Berikut merupakan 
+Pada perubahan jumlah \textit{layer} dilakukan untuk menentukan jumlah \textit{layer} yang digunakan pada LSTM sehingga diperoleh model dengan \textit{hyperparameter }yang optimal. Model LSTM yang digunakan memiliki jumlah unit 5 buah untuk dataset-1 dan 6 buah untuk dataset-2. Hal ini bertujuan untuk menyesuaikan dengan karakteristik dari LSTM dimana \textit{output} pada suatu sel LSTM akan menjadi \textit{input} pada sel berikutnya. Sehingga jumlah unit disesuaikan dengan banyaknya fitur data atau yang dalam hal ini adalah jumlah tes yang dilakukan pada pengujian transformator daya. Di sisi yang lain dataset akan dibagi menjadi dua yakni data pelatihan dan pengujian dengan rasio perbandingan 7:3. Jumlah \textit{layer} yang akan dicoba meliputi \textit{layer} tunggal hingga jumlah \textit{layer} 5 buah kemudian dipilih yang memiliki \textit{layer} tertinggi. Proses pelatihan dilakukan dengan \textit{epochs} sebanyak 2000 kali \textit{backpropagation} sesuai dengan pertimbangan percobaan sebelumnya.
+
+\centerline{\begin{minipage}{\textwidth}
+	\centering
+	\input{BAB-4/plot/accuracy_5_layer_data_besar_merged.pgf}%diperoleh pada folder 26 April dengan menggunakan pengolah 25 April yang berada pada folder tersebut
+	\captionof{figure}{Akurasi Percobaan Perubahan Layer dengan Dataset-1}
+	\label{gambar:perbandingan layer data besar}
+\end{minipage}}
+
+Gambar \ref{gambar:perbandingan layer data besar} memperlihatkan hasil percobaan perbandingan penggunaan \textit{layer} yang berbeda pada LSTM. Berdasarkan hasil percobaan pada Gambar \ref{gambar:perbandingan layer data besar} dapat dilihat bahwa jumlah \textit{hidden layer} paling optimal adalah sebanyak 2 \textit{layer} yang memberikan hasil akurasi rata-rata sebesar 95.6\% pada proses pelatihan dan 95.1\% pada proses pengujian. Selain itu pada kondisi tersebut jika dilihat pada persebaran hasil akurasinya memiliki jarak rata-rata terhadap nilai rata-rata akurasi terkecil hal ini dilihat pada standar deviasi yang ditandai pada garis berwarna hitam pada Gambar \ref{gambar:perbandingan layer data besar}. Dengan berdasar pada hasil tersebut, maka percobaan selanjutnya akan dilakukan dengan menggunakan 2 \textit{layer} untuk penggunaan dataset-1.
+
+Selanjutnya untuk mengetahui hasil diagnosis setiap kelasnya pada penggunaan arsitektur LSTM dengan menggunakan 2 \textit{hidden layer}, maka hal ini dapat diketahui menggunakan penggambaran \textit{confusion matrix}. Pada Gambar \ref{gambar:CM 2 layer DS1} memperlihatkan \textit{confusion matrix} hasil percobaan dengan menggunakan 2 buah \textit{hidden layer}.
+
+\centerline{
+	\begin{minipage}{\linewidth}
+		\begin{center}
+			\includegraphics[width=0.72\textwidth]{BAB-4/plot/CM_2_layer_data_besar.png}	
+			\captionof{figure}{\textit{Confusion Matrix} LSTM dengan 2 \textit{Hidden Layer} Dataset-1}
+			\label{gambar:CM 2 layer DS1}
+		\end{center}
+	\end{minipage}
+}
+
+%\begin{figure}[hbt!]
+%%	\begin{center}
+%	\centering
+%	\input{BAB-4/plot/accuracy_5_layer_data_besar.pgf}
+%	\caption{Akurasi Percobaan Perubahan Layer dengan Dataset-1}
+%	\label{gambar:perbandingan layer data besar}
+%\end{figure}
+Berikutnya dilakukan juga percobaan dengan menggunakan dataset-2 untuk mengetahui apakah model yang sama dapat digunakan pada dataset yang berbeda. Dataset kedua yang digunakan menggunakan 6 fitur dengan jumlah kategori sebanyak 3 buah.pada Gambar \ref{gambar:perbandingan layer data kecil} disajikan hasil dari percobaan dengan iterasi 30 pelatihan untuk setiap layernya dan diperoleh nilai akurasinya.\par
+
 %\begin{figure}[h]
-%	\begin{center}
-%		\input{BAB-4/plot/loss_single_layer.pgf}
-%%		\includegraphics[width=0.7\textwidth]{BAB-3/figures/diagram alir.png}
-%	\end{center}
-%	\caption{Plot Grafik Loss terhadap \textit{Epochs}}
+%	%	\begin{center}
+%	\centering
+%	\input{BAB-4/plot/accuracy_5_layer_data_kecil.pgf}
+%	\caption{Akurasi Percobaan Perubahan Layer dengan Dataset-2}
+%	\label{gambar:perbandingan layer data kecil}
 %\end{figure}
 
-\begin{figure}[h]
-%	\begin{center}
+\begin{minipage}{\linewidth}
 	\centering
-	\input{BAB-4/plot/accuracy_single_layer.pgf}
-	\caption{Plot Grafik Akurasi Single Layer}
-	\label{gambar:plot single layer}
-\end{figure}
-ini test gambar \ref{gambar:plot 2 layer}
-\begin{figure}[h]
+	\input{BAB-4/plot/accuracy_5_layer_data_kecil_merged.pgf}%diperoleh pada Folder 26 April sama dengan percobaan sebelumnya yang menggunakan pengolah 25 April yang ada pada folder tersebut
+	\captionof{figure}{Akurasi Percobaan Perubahan Layer dengan Dataset-2}
+	\label{gambar:perbandingan layer data kecil}
+\end{minipage}
+
+\section{Perubahan Fungsi Aktivasi}
+Pada percobaan perubahan fungsi aktivasi adalah bertujuan untuk mendapatkan model dengan akurasi hasil diagnosis yang tinggi dengan mengubah \textit{hyperparamater} setiap model dalam percobaan.
+\begin{minipage}{\linewidth}
 	\centering
-	\input{BAB-4/plot/accuracy_double_layer.pgf}
-	\caption{Plot Grafik Akurasi 2 Layer}
-	\label{gambar:plot 2 layer}
-\end{figure}
-ini test gambar \ref{gambar:plot 2 layer}
+	\input{BAB-4/plot/accuracy_perbandingan_AV_data_besar.pgf}
+	\captionof{figure}{Akurasi Percobaan Perubahan Fungsi Aktivasi dengan Dataset-1}
+	\label{gambar:perbandingan fungsi aktivasi data besar}
+\end{minipage}
+
+\begin{minipage}{\linewidth}
+	\centering
+	\input{BAB-4/plot/accuracy_perbandingan_AV_data_kecil.pgf}
+	\captionof{figure}{Akurasi Percobaan Perubahan Fungsi Aktivasi dengan Dataset-2}
+	\label{gambar:perbandingan fungsi aktivasi data kecil}
+\end{minipage}
+
+
+\begin{minipage}{\linewidth}
+	\begin{center}
+		\includegraphics[width=0.9\textwidth]{BAB-4/plot/CM_selu_data_besar.png}	
+		\captionof{figure}{\textit{Confusion Matrix} Menggunakan Fungsi Aktivasi \textit{Selu} Dataset-1}
+		%		\label{gambar:duval triangle}
+	\end{center}
+\end{minipage}
+\section{Diagnosis Indeks Kesehatan Transformator Daya: Perubahan Rasio Dataset}
+Pada dasarnya metode kecerdasan buatan 
+
+\section{Perbandingan Terhadap Metode \textit{Artificial Neural Network} (ANN) Sederhana}
+Dalam mempertimbangkan penggunaan LSTM sebagai metode utama dalam mendiagnosis indeks kesehatan transformator daya, maka dilakukan juga percobaan perbandingan terhadap metode dasar dengan menggunakan arsitektur dari ANN. 
+
+
+%ini test gambar \ref{gambar:plot 2 layer}
+%\begin{figure}[h]
+%	\centering
+%	\input{BAB-4/plot/accuracy_double_layer.pgf}
+%	\caption{Plot Grafik Akurasi 2 Layer}
+%	\label{gam
+%bar:plot 2 layer}
+%\end{figure}
+%ini test gambar \ref{gambar:plot 2 layer}
 
 %\begin{figure}
 %	\centering
