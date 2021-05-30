@@ -1,10 +1,10 @@
 # 01_LAPORAN-TA-LATEX
  Laporan Tugas Akhir dengan Menggunakan Format Latex
- 
- cara commit ke origin
- git add . // menambahkan semua perubahan
- git commit -m "pesan" // menyimpan perubahan
- git push origin // upload file ke github
+
+cara commit ke origin
+git add . // menambahkan semua perubahan
+git commit -m "pesan" // menyimpan perubahan
+git push origin // upload file ke github
 
 
 Beberapa fungsi yang penting
