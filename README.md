@@ -57,6 +57,11 @@ menyimpan gambar tanpa terpotong bagian x label nya:
 fig.savefig(path, dpi=600, bbox_inches = "tight")
 
 
+membuat projek hosting only firebase:
+
+firebase init hosting
+
+
 folder untuk deploy:
 
 alfa@alinux:/media/alfa/DATA/MATKUL/TA BROTHER/05_SOFTWARE/Transformer Health Index$ 
