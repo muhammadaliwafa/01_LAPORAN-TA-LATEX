@@ -2,9 +2,13 @@
  Laporan Tugas Akhir dengan Menggunakan Format Latex
 
 cara commit ke origin
+
 git add . // menambahkan semua perubahan
+
 git commit -m "pesan" // menyimpan perubahan
+
 git push origin // upload file ke github
+
 
 
 Beberapa fungsi yang penting
@@ -22,28 +26,40 @@ untuk nama model jangan digunakan tanda kurung kotak
 
 
 prediksi class :
+
 y_predict = loaded.predict_classes(test_input, batch_size=None, verbose=0)+1
 
 
 mengubah kategori ke integer:
+
 y_predict = y_predict.argmax(axis=1)+1
 
 membuat array angka 1-9:
+
 np.arange(9)+1
 
 ukuran array:
+
 np.shape(nama_array)
 
 cara permutasi:
+
 from itertools import permutations 
+
 perm = permutations([1, 2, 3, 4, 5]) 
+
 for i in list(perm): 
+
     print (i) 
     
 menyimpan gambar tanpa terpotong bagian x label nya:
+
 fig.savefig(path, dpi=600, bbox_inches = "tight")
 
+
 folder untuk deploy:
+
 alfa@alinux:/media/alfa/DATA/MATKUL/TA BROTHER/05_SOFTWARE/Transformer Health Index$ 
+
 firebase deploy --only hosting
 
