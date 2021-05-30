@@ -314,7 +314,7 @@ Demikian pernyataan ini saya buat dengan sebenarnya \par
 \chapter*{\Large \bf ABSTRACT}
     {\large \begin{singlespace}
         \vskip 1em
-        \noindent {\bf{\up@author}}. {\bf{\up@NIM}}. \up@titleeng. \par
+        \noindent {\bf{\up@author}}. {\bf{\up@NIM}}. \textit{\up@titleeng}. \par
         \input{#1}
     \end{singlespace}}
 \end{front}    

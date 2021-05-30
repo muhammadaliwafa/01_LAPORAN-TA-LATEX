@@ -29,10 +29,11 @@
 \usepackage{fancyhdr}
 \usepackage{sectsty}
 \usepackage{indentfirst}
-\usepackage{longtable}
+%\usepackage{longtable}
 \usepackage{tabularx}
 \usepackage{hyperref}
-\usepackage{csvsimple} % baru
+\usepackage{csvsimple,longtable,booktabs}
+%\usepackage{csvsimple} % baru
 \usepackage[utf8]{inputenc}% baru
 \usepackage{pgfgantt} % baru
 \usepackage{pgf}
@@ -91,7 +92,7 @@
 % Semua informasi penting yang diperlukan
 %------------------------------------------------------------
 \title{Diagnosis Indeks Kesehatan Transformator Daya Menggunakan  \textit{Long Short Term Memory} (LSTM)}{}% {Judul} dan {sub judul jika ada}. Jika tidak ada sub judul biarkan {} kosong 
-\titleeng{Title}{}% {Judul} dan {sub judul jika ada} dalam bahasa inggris
+\titleeng{Health Index Diagnosis of Power Transformer using Long Short Term Memory (LSTM)}{}% {Judul} dan {sub judul jika ada} dalam bahasa inggris
 \author{Muhammad Ali Wafa}{102117002} % Nama Penulis dan NIM
 \fakultas{Teknologi Industri}
 \prodi{Teknik Elektro}
@@ -121,9 +122,10 @@
 
 \frontmatter
 \upcoverpage
+%\includepdf{Front/COVER_TTD.pdf}
 \includepdf{Includes/Pemisah.pdf}
-\lembarpengesahan
-\lembarpernyataan
+%\lembarpengesahan
+%\lembarpernyataan
 \abstrakind{Front/abstrakind}
 \abstrakeng{Front/abstrakeng}
 \katapengantar{Front/katapengantar}
@@ -160,6 +162,12 @@
 %% Appendices
 \appendix
 %\include{Lampiran-A/Lampiran-A}
+
+%\includepdf[pages={1-}]{Lampiran-Bimbingan/FORM TA-2 ALI WAFA - BIMBINGAN TUGAS AKHIR SPV-1.pdf}
+%\includepdf[pages={1-}]{Lampiran-Bimbingan/FORM TA-2 ALI WAFA - BIMBINGAN TUGAS AKHIR CO-EPV.pdf}
+
+
+
 % tambahkan sendiri folder-folder (lampiran) yang lain
 
 \backmatter

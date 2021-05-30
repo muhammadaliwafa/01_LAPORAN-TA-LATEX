@@ -83,8 +83,112 @@ Model LSTM pada dasarnya merupakan pengembangan dari algoritma \textit{Neural Ne
 \subsection{\textit{Multilayer layer} LSTM}
 Jumlah \textit{layer} LSTM secara umum digunakan dalam meningkatkan performa sistem karena secara sederhana jika pada penggunaan \textit{single layer} nilai prediksi hanya mempertimbangkan masukan masing-masing sel serta keluaran hanya ditentukan oleh sel terakhir. Pada penggunaan \textit{multilayer} keluaran akhir sistem akan mempertimbangkan keluaran setiap sel pada layer sebelumnya. Penambahan \textit{layer} LSTM akan menambah kapasitas belajar dari model yang akan membuat proses pelatihan cenderung lebih lama. Sehingga pada perancangan penambahan \textit{layer} tidak dilakukan pada jumlah yang banyak agar sistem cepat dalam hal komputasi namun performa masih memiliki akurasi yang tinggi. 
 
-\subsection{Rasio Dataset}
-Pada proses pelatihan dan pengujian pada \textit{machine learning} jumlah dataset yang digunakan dapat mempengaruhi performa sistem. Semakin banyak jumlah dataset yang digunakan dalam proses pelatihan secara ideal dapat memperbaiki performa karena model dapat terlatih dengan banyaknya data. Namun disisi lain dalam proses validasi diperlukan sebagian dari dataset untuk menguji sistem ketika dihadapkan pada data yang belum pernah dikenali. Sehingga diperlukan rasio yang tepat agar model yang dihasilkan memiliki performa yang baik pada proses pelatihan dan pengujian. Pada perancangan ini akan dilakukan beberapa percobaan dengan variabel bebas berupa rasio dataset pelatihan dan pengujian.
+\subsection{Set Data Indeks Kesehatan Transformator Daya}
+Pada proses pelatihan dan pengujian pada \textit{machine learning} jumlah dataset yang digunakan dapat mempengaruhi performa sistem. Semakin banyak jumlah dataset yang digunakan dalam proses pelatihan secara ideal dapat memperbaiki performa karena model dapat terlatih dengan banyaknya data. Namun disisi lain dalam proses validasi diperlukan sebagian dari dataset untuk menguji sistem ketika dihadapkan pada data yang belum pernah dikenali. Sehingga diperlukan rasio yang tepat agar model yang dihasilkan memiliki performa yang baik pada proses pelatihan dan pengujian. Pada perancangan ini akan dilakukan beberapa percobaan dengan variabel bebas berupa rasio dataset pelatihan dan pengujian, yakni pertama digunakan set data dengan perbandingan pelatihan:pengujian adalah 7:3, kemudian yang kedua adalah 8:2. 
+
+Terdapat dua set data yang digunakan dalam perancangan model LSTM yakni diperoleh dari \cite{abdillah2020prognostics, shah2016predict, abu2012calculation}. Dataset pertama merupakan data indeks kesehatan transformator daya dengan menggunakan hasil pengujian berdasarkan kandungan air (\textit{water content}), jumlah kandungan asam (\textit{acid number}), tegangan tembus (\textit{breakdown voltage}), faktor disipasi (\textit{disspation factor}), dan tegangan muka (\textit{interfacial tension}). Pada set data pertama data target yang berupa hasil diagnosis indeks kesehatan terbagi menjadi 4 kategori yakni Normal, baik (\textit{Good}), menengah (\textit{moderate}), dan buruk (\textit{bad}).
+Berikutnya set data kedua merupakan data indeks kesehatan transformator daya berdasarkan hasil pengujian kandungan air (\textit{water}), jumlah kandungan asam (acidity), tegangan tembus (BDV), faktor disipasi (DF), gas mudah terbakar terlarut (DGC), dan furan (\textit{furfuraldehyde}). Hasil diagnosis yang diperoleh pada set data ini terbagi menjadi baik (\textit{good}), menengah (\textit{moderate}), dan buruk (\textit{bad}).
+
+%Dataset pertama yang selanjutnya disebut sebagai dataset-1 diperoleh dari sumber \cite{shah2016predict}, dan dataset kedua (dataset-2) merujuk pada \cite{abu2012calculation}
+
+
+
+\begin{longtable}{|c|c|c|c|c|c|c|} 
+	\caption{Set Data Studi Kasus 1}
+	\vspace{-8 pt}\\
+	\hline 
+	\rowcolor[HTML]{DAE8FC} 
+	\multicolumn{1}{|c|}{\cellcolor[HTML]{DAE8FC}\textbf{No}} & \multicolumn{1}{c|}{\cellcolor[HTML]{DAE8FC}\textbf{\begin{tabular}[c]{@{}c@{}}Water\\ Content\\ (ppm)\end{tabular}}} & \multicolumn{1}{c|}{\cellcolor[HTML]{DAE8FC}\textbf{\begin{tabular}[c]{@{}c@{}}Acid\\ Number\\ (mgKOH/g)\end{tabular}}} & \multicolumn{1}{c|}{\cellcolor[HTML]{DAE8FC}\textbf{\begin{tabular}[c]{@{}c@{}}Breakdown\\ (kV)\end{tabular}}} & \multicolumn{1}{c|}{\cellcolor[HTML]{DAE8FC}\textbf{\begin{tabular}[c]{@{}c@{}}Dissipation\\ Factor\end{tabular}}} & \multicolumn{1}{c|}{\cellcolor[HTML]{DAE8FC}\textbf{\begin{tabular}[c]{@{}c@{}}Interfacial\\ Tension\\ (mN/m)\end{tabular}}} & \multicolumn{1}{c|}{\cellcolor[HTML]{DAE8FC}\textbf{\begin{tabular}[c]{@{}c@{}}Health\\ Index\end{tabular}}}
+	\\\hline \endfirsthead
+	\hline 
+	\rowcolor[HTML]{DAE8FC} 
+	\multicolumn{1}{|c|}{\cellcolor[HTML]{DAE8FC}\textbf{No}} & \multicolumn{1}{c|}{\cellcolor[HTML]{DAE8FC}\textbf{\begin{tabular}[c]{@{}c@{}}Water\\ Content\\ (ppm)\end{tabular}}} & \multicolumn{1}{c|}{\cellcolor[HTML]{DAE8FC}\textbf{\begin{tabular}[c]{@{}c@{}}Acid\\ Number\\ (mgKOH/g)\end{tabular}}} & \multicolumn{1}{c|}{\cellcolor[HTML]{DAE8FC}\textbf{\begin{tabular}[c]{@{}c@{}}Breakdown\\ (kV)\end{tabular}}} & \multicolumn{1}{c|}{\cellcolor[HTML]{DAE8FC}\textbf{\begin{tabular}[c]{@{}c@{}}Dissipation\\ Factor\end{tabular}}} & \multicolumn{1}{c|}{\cellcolor[HTML]{DAE8FC}\textbf{\begin{tabular}[c]{@{}c@{}}Interfacial\\ Tension\\ (mN/m)\end{tabular}}} & \multicolumn{1}{c|}{\cellcolor[HTML]{DAE8FC}\textbf{\begin{tabular}[c]{@{}c@{}}Health\\ Index\end{tabular}}}
+	 \\\hline \endhead
+	\bottomrule \endfoot
+	\csvreader[
+	late after line=\\\hline,
+	late after last line=,
+	before reading={\catcode`\#=12},
+	after reading={\catcode`\#=6}]%
+	{BAB-3/data/Trafo_Data_OK.csv}{1=\no,2=\a,3=\b, 4=\c, 5=\d, 6=\e, 7=\f }%
+	{\thecsvrow & \a & \b & \c & \d & \e & \f  }
+	\label{tabel:dataset-1}
+\end{longtable}
+
+\centerline{
+	\begin{minipage}{\linewidth}
+		%		\begin{center}
+		\centering
+		\vspace{12 pt}
+		\includegraphics[width=\textwidth]{BAB-3/data/pairplot-setdata-1.pdf}	
+		\captionof{figure}{Pair Plot}
+		\label{gambar:pairplot DS-1}
+		%		\end{center}
+	\end{minipage}
+}
+Gambar \ref{gambar:pairplot DS-1} merupakan bentuk representasi yang lain dari set data 1, yakni bagaimana hubungan setiap data fitur terhadap data target atau data kategori. Hal ini bertujuan agar lebih mudah dalam memahami bagaimana hubungan setiap fitur data terhadap data target. Selain itu penting untuk diketahui juga mengenai perbandingan jumlah masing-masing kategori pada set data yang disajikan pada Gambar \ref{gambar:pie dataset-1}. 
+
+\centerline{\begin{minipage}{\linewidth}
+		\centering
+		\vspace{12 pt}
+		\input{BAB-3/data/pie-kategori-set-1.pgf}
+		\captionof{figure}{Perbandingan Jumlah Kategori Dataset-1}
+		\label{gambar:pie dataset-1}
+\end{minipage}}
+
+Berdasarkan Gambar \ref{gambar:pie dataset-1} dapat dilihat bahwa jumlah kategori "Normal" terhitung paling sedikit (1\%) jika dibandingkan dengan kategori yang lain, sedangkan kategori "Baik" terhitung paling banyak yakni 76\% dari keseluruhan data. \par
+Selanjutnya pada set data 2 secara keseluruhan terdapat 30 jumlah data. Secara detail set data 2 ditampilkan pada Tabel \ref{tabel:dataset-2}.
+
+\begin{longtable}{|c|c|c|c|c|c|c|c|c|}
+	\caption{Set Data Studi Kasus 2}
+	\vspace{-8 pt}\\
+	\hline 
+	\rowcolor[HTML]{DAE8FC} 
+	\multicolumn{1}{|c|}{\textbf{No}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Water\\ (ppm)\end{tabular}}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Acidity\\ (mgKOH/g)\end{tabular}}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}BDV\\ (kV)\end{tabular}}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}DF\\ (\%)\end{tabular}}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}DGC\\ (\%)\end{tabular}}} & \multicolumn{1}{c|}{\textbf{Furfuraldehyde}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Health\\ Index\end{tabular}}} 
+	\\\hline \endfirsthead
+	\hline 
+	\rowcolor[HTML]{DAE8FC} 
+	\multicolumn{1}{|c|}{\textbf{No}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Water\\ (ppm)\end{tabular}}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Acidity\\ (mgKOH/g)\end{tabular}}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}BDV\\ (kV)\end{tabular}}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}DF\\ (\%)\end{tabular}}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}DGC\\ (\%)\end{tabular}}} & \multicolumn{1}{c|}{\textbf{Furfuraldehyde}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Health\\ Index\end{tabular}}} 
+	\\\hline \endhead
+	\bottomrule \endfoot
+	\csvreader[
+	late after line=\\\hline,
+	late after last line=,
+	before reading={\catcode`\#=12},
+	after reading={\catcode`\#=6}]%	]%
+	{BAB-3/data/Trafo_Data1.csv}
+	{A=\a,B=\b,C=\c, D=\d, E=\e, F=\f, G=\g, H=\h}%
+	{\thecsvrow & \a & \b & \c & \d & \e & \f & \g }
+	\label{tabel:dataset-2}
+\end{longtable}
+
+Ditinjau dari jumlah kategori indeks kesehatan transformator daya pada set data 2 dapat dilihat dari sajian perbandingan yang terdapat pada Gambar \ref{gambar:pie dataset-2}. Pada Gambar tersebut memperlihatkan bahwa dari 30 data 60\% diantaranya merupakan kategori indeks kesehatan "Baik" yang merupakan jumlah terbanyak, sedangkan kategori menengah merupakan kategori dengan jumlah terendah dengan persentase 13.3\% atau hanya berjumlah 4 data saja. Kemudian pada representasi hubungan antar data fitur terhadap data kategori dapat dilihat pada Gambar \ref{gambar:pairplot DS-2}. 
+
+\centerline{\begin{minipage}{\linewidth}
+		\centering
+		\vspace{12 pt}
+		\input{BAB-3/data/pie-kategori-set-2.pgf}
+		\captionof{figure}{Jumlah Untuk Setiap Kategori Dataset-2}
+		\label{gambar:pie dataset-2}
+\end{minipage}}
+
+
+\centerline{
+	\begin{minipage}{\linewidth}
+		%		\begin{center}
+		\centering
+		\vspace{12 pt}
+		\includegraphics[width=\textwidth]{BAB-3/data/pairplot-setdata-2.pdf}	
+		\captionof{figure}{Pair Plot Set Data 2}
+		\label{gambar:pairplot DS-2}
+		%		\end{center}
+	\end{minipage}
+}
+
+Pada Gambar \ref{gambar:pairplot DS-2} tersebut diperoleh informasi bahwa pada plot \textit{scatter} setiap \textit{input} masih banyak yang masih beririsan jika dihubungkan terhadap kategori indeks kesehatan transformator daya. Hal ini tentunya dapat berdampak terhadap hasil percobaan nantinya baik pada pelatihan atau pada pengujian. 
+
+
+
 
 \section{Analisis Teknis}
 
@@ -134,35 +238,57 @@ Pada dasarnya model dirancang untuk tetap memberikan keluaran berupa diagnosis i
 \section{Peralatan dan Bahan}
 
 Pada perancangan ini dalam mendukung proses analisis menggunakan metode LSTM digunakan peralatan dan bahan yang ditunjukkan pada Tabel \ref{tabel:alat dan bahan}. 
-\begin{table}[h]
+
+\begin{minipage}{\linewidth}
 	\centering
-	\caption{Alat dan Bahan}
+	\captionof{table}{Alat dan Bahan}
+	\vspace{-8 pt}
 	\begin{tabular}{|c|l|l|} 
 		\hline
 		\textbf{No} & \textbf{Alat dan Bahan}  & \textbf{Jumlah}  \\ 
 		\hline
 		1           & Personal Komputer (PC)   & 1 Set            \\ 
 		\hline
-		2           & \textit{Executable Code} & 1 Buah           \\ 
+		2           & \textit{Executable Code} (Jupyter Notebook) & 1 Buah           \\ 
 		\hline
 		3           & \textit{Library Python}  & 1 Set            \\
 		\hline
+		4           & Jaringan Internet  & 1 Set            \\
+		\hline
 	\end{tabular}
-%	\begin{tabularx}{0.95\textwidth}{ 
-%			| c 
-%			| >{\raggedright\arraybackslash}X  
-%			| >{\raggedright\arraybackslash}X | }
-%%		{|l|l|l|}%
-%		\hline \bfseries No & \bfseries Alat dan Bahan & \bfseries Jumlah % specify table head
-%		\csvreader[
-%%		tabular=|l|c|l|, % |r*{7}{|c}|
-%%		table head= \hline No & Alat dan Bahan & Jumlah \\ \hline,
-%%		head to column names,
-%		late after last line=\\\hline
-%		]{BAB-3/data/alat_dan_bahan.csv}{}% use head of csv as column names
-%		{ \\ \hline\csvcoli & \csvcolii & \csvcoliii}% specify your coloumns here
-%		
-%	\end{tabularx}
 	\label{tabel:alat dan bahan}
-\end{table}
+\end{minipage}
 
+
+%\csvreader[tabular=|l|l|c|,
+%table head=\hline & Alat dan Bahan & Age\\\hline,
+%late after line=\\\hline]%
+%{BAB-3/data/alat_dan_bahan.csv}{No=\No,Alat dan Bahan=\Alat,Jumlah=\age}%
+%{\thecsvrow & \Alat & \age}
+%%{\thecsvrow & \Alat~dan~Bahan~\name & \age}%
+
+
+
+
+
+	
+%\begin{minipage}{\linewidth}
+%	\centering
+%	\captionof{table}{Dataset-1}
+%	\vspace{-8 pt}
+%	\csvreader[tabular=|c|l|l|l|l|l|l|,
+%	table head=\hline & A & B & C & D & E & F \\\hline,
+%	late after line=\\\hline]%
+%	{BAB-3/data/Trafo_Data_OK.csv}{A=\a,B=\b,C=\c, D=\d, E=\e, F=\f, G=\g}%
+%	{\thecsvrow & \a & \b & \c & \d & \e & \f  }
+%	\label{tabel:dataset-1}
+%\end{minipage}
+
+
+%	\csvreader[longtable=|c|l|l|l|l|l|l|,
+%	table head=\hline & A & B & C & D & E & F \\\hline \endhead
+%	\bottomrule\endfoot,
+%	late after line=\\\hline,
+%	before reading={\catcode`\#=12},after reading={\catcode`\#=6}]%
+%	{BAB-3/data/Trafo_Data_OK.csv}{1=\a,2=\b,3=\c, 4=\d, 5=\e, 6=\f, 7=\g}%
+%	{\g & \a & \b & \c & \d & \e & \f  }

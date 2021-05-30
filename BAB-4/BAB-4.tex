@@ -1,7 +1,7 @@
 \chapter{HASIL DAN PEMBAHASAN}
 \label{BAB4:hasil}
 
-Dalam merancang model LSTM untuk mendiagnosis indeks kesehatan transformator daya, digunakan dua buah dataset yang berbeda. Dataset pertama yang selanjutnya disebut sebagai dataset-1 diperoleh dari sumber \cite{shah2016predict}, dan dataset kedua (dataset-2) merujuk pada \cite{abu2012calculation}. Sebelum proses pelatihan dilakukan, dilakukan perubahan pada data target yakni hasil diagnosis indeks kesehatan transformator daya diubah dalam bentuk numerik agar dapat dilakukan komputasi pada model. 
+Dalam merancang model LSTM untuk mendiagnosis indeks kesehatan transformator daya, digunakan dua buah dataset yang berbeda. Sebelum proses pelatihan dilakukan, dilakukan perubahan pada data target yakni hasil diagnosis indeks kesehatan transformator daya diubah dalam bentuk numerik agar dapat dilakukan komputasi pada model. 
 \section{Spesfiksi Perangkat Keras dan Perangkat Lunak}
 Adapun komponen yang digunakan dalam proses komputasi pembuatan model yang digunakan dalam diagnosis indeks kesehatan transformator daya memiliki spesifikasi sebagai berikut:
 \begin{enumerate}
@@ -13,12 +13,12 @@ Adapun komponen yang digunakan dalam proses komputasi pembuatan model yang digun
 \end{enumerate}
 
 \section{Menentukan Jumlah \textit{Backpropagation} (\textit{Epochs})}
-Percobaan menentukan jumlah \textit{epochs} dilakukan sebagai dasar percobaan selanjutnya dalam melakukan pelatihan. Dalam percobaan ini dilakukan dengan menggunakan model LSTM yang digunakan pada pengaturan bawaan pada \textit{library} keras serta jumlah \textit{hidden layer} yang digunakan adalah sebanyak 1 buah. Adapun data yang digunakan adalah dataset-1 yang terbagi atas data latih dan data uji dengan perbandingan 7:3. Hasil percobaan ini digambarkan pada grafik akurasi terhadap jumlah \textit{epochs} yang disajikan pada Gambar \ref{gambar:akurasi vs epoch}. 
+Percobaan menentukan jumlah \textit{epochs} dilakukan sebagai dasar percobaan selanjutnya dalam melakukan pelatihan. Dalam percobaan ini dilakukan dengan menggunakan model LSTM yang digunakan pada pengaturan bawaan pada \textit{library} keras serta jumlah \textit{hidden layer} yang digunakan adalah sebanyak 1 buah. Adapun data yang digunakan adalah set data 1 yang terbagi atas data latih dan data uji dengan perbandingan 7:3. Hasil percobaan ini digambarkan pada grafik akurasi terhadap jumlah \textit{epochs} yang disajikan pada Gambar \ref{gambar:akurasi vs epoch}. 
 
 \begin{minipage}{\textwidth}
 	\centering
 	\input{BAB-4/plot/accuracy_vs_epochs.pgf}%diperoleh pada folder 26 April dengan menggunakan pengolah 25 April yang berada pada folder tersebut
-	\captionof{figure}{Pengaruh \textit{Epochs} terhadap Akurasi dengan Dataset-1}
+	\captionof{figure}{Pengaruh \textit{Epochs} terhadap Akurasi dengan Set Data 1}
 	\label{gambar:akurasi vs epoch}
 \end{minipage}
 
@@ -31,90 +31,318 @@ Pada percobaan ini dilakukan percobaan untuk mengetahui pengaruh urutan fitur te
 %	\centering
 	\vspace{12 pt}
 	\input{BAB-4/plot/kombinasi_fitur.pgf}
-	\captionof{figure}{Pengaruh Urutan Fitur dengan Dataset-1}
+	\captionof{figure}{Pengaruh Urutan Fitur dengan Set Data 1}
 	\label{gambar:kombinasi fitur}
 \end{minipage}}
 
-Berdasarkan Gambar \ref{gambar:kombinasi fitur} dapat diperoleh informasi bahwa tidak ada nilai urutan yang mutlak memiliki akurasi yang konstan besar. Semua urutan memiliki peluang yang sama bergantung pada nilai inisiasi \textit{weight} pada saat proses pelatihan. Hal ini dapat dijelaskan karena umumnya LSTM dapat bekerja dengan baik pada data deret pada sebuah variabel yang sama, sedangkan perancangan ini merupakan manipulasi setiap fitur data menjadi sebuah data deret, sehingga dalam penggunaanya selama saat pengujian urutan data fitur yang digunakan sesuai dengan ketika proses pelatihan maka tidak menjadi permasalahan.
+Berdasarkan Gambar \ref{gambar:kombinasi fitur} dapat diperoleh informasi bahwa tidak ada nilai urutan yang mutlak memiliki akurasi yang konstan besar. Semua urutan memiliki peluang yang sama bergantung pada nilai inisiasi \textit{weight} pada saat proses pelatihan. Hal ini dapat dijelaskan karena umumnya LSTM dapat bekerja dengan baik pada data deret pada sebuah variabel yang sama, sedangkan perancangan ini merupakan manipulasi setiap fitur data menjadi sebuah data deret, sehingga dalam penggunaanya selama saat pengujian urutan data fitur yang digunakan sesuai dengan ketika proses pelatihan maka tidak menjadi permasalahan. Maka dengan alasan ini maka ketika model dihadapkan pada \textit{input} yang salah satunya merupakan data yang bernilai 0, maka sistem dapat memprediksi seperti halnya pada \textit{Artificial Neural Network} dasar. Sehingga pada perancangan ini dapat diperoleh model yang merupakan irisan kelebihan dari LSTM serta ANN sekaligus. Oleh karena itu, jika pada saat penggunaan nantinya \textit{user} tidak memberikan \textit{input} yang lengkap maka \textit{input} yang kosong akan di transformasikan menjadi data yang bernilai 0 pada penggunaan aplikasi.
 %\section{Perubahan Jumlah Neuron}
 %pada percobaan perubahan neuron akan dilakukan beberapa percobaan unutk mengetahui pengaruh penambahan jumlah neuron pada model lstm
-\section{Diagnosis Indeks Kesehatan Transformator Daya: Perubahan Jumlah Layer}
-Pada perubahan jumlah \textit{layer} dilakukan untuk menentukan jumlah \textit{layer} yang digunakan pada LSTM sehingga diperoleh model dengan \textit{hyperparameter }yang optimal. Model LSTM yang digunakan memiliki jumlah unit 5 buah untuk dataset-1 dan 6 buah untuk dataset-2. Hal ini bertujuan untuk menyesuaikan dengan karakteristik dari LSTM dimana \textit{output} pada suatu sel LSTM akan menjadi \textit{input} pada sel berikutnya. Sehingga jumlah unit disesuaikan dengan banyaknya fitur data atau yang dalam hal ini adalah jumlah tes yang dilakukan pada pengujian transformator daya. Di sisi yang lain dataset akan dibagi menjadi dua yakni data pelatihan dan pengujian dengan rasio perbandingan 7:3. Jumlah \textit{layer} yang akan dicoba meliputi \textit{layer} tunggal hingga jumlah \textit{layer} 5 buah kemudian dipilih yang memiliki \textit{layer} tertinggi. Proses pelatihan dilakukan dengan \textit{epochs} sebanyak 2000 kali \textit{backpropagation} sesuai dengan pertimbangan percobaan sebelumnya.
+\section{Studi Kasus 1: Penggunaan Set Data 1}
+\subsection{Perubahan Jumlah \textit{Hidden Layer}}
+Pada perubahan jumlah \textit{layer} dilakukan untuk menentukan jumlah \textit{layer} yang digunakan pada LSTM sehingga diperoleh model dengan \textit{hyperparameter }yang optimal. Model LSTM yang digunakan memiliki jumlah unit 5 buah untuk set data 1 dan 6 buah untuk set data 2. Hal ini bertujuan untuk menyesuaikan dengan karakteristik dari LSTM dimana \textit{output} pada suatu sel LSTM akan menjadi \textit{input} pada sel berikutnya. Sehingga jumlah unit disesuaikan dengan banyaknya fitur data atau yang dalam hal ini adalah jumlah tes yang dilakukan pada pengujian transformator daya. Di sisi yang lain dataset akan dibagi menjadi dua yakni data pelatihan dan pengujian dengan rasio perbandingan 7:3. Jumlah \textit{layer} yang akan dicoba meliputi \textit{layer} tunggal hingga jumlah \textit{layer} 5 buah kemudian dipilih yang memiliki \textit{layer} tertinggi. Proses pelatihan dilakukan dengan \textit{epochs} sebanyak 2000 kali \textit{backpropagation} sesuai dengan pertimbangan percobaan sebelumnya.
 
 \centerline{\begin{minipage}{\textwidth}
 	\centering
-	\input{BAB-4/plot/accuracy_5_layer_data_besar_merged.pgf}%diperoleh pada folder 26 April dengan menggunakan pengolah 25 April yang berada pada folder tersebut
-	\captionof{figure}{Akurasi Percobaan Perubahan Layer dengan Dataset-1}
+	\vspace{12 pt}
+	\input{BAB-4/plot/accuracy_5_layer_data_besar_random_21.pgf}%diperoleh pada folder 26 April dengan menggunakan pengolah 25 April yang berada pada folder tersebut
+	\captionof{figure}{Studi Kasus 1: Akurasi Percobaan Perubahan Layer}
 	\label{gambar:perbandingan layer data besar}
 \end{minipage}}
 
-Gambar \ref{gambar:perbandingan layer data besar} memperlihatkan hasil percobaan perbandingan penggunaan \textit{layer} yang berbeda pada LSTM. Berdasarkan hasil percobaan pada Gambar \ref{gambar:perbandingan layer data besar} dapat dilihat bahwa jumlah \textit{hidden layer} paling optimal adalah sebanyak 2 \textit{layer} yang memberikan hasil akurasi rata-rata sebesar 95.6\% pada proses pelatihan dan 95.1\% pada proses pengujian. Selain itu pada kondisi tersebut jika dilihat pada persebaran hasil akurasinya memiliki jarak rata-rata terhadap nilai rata-rata akurasi terkecil hal ini dilihat pada standar deviasi yang ditandai pada garis berwarna hitam pada Gambar \ref{gambar:perbandingan layer data besar}. Dengan berdasar pada hasil tersebut, maka percobaan selanjutnya akan dilakukan dengan menggunakan 2 \textit{layer} untuk penggunaan dataset-1.
+Gambar \ref{gambar:perbandingan layer data besar} memperlihatkan hasil percobaan perbandingan penggunaan \textit{layer} yang berbeda pada LSTM. Berdasarkan hasil percobaan pada Gambar \ref{gambar:perbandingan layer data besar} dapat dilihat bahwa jumlah \textit{hidden layer} paling optimal adalah sebanyak 2 \textit{layer} yang memberikan hasil akurasi rata-rata sebesar 95.6\% pada proses pelatihan dan 95.1\% pada proses pengujian. Selain itu pada kondisi tersebut jika dilihat pada persebaran hasil akurasinya memiliki jarak rata-rata terhadap nilai rata-rata akurasi terkecil hal ini dilihat pada standar deviasi yang ditandai pada garis berwarna hitam pada Gambar \ref{gambar:perbandingan layer data besar}. Kemudian untuk mengetahui performa dari model dengan menggunakan 2 \textit{hidden layer}, maka akan dipilih model dari hasil percobaan dengan nilai akurasi maksimum dari 30 percobaan yang telah dilakukan. Nilai akurasi pengujian maksimum dari percobaan dengan menggunakan 2 \textit{hidden layer} dapat dilihat pada Gambar \ref{gambar:scatter 2 layer data besar} yang memperlihatkan persebaran datanya.
 
-Selanjutnya untuk mengetahui hasil diagnosis setiap kelasnya pada penggunaan arsitektur LSTM dengan menggunakan 2 \textit{hidden layer}, maka hal ini dapat diketahui menggunakan penggambaran \textit{confusion matrix}. Pada Gambar \ref{gambar:CM 2 layer DS1} memperlihatkan \textit{confusion matrix} hasil percobaan dengan menggunakan 2 buah \textit{hidden layer}.
+%Dengan berdasar pada hasil tersebut, maka percobaan selanjutnya akan dilakukan dengan menggunakan 2 \textit{layer} untuk penggunaan dataset-1.
+
+\centerline{\begin{minipage}{\linewidth}
+		\centering
+		\vspace{12 pt}
+		\input{BAB-4/plot/scatter_dual_layer_data_besar.pgf}
+		\captionof{figure}{Studi Kasus 1: Persebaran Akurasi Menggunakan 2 Layer}
+		\label{gambar:scatter 2 layer data besar}
+\end{minipage}}
+
+Berdasarkan sajian data pada Gambar \ref{gambar:scatter 2 layer data besar} maka dapat dilihat model terbaik adalah pada iterasi percobaan ke-5 dengan akurasi pengujian sebesar 97\%. Secara detail untuk mengetahui hasil diagnosis setiap kelasnya pada penggunaan arsitektur LSTM dengan menggunakan 2 \textit{hidden layer}, maka hal ini dapat diketahui menggunakan penggambaran \textit{confusion matrix}. Pada Gambar \ref{gambar:CM 2 layer DS-1} memperlihatkan \textit{confusion matrix} hasil percobaan dengan menggunakan 2 buah \textit{hidden layer}.
 
 \centerline{
 	\begin{minipage}{\linewidth}
-		\begin{center}
-			\includegraphics[width=0.72\textwidth]{BAB-4/plot/CM_2_layer_data_besar.png}	
-			\captionof{figure}{\textit{Confusion Matrix} LSTM dengan 2 \textit{Hidden Layer} Dataset-1}
-			\label{gambar:CM 2 layer DS1}
-		\end{center}
+%		\begin{center}
+			\centering
+			\vspace{12 pt}
+			\includegraphics[width=0.6\textwidth]{BAB-4/plot/CM_2_layer_data_besar.pdf}	
+			\captionof{figure}{Studi Kasus 1: \textit{Confusion Matrix} LSTM dengan 2 \textit{Hidden Layer}}
+			\label{gambar:CM 2 layer DS-1}
+%		\end{center}
 	\end{minipage}
 }
 
-%\begin{figure}[hbt!]
-%%	\begin{center}
-%	\centering
-%	\input{BAB-4/plot/accuracy_5_layer_data_besar.pgf}
-%	\caption{Akurasi Percobaan Perubahan Layer dengan Dataset-1}
-%	\label{gambar:perbandingan layer data besar}
-%\end{figure}
-Berikutnya dilakukan juga percobaan dengan menggunakan dataset-2 untuk mengetahui apakah model yang sama dapat digunakan pada dataset yang berbeda. Dataset kedua yang digunakan menggunakan 6 fitur dengan jumlah kategori sebanyak 3 buah.pada Gambar \ref{gambar:perbandingan layer data kecil} disajikan hasil dari percobaan dengan iterasi 30 pelatihan untuk setiap layernya dan diperoleh nilai akurasinya.\par
+\textit{Confusion matrix} pada Gambar \ref{gambar:CM 2 layer DS-1} memperlihatkan bahwa model sangat baik dalam mendiagnosis indeks kesehatan transformator daya untuk kondisi "Baik" dan sebaliknya untuk kategori kondisi transformator daya "Normal" model sama sekali belum bisa mendiagnosis kelas tersebut. Secara keseluruhan nilai presisi dan sensitifitas dari model dengan menggunakan 2 \textit{hidden layer} dapat dilihat pada Gambar \ref{gambar:presisi sensitivity 2 layer data besar}.
 
-%\begin{figure}[h]
-%	%	\begin{center}
-%	\centering
-%	\input{BAB-4/plot/accuracy_5_layer_data_kecil.pgf}
-%	\caption{Akurasi Percobaan Perubahan Layer dengan Dataset-2}
-%	\label{gambar:perbandingan layer data kecil}
-%\end{figure}
+\centerline{\begin{minipage}{\linewidth}
+		\centering
+		\vspace{12 pt}
+		\input{BAB-4/plot/presisi_sensitivity_2_layer_data_besar.pgf}
+		\captionof{figure}{Studi Kasus 1: Presisi Percobaan Perubahan Layer}
+		\label{gambar:presisi sensitivity 2 layer data besar}
+\end{minipage}}
 
+Berdasarkan Gambar \ref{gambar:presisi sensitivity 2 layer data besar} dapat diketahui secara mudah bahwa pada model memiliki sensitivitas yang tinggi untuk mendiagnosis kondisi transformator daya "Baik", namun akibatnya karena terlampau sensitif mengakibatkan indeks kesehatan transformator daya yang seharusnya terdiagnosis sebagai kondisi "Menengah" menjadi terprediksi sebagai "Baik". Jika dilihat dari segi presisi untuk kategori indeks kesehatan "Buruk", "Menengah", dan "Baik" memiliki presisi yang di atas 90\%. Namun untuk kategori "Normal" baik pada presisi maupun sensitivitas keduanya masih memiliki nilai yang buruk. Dengan melihat hasil perolehan performa model LSTM menggunakan 2 \textit{hidden layer}, maka perlu dilakukan percobaan lanjutan dengan model LSTM 2 \textit{hidden layer} untuk memperbaiki dari presisi dan sensitivitas dari kategori "Normal" pada hasil diagnosis.\par
+
+
+
+\subsection{Perubahan Fungsi Aktivasi}
+Pada percobaan pengaturan \textit{hyperparameter hidden layer} sebelumnya diketahui dapat menghasilkan hasil akurasi sebesar 97\% secara keseluruhan. Namun, pada model tersebut masih belum bisa mendiagnosis indeks kesehatan transformator daya pada kategori "Normal". Pada percobaan ini akan dilakukan untuk memperbaiki model akan memiliki sensitivitas pada semua kategori indeks kesehatan transformator daya. Percobaan dilakukan dengan melakukan perubahan pada \textit{hyperparameter} pada fungsi aktivasi yang digunakan. Pada dasarnya pada LSTM digunakan fungsi aktivasi berupa \textit{sigmoid} namun tidak menutup kemungkinan jika perubahan fungsi aktivasi dapat memberikan hasil model yang berbeda. Terdapat beberapa fungsi aktivasi yang akan di uji coba pada percobaan ini diantaranya adalah \textit{tanh, relu, softmax, selu, elu, softplus,} dan \textit{softsign}. Proses percobaan dilakukan dengan pengulangan sebanyak 30 kali untuk setiap penggunaan fungsi aktivasi.
+
+
+\centerline{
 \begin{minipage}{\linewidth}
-	\centering
-	\input{BAB-4/plot/accuracy_5_layer_data_kecil_merged.pgf}%diperoleh pada Folder 26 April sama dengan percobaan sebelumnya yang menggunakan pengolah 25 April yang ada pada folder tersebut
-	\captionof{figure}{Akurasi Percobaan Perubahan Layer dengan Dataset-2}
-	\label{gambar:perbandingan layer data kecil}
-\end{minipage}
-
-\section{Perubahan Fungsi Aktivasi}
-Pada percobaan perubahan fungsi aktivasi adalah bertujuan untuk mendapatkan model dengan akurasi hasil diagnosis yang tinggi dengan mengubah \textit{hyperparamater} setiap model dalam percobaan.
-\begin{minipage}{\linewidth}
+	\vspace{12 pt}
 	\centering
 	\input{BAB-4/plot/accuracy_perbandingan_AV_data_besar.pgf}
-	\captionof{figure}{Akurasi Percobaan Perubahan Fungsi Aktivasi dengan Dataset-1}
+	\captionof{figure}{Studi Kasus 1: Akurasi Percobaan Perubahan Fungsi Aktivasi}
 	\label{gambar:perbandingan fungsi aktivasi data besar}
 \end{minipage}
+}
 
-\begin{minipage}{\linewidth}
-	\centering
-	\input{BAB-4/plot/accuracy_perbandingan_AV_data_kecil.pgf}
-	\captionof{figure}{Akurasi Percobaan Perubahan Fungsi Aktivasi dengan Dataset-2}
-	\label{gambar:perbandingan fungsi aktivasi data kecil}
-\end{minipage}
+Gambar \ref{gambar:perbandingan fungsi aktivasi data besar} memperlihatkan nilai rata-rata dari hasil percobaan penggunaan beberapa fungsi aktivasi yang telah disebutkan sebelumnya pada model LSTM. Berdasarkan hasil percobaan tersebut maka diperoleh informasi bahwa pada studi kasus 1 penggunaan fungsi aktivasi \textit{softmax} memberikan model yang memiliki performa yang buruk. Hal ini dapat dilihat dari akurasi sistem baik pada proses pelatihan maupun pada proses pengujian. Selain itu, jarak rata-rata persebaran datanya terhadap nilai rata-rata tergolong pendek yang mengindikasikan bahwa model memang memiliki akurasi yang buruk. Sebaliknya pada penggunaan fungsi aktivasi \textit{selu} dapat memberikan model yang dapat memiliki akurasi hasil diagnosis tertinggi yakni pada proses pelatihan 99.2\% serta pada proses pengujian sebesar 97.4\%. \par
+
+Selanjutnya pada model dengan menggunakan fungsi aktivasi \textit{relu} yang dinilai memiliki performa yang baik akan dilakukan peninjauan nilai presisi dan sensitivitas pada setiap kategori hasil diagnosis indeks kesehatan transformator daya. Pada hasil percobaan dengan menggunakan fungsi aktivasi \textit{selu} akan dipilih 1 diantara 30 percobaan yang dilakukan, yakni model yang memiliki akurasi pengujian tertinggi. Hal ini dapat dicari pada hasil plot percobaan dengan menggunakan fungsi aktivasi \textit{selu} yakni pada Gambar \ref{gambar:scatter selu data besar}
+
+\centerline{\begin{minipage}{\linewidth}
+		\centering
+		\vspace{12 pt}
+		\input{BAB-4/plot/scatter_selu_data_besar.pgf}
+		\captionof{figure}{Studi Kasus 1: Persebaran Akurasi Menggunakan Fungsi Aktivasi \textit{Selu}}
+		\label{gambar:scatter selu data besar}
+\end{minipage}}
+
+Informasi yang dapat diperoleh pada Gambar \ref{gambar:scatter selu data besar} diketahui bahwa akurasi model terbaik yakni 99\% ketika percobaan pada iterasi ke-26. Selanjutnya dengan menggunakan model tersebut dianalisis untuk melihat bagaimana hasil diagnosis untuk masin-masing katergori. Maka seperti halnya percobaan sebelumnya, cara yang dapat dilakukan adalah dengan menampilkan \textit{confusion matrix} pada hasil pengujian model LSTM dengan menggunakan fungsi aktivasi \textit{relu} tersebut. Hal ini dapat dilihat pada Gambar \ref{gambar:CM selu layer DS-1}.
+
+\centerline{
+	\begin{minipage}{\linewidth}
+		\vspace{12 pt}
+		\centering
+		\includegraphics[width=0.6\textwidth]{BAB-4/plot/CM_selu_data_besar.pdf}	
+		\captionof{figure}{Studi Kasus 1: \textit{Confusion Matrix} Menggunakan Fungsi Aktivasi \textit{Selu}}
+		\label{gambar:CM selu layer DS-1}
+	\end{minipage}
+}
+Kemudian agar lebih mudah dalam memahami informasi yang terdapat pada Gambar \ref{gambar:CM selu layer DS-1}, maka pada gambar tersebut dibuat representasi diagram balok untuk masing-masing nilai presisi dan sensitivitas pada masing-masing kategori. Hal ini dapat dilihat pada penyajian data pada Gambar \ref{gambar:presisi sensitivity selu data besar}. Telah diketahui bahwa akurasi pengujian secara keseluruhan pada sistem ini adalah 99\%, namun jika dilihat secara detail model masih sulit dalam mendiagnosis indeks kesehatan pada kategori "Normal", diperlihatkan pada \textit{confusion matrix} bahwa terdapat satu kategori yang terprediksi sebagai "Buruk". Jika dilakukan penilaian terhadap presisi dan sensitivitas kategori "normal" merupakan satu-satunya yang memiliki nilai paling buruk. 
+
+\centerline{\begin{minipage}{\linewidth}
+		\centering
+		\vspace{12 pt}
+		\input{BAB-4/plot/presisi_sensitivity_selu_data_besar.pgf}
+		\captionof{figure}{Studi Kasus 1: Presisi Percobaan Perubahan Layer}
+		\label{gambar:presisi sensitivity selu data besar}
+\end{minipage}}
+
+Pada dasarnnya performa model pada saat mendiagnosis kategori "Normal" yang buruk bukan disebabkan oleh model yang digunakan. Namun, jika melihat karakteristik dari set data 1 yang digunakan pada percobaan ini, berdasarkan Gambar \ref{gambar:pie dataset-1} dapat dilihat bahwa data target berupa kategori "Normal" merupakan yang paling sedikit dibandingkan yang lainnya atau jika ditinjau dari sisi kuantitas hanya 1\% dari total keseluruhan data. Pada kondisi tersebut saat proses pelatihan, model lebih sering dihadapkan kategori dengan jumlah yang lebih banyak akibatnya lebih sulit mengenali kategori dengan jumlah sedikit. \par
+Secara umum model yang baik adalah yang tidak \textit{overfiting} dimana akurasi pelatihan sangat baik namun pada proses pengujian model memiliki akurasi yang buruk. Hal ini untuk menghindari agar adanya data pencilan tidak ikut terlatih dalam model.
+Pada kasus diagnosis indeks kesehatan transformator daya kurangnya nilai presisi dan sensitivitas pada kategori "Normal" dapat disebabkan karena model menganggap kategori tersebut sebagai sebuah data pencilan sehingga lebih banyak diabaikan. Berdasar hasil percobaan ini maka dapat diperoleh informasi bahwa penggunaan data yang tidak seimbang sebaiknya dihindari dalam proses percobaan pada \textit{machine learning} jika model yang diinginkan dapat mendiagnosis setiap kelas dengan baik.
+
+\subsection{Perubahan Pembagian Data dengan Rasio 8:2}
+Pada percobaan ini dilakukan dengan menggunakan data yang dipecah menjadi data pelatihan dan data pengujian dengan perbandingan 8:2. 80\% data pertama akan digunakan dalam melatih model agar mengenali pola data dan 20\% data sisanya digunakan dalam mengevaluasi model. Tujuan dari percobaan ini adalah menambah jumlah data yang dilatih agar model dapat lebih mengenal pola data. Model yang digunakan adalah model terbaik pada percobaan sebelumnya yakni dengan menggunakan model dengan dua \textit{hidden layer} serta dengan menggunakan fungsi aktivasi \textit{selu}. Hasil dari percobaan tersebut dapat dilihat pada Gambar \ref{gambar:perbandingan rasio data besar} dan Gambar \ref{gambar:scatter rasio data besar} yang merupakan nilai akurasi rata-rata dan persebaran data percobaan.
+
+\centerline{
+	\begin{minipage}{\linewidth}
+		\vspace{12 pt}
+		\centering
+		\input{BAB-4/plot/accuracy_rasio_data_besar.pgf}
+		\captionof{figure}{Studi Kasus 1: Akurasi Percobaan Menggunakan Rasio Data Pelatihan dan Pengujian 8:2}
+		\label{gambar:perbandingan rasio data besar}
+	\end{minipage}
+}
+
+\centerline{\begin{minipage}{\linewidth}
+		\centering
+		\vspace{12 pt}
+		\input{BAB-4/plot/scatter_rasio_data_besar.pgf}
+		\captionof{figure}{Studi Kasus 1: Persebaran Akurasi Menggunakan Rasio Data Pelatihan dan Pengujian 8:2}
+		\label{gambar:scatter rasio data besar}
+\end{minipage}}
+
+Berdasarkan hasil percobaan pada Gambar \ref{gambar:perbandingan rasio data besar} dan Gambar \ref{gambar:scatter rasio data besar} dapat diketahui bahwa model memiliki akurasi rata-rata yang lebih kecil dibandingkan dengan percobaan sebelumnya. Namun, pada tahapan selanjutnya tetap dilakukan evaluasi terhadap model dengan akurasi tertingginya. Berdasarkan Gambar \ref{gambar:scatter rasio data besar} diketahui bahwa model dengan akurasi tertinggi terjadi pada saat iterasi ke-23. Sehingga pada model tersebut hasil pengujiannya akan ditampilkan menggunakan \textit{confusion matrix} untuk menilai presisi dan sensitivitasnya.
+Hal ini ditampilkan pada Gambar \ref{gambar:CM rasio layer DS-1}.
+
+\centerline{
+	\begin{minipage}{\linewidth}
+		\vspace{12 pt}
+		\centering
+		\includegraphics[width=0.6\textwidth]{BAB-4/plot/CM_rasio_data_besar.pdf}	
+		\captionof{figure}{Studi Kasus 1: \textit{Confusion Matrix} Percobaan Menggunakan Rasio Data Pelatihan dan Pengujian 8:2}
+		\label{gambar:CM rasio layer DS-1}
+	\end{minipage}
+}
+Berdasarkan tampilan pada \textit{confusion matrix} diketahui model dapat mendiagnosis indeks kesehatan transformator daya pada kategori "Normal" tanpa adanya kesalahan. Hal ini didukung dengan perolehan nilai presisi dan sensitivitas pada Gambar \ref{gambar:presisi sensitivity rasio data besar}. Dapat diketahui juga hanya terdapat satu kesalahan yakni kategori yang seharusnya "Buruk"  terdiagnosis sebagai "Menengah".
+
+\centerline{\begin{minipage}{\linewidth}
+		\centering
+		\vspace{12 pt}
+		\input{BAB-4/plot/presisi_sensitivity_rasio_data_besar.pgf}
+		\captionof{figure}{Studi Kasus 1: Presisi dan Sensitivitas Percobaan Menggunakan Rasio Data Pelatihan dan Pengujian 8:2}
+		\label{gambar:presisi sensitivity rasio data besar}
+\end{minipage}}
+
+Dengan demikian, perubahan jumlah rasio set data dapat mempengaruhi hasil akurasi menjadi lebih baik. Hal ini dapat terjadi karena pada dasarnya terdapat penambahan data pada proses pelatihan sehingga model menjadi lebih mengenali pola data. Selanjutnya maka model yang diimplementasikan pada aplikasi ialah model hasil percobaan dengan menggunakan rasio data pelatihan:pengujian sebesar 8:2.
+
+\section{Studi Kasus 2}
+\subsection{Perubahan Jumlah \textit{Hidden Layer}}
+Pada studi kasus 2 pada dasarnya memiliki mekanisme yang sama terhadap percobaan yang telah dilakukan pada studi kasus 1. Percobaan ini merupakan sebuah langkah lanjutan untuk mengetahui apakah pada penggunaan data yang berbeda dapat digunakan metode yang sama. Telah dijelaskan pada Bab \ref{BAB3:Metode} bahwa percobaan menggunakan set data 2 yang akan dibagi atas data pelatihan dan pengujian dangan rasio 7:3. Percobaan pertama dilakukan yakni melakukan pelatihan terhadap model LSTM dengan variabel bebas yang diubah adalah jumlah \textit{hidden layer} yang digunakan. Jumlah \textit{hidden layer} yang diuji coba terdiri dari penggunaan yang tunggal sampai 5 buah. Pada Gambar \ref{gambar:perbandingan layer data kecil} disajikan hasil dari percobaan dengan iterasi 30 pelatihan untuk setiap \textit{hidden layer} yang berbeda.\par
 
 
-\begin{minipage}{\linewidth}
-	\begin{center}
-		\includegraphics[width=0.9\textwidth]{BAB-4/plot/CM_selu_data_besar.png}	
-		\captionof{figure}{\textit{Confusion Matrix} Menggunakan Fungsi Aktivasi \textit{Selu} Dataset-1}
-		%		\label{gambar:duval triangle}
-	\end{center}
-\end{minipage}
-\section{Diagnosis Indeks Kesehatan Transformator Daya: Perubahan Rasio Dataset}
-Pada dasarnya metode kecerdasan buatan 
+\centerline{\begin{minipage}{\linewidth}
+		\centering
+		\vspace{12 pt}
+		\input{BAB-4/plot/accuracy_5_layer_data_kecil_random_16.pgf}
+		\captionof{figure}{Studi Kasus 2: Akurasi Percobaan Perubahan \textit{Hidden Layer}}
+		\label{gambar:perbandingan layer data kecil}
+\end{minipage}}
+
+Berdasarkan hasil percobaan pada Gambar \ref{gambar:perbandingan layer data kecil} dapat dilihat bahwa rata-rata akurasi pengujian sistem paling besar diperoleh adalah 70\%. Akurasi tersebut diperoleh pada penggunaan \textit{single layer} pada model LSTM. Namun, disisi yang lain nilai rata-rata tersebut memiliki persebaran data yang lebar. Oleh karena itu untuk mengetahui persebaran data secara detail maka dilakukan plot hasil percobaan pada LSTM \textit{single layer} tersebut untuk setiap iterasinya. Gambar \ref{gambar:akurasi single layer data kecil} merupakan hasil plot data percobaan menggunakan \textit{single layer}.
+
+\centerline{\begin{minipage}{\linewidth}
+		\centering
+		\vspace{12 pt}
+		\input{BAB-4/plot/single_layer_data_kecil.pgf}
+		\captionof{figure}{Studi Kasus 2: Akurasi Percobaan Single Layer}
+		\label{gambar:akurasi single layer data kecil}
+\end{minipage}}
+
+Berdasarkan percobaan pada Gambar \ref{gambar:akurasi single layer data kecil} dapat dilihat bahwa pada akurasi pengujian terdapat kecenderungan sistem akurasi yang kurang dari 50\% serta akurasi pengujian maksimum berada pada 89\%. Maka merujuk pada detail hasil percobaan dengan menggunakan \textit{single layer}, walaupun model memiliki persebaran data yang lebar, namun terdapat kecenderungan model pada akurasi pengujian yang tinggi. Selain itu pada model dengan akurasi pengujian yang tinggi di sisi akurasi pelatihan juga menunjukkan hasil yang tidak jauh berbeda. Hal ini mengindikasikan bahwa model tidak dalam kondisi \textit{overfitting}. Kemudian pada model dengan akurasi pengujian tertinggi akan dilakukan evaluasi mengenai tingkat presisi serta sensitivitas setiap kelas dengan menggunakan \textit{cinfusion matrix}. Maka model dengan akurasi tertinggi yakni pada iterasi percobaan ke-7, secara detail hasil percobaan setiap kategori dapat dilihat pada Gambar \ref{gambar:CM selu layer DS-1}. Kemudian dilanjutkan dengan penggambaran detail nilai presisi dan sensitivitasnya yang disajikan pada Gambar \ref{gambar:presisi sensitivity 1 layer data kecil}.
+
+\centerline{
+	\begin{minipage}{\linewidth}
+		\centering
+		\vspace{12 pt}
+		\includegraphics[width=0.6\textwidth]{BAB-4/plot/CM_1_layer_data_kecil.pdf}
+		\captionof{figure}{Studi Kasus 2: \textit{Confusion Matrix} LSTM dengan 1 \textit{Hidden Layer}}
+		\label{gambar:CM 1 layer DS-2}
+	\end{minipage}
+}
+
+\centerline{\begin{minipage}{\linewidth}
+		\centering
+		\vspace{12 pt}
+		\input{BAB-4/plot/presisi_sensitivity_single_layer_data_kecil.pgf}
+		\captionof{figure}{Studi Kasus 2: Presisi Percobaan Perubahan Layer}
+		\label{gambar:presisi sensitivity 1 layer data kecil}
+\end{minipage}}
+
+Perolehan hasil percobaan yang disajikan pada Gambar \ref{gambar:CM 1 layer DS-2} serta Gambar \ref{gambar:presisi sensitivity 1 layer data kecil} memperlihatkan bahwa model belum bisa melakukan diagnosis indeks kesehatan transformator daya pada kategori "Menengah". Hal ini ditandai dengan nilai presisi dan sensitivitas yang masil 0. Oleh karena itu masih perlu dilakukan percobaan lanjutan untuk memperbaiki akurasi model LSTM tersebut. Percobaan dilakukan seperti halnya pada studi kasus pertama yang melakukan perubahan  \textit{hyperparameter} pada penggunaan fungsi aktivasi yang berbeda. \par
+
+\subsection{Perubahan Fungsi Aktivasi}
+Jenis fungsi aktivasi yang digunakan pada percobaan ini adalah yang tersedia pada \textit{library} Kerar yakni \textit{tanh, relu, softmax, selu, elu, softplus,} dan \textit{softsign}. Pada Gambar \ref{gambar:perbandingan fungsi aktivasi data kecil} merupakan representasi hasil percobaan tersebut.
+
+
+\centerline{\begin{minipage}{\linewidth}
+		\vspace{12 pt}
+		\centering
+		\input{BAB-4/plot/accuracy_perbandingan_AV_data_kecil.pgf}
+		\captionof{figure}{Akurasi Percobaan Perubahan Fungsi Aktivasi}
+		\label{gambar:perbandingan fungsi aktivasi data kecil}
+\end{minipage}}
+
+Hasil percobaan pada Gambar \ref{gambar:perbandingan fungsi aktivasi data kecil} memberikan informasi bahwa penggunaan fungsi aktivasi \textit{softmax} menghasilkan model yang memiliki akurasi paling rendah dibandingkan yang lain. Pada model yang menggunakan fungsi aktivasi \textit{selu, elu}, dan \textit{softplus} relatif menghasilkan akurasi rata-rata yang saling mendekati serta dengan persebaran data yang hampir sama juga. Namun di antara ketiga akurasi tertinggi diperoleh ketika menggunakan fungsi aktivasi \textit{selu} yakni sebesar 74.4\%. Sehingga model yang akan dievaluasi hasil pengujiannya adalah yang menggunakan fungsi aktivasi \textit{selu}. Kemudian untuk menentukan model terbaiknya maka dilakukan plot akurasi yang dilakukan pada 30 kali percobaan dengan menggunakan fungsi aktivasi \textit{selu}. Hasil Plot dapat dilihat pada Gambar \ref{gambar:akurasi single layer selu data kecil}.
+
+\centerline{\begin{minipage}{\linewidth}
+		\centering
+		\vspace{12 pt}
+		\input{BAB-4/plot/single_layer_selu_data_kecil.pgf}
+		\captionof{figure}{Studi Kasus 2: Akurasi Percobaan Menggunakan Fungsi Aktivasi \textit{Selu}}
+		\label{gambar:akurasi single layer selu data kecil}
+\end{minipage}}
+
+Berdasarkan hasil plot pada Gambar \ref{gambar:akurasi single layer selu data kecil} diketahui bahwa model terbaik yang menggunakan fungsi aktivasi \textit{selu} terjadi pada iterasi ke-5. 
+Evaluasi model tersebut direpresentasikan menggunakan \textit{confusion matrix} serta diagram batang yang secara berurutan ditampilkan pada Gambar \ref{gambar:CM selu layer DS-2} dan Gambar \ref{gambar:presisi sensitivity selu data kecil}.
+
+\centerline{
+	\begin{minipage}{\linewidth}
+		\vspace{12 pt}
+		\centering
+		\includegraphics[width=0.6\textwidth]{BAB-4/plot/CM_selu_data_kecil.pdf}
+		\captionof{figure}{Studi Kasus 2: \textit{Confusion Matrix} Menggunakan Fungsi Aktivasi \textit{Selu}}
+		\label{gambar:CM selu layer DS-2}
+	\end{minipage}
+}
+
+\centerline{\begin{minipage}{\linewidth}
+		\centering
+		\vspace{12 pt}
+		\input{BAB-4/plot/presisi_sensitivity_selu_data_kecil.pgf}
+		\captionof{figure}{Studi Kasus 2: Presisi dan Sensitivitas Percobaan Perubahan Layer}
+		\label{gambar:presisi sensitivity selu data kecil}
+\end{minipage}}
+
+Peninjauan berdasarkan hasil percobaan yang disajikan pada Gambar \ref{gambar:CM selu layer DS-2} dan Gambar \ref{gambar:presisi sensitivity selu data kecil}, maka dengan menggunakan model LSTM dengan menggunakan sebuah \textit{hidden layer} serta menggunakan fungsi aktivasi \textit{selu} menghasilkan akurasi terbaik. Jika dilihat secara detail setiap kategori dapat terdiagnosis secara tepat pada \textit{confusion matrix} serta nilai presisi dan sensitivitas yang baik. 
+
+\subsection{Perubahan Pembagian Data dengan Rasio 8:2}
+Pada dasarnya percobaan ini merupakan percobaan lanjutan untuk mengetahui pengaruh rasio set data terhadap akurasi pada model LSTM pada studi kasus 2. model yang yang digunakan pada percobaan ini merupakan model dengan jumlah \textit{hidden layer} tunggal serta menggunakan fungsi aktivasi \textit{relu}. percobaan dijalankan dengan iterasi sebanyak 30 kali. Hasil percobaan ini dapat dilihar pada Gambar \ref{gambar:perbandingan rasio data kecil} dan Gambar \ref{gambar:akurasi rasio selu data kecil} yang merupakan representasi dari nilai akurasi rata-rata dan persebaran data secara berurutan.
+
+
+\centerline{\begin{minipage}{\linewidth}
+		\vspace{12 pt}
+		\centering
+		\input{BAB-4/plot/akurasi_rata_rasio_data_kecil.pgf}
+		\captionof{figure}{Studi Kasus 2: Akurasi Percobaan Menggunakan Rasio Data Pelatihan dan Pengujian 8:2}
+		\label{gambar:perbandingan rasio data kecil}
+\end{minipage}}
+
+\centerline{\begin{minipage}{\linewidth}
+		\centering
+		\vspace{12 pt}
+		\input{BAB-4/plot/scatter_rasio_data_kecil.pgf}
+		\captionof{figure}{Studi Kasus 2: Akurasi Percobaan Menggunakan Rasio Data Pelatihan dan Pengujian 8:2}
+		\label{gambar:akurasi rasio selu data kecil}
+\end{minipage}}
+
+Berdasarkan hasil percobaan pada Gambar \ref{gambar:perbandingan rasio data kecil} diketahui bahwa akurasi pengujian mengalami kenaikan dari 74.4\% pada percobaan sebelumnya menjadi 77.2\%. Namun, jika dilihat pada persebaran datanya pada Gambar \ref{gambar:akurasi rasio selu data kecil} model mencapai akurasi tertingginya pada iterasi ke-2 dengan nilai 89\%. Apabila model tersebut dilakukan evaluasi terhadap hasil pengujiannya dapat diketahui pada Gambar \ref{gambar:CM rasio layer DS-2} terdapat dua kategori yang terdiagnosis salah yakni kategori "Buruk" dan "Menengah". Di sisi lain terlihat bahwa kategori "menengah" kembali sulit terprediksi.
+
+\centerline{
+	\begin{minipage}{\linewidth}
+		\vspace{12 pt}
+		\centering
+		\includegraphics[width=0.6\textwidth]{BAB-4/plot/CM_rasio_data_kecil.pdf}
+		\captionof{figure}{\textit{Confusion Matrix} Percobaan Menggunakan Rasio Data Pelatihan dan Pengujian 8:2}
+		\label{gambar:CM rasio layer DS-2}
+	\end{minipage}
+}
+
+Evaluasi untuk masing-masing kategori dapat dilihat pada Gambar \ref{gambar:presisi sensitivity rasio data kecil}. Diperoleh informasi pada gambar tersebut bahwa katergori "Menengah" mendapatkan nilai yang buruk pada presisi dan sensitivitas, edangkan kategori "Baik" menjadi memiliki sensitivitas yang tinggi. Hal ini mengindikasikan bahwa penambahan data pada proses pelatihan semakin menguatkan pengaruh kategori "Baik" pada model dan melemahkan kategori "Menengah".
+
+\centerline{\begin{minipage}{\linewidth}
+		\centering
+		\vspace{12 pt}
+		\input{BAB-4/plot/presisi_sensitivity_rasio_data_kecil.pgf}
+		\captionof{figure}{Grafik Presisi dan Sensitivitas Menggunakan Rasio Data Pelatihan dan Pengujian 8:2}
+		\label{gambar:presisi sensitivity rasio data kecil}
+\end{minipage}}
+
+Dengan demikian implementasi model pada aplikasi yang akan dipilih adalah model pada percobaan sebelumnya, yakni percobaan dengan menggunakan rasio data 7:3 dengan jumlah \textit{hidden layer} tunggal serta fungsi aktivasi "\textit{selu}.
 
 \section{Perbandingan Terhadap Metode \textit{Artificial Neural Network} (ANN) Sederhana}
-Dalam mempertimbangkan penggunaan LSTM sebagai metode utama dalam mendiagnosis indeks kesehatan transformator daya, maka dilakukan juga percobaan perbandingan terhadap metode dasar dengan menggunakan arsitektur dari ANN. 
+Dalam mempertimbangkan penggunaan LSTM sebagai metode utama dalam mendiagnosis indeks kesehatan transformator daya, maka dilakukan juga percobaan perbandingan terhadap metode dasar dengan menggunakan arsitektur dari ANN. Pada percobaan ini dilakukan dengan menggunakan set data 2. Pertimbangan ini diambil karena pada percobaan dengan menggunakan model LSTM jika dibandingkan, pada studi kasus 2 yang menggunakan set data 2 lebih cenderung mendapatkan performa yang rendah. Oleh karena itu percobaan ini akan membuktikan pertimbangan penggunaan LSTM sebagai pengganti dari ANN. 
+Pada percobaan dilakukan dengan sebanyak 30 iterasi kemudian diambil nilai rata-rata akurasi baik pada pelatihan maupun pada pengujian. Set data yang digunakan dibagi atas data pelatihan dan pengujian dengan rasio 7:3. \textit{Hyperparameter} uji yang digunakan adalah jumlah dari \textit{hidden neuron} yang setiap percobaan berjumlah 5, 8, 11, 13, 15, 20, 25, dan 30. 
+
+\centerline{\begin{minipage}{\linewidth}
+		\centering
+		\vspace{12 pt}
+		\input{BAB-4/plot/ANN_perbandingan_neuron_data_besar.pgf}
+		\captionof{figure}{Perbandingan Neuron pada ANN dengan Set Data 2}
+		\label{gambar:ANN perbandingan neuron set data 2}
+\end{minipage}}
+
+Berdasarkan hasil percobaan yang disajikan pada Gambar \ref{gambar:ANN perbandingan neuron set data 2} dapat dilihat bahwa perubahan neuron tidak banyak mempengaruhi akurasi pengujian pada model ANN. model ANN memiliki akurasi pengujian maksimal 67\%. Hampir setiap penggunaan jumlah \textit{hidden neuron} yang berbeda memiliki akurasi yang tidak berbeda jauh terhadap akurasi maksimalnya.\par
+
+\centerline{\begin{minipage}{\linewidth}
+		\centering
+		\vspace{12 pt}
+		\input{BAB-4/plot/accuracy_5_layer_data_kecil.pgf}
+		\captionof{figure}{Perbandingan Neuron pada ANN dengan Set Data 2}
+		\label{gambar:ANN perbandingan layer set data 2}
+\end{minipage}}
+Pada Gambar \ref{gambar:ANN perbandingan layer set data 2} merupakan hasil dari percobaan lanjutan yakni dengan melakukan perubahan pada jumlah \textit{hidden layer} ANN. Berdasarkan hasil tersebut diketahui bahwa penambahan \textit{hidden layer} tidak dapat memperbaiki akurasi pada model ANN. Dengan demikian berdasarkan hasil percobaan dengan menggunakan model ANN, maka penggunaan model LSTM lebih tepat dipilih dalam diagnosis indeks kesehatan transformator daya.
+
 
 
 %ini test gambar \ref{gambar:plot 2 layer}
@@ -133,3 +361,57 @@ Dalam mempertimbangkan penggunaan LSTM sebagai metode utama dalam mendiagnosis i
 %	\caption{test}
 %	
 %\end{figure}
+\section{Implementasi Model LSTM pada Aplikasi Website}
+Pada akhir percobaan pada studi kasus 1 dan 2, model yang telah dihasilkan akan digunakan dan diimplementasikan pada sebuah aplikasi \textit{website}. Penggunaan aplikasi \textit{website} dipilih karena memungkinkan setiap perangkat dapat menggunakan aplikasi tersebut tidak terbatas oleh sistem operasi tertentu saja. Selain itu, memungkinkan untuk dijalankan pada perangkat \textit{Dekstop} mupun bebas genggam. Aplikasi ini dapat digunakan oleh pengguna dengan mengakses halaman internet pada tautan "transformer-health-index.web.app" atau dengan melakukan pemindaian pada Gambar \ref{gambar:QR website}.
+
+\centerline{\begin{minipage}{\linewidth}
+		\centering
+		\vspace{12 pt}
+%		\input{BAB-4/image/WebAppTA.png}
+		\includegraphics[width=0.4\textwidth]{BAB-4/image/WebAppTA.png}
+		\captionof{figure}{Tautan Aplikasi Diagnosis Indeks Kesehatan Transformator Daya}
+		\label{gambar:QR website}
+\end{minipage}}
+
+Selanjutnya pengguna akan di arahkan pada halaman untuk memasukkan \textit{input} yang merupakan hasil pengujian dari transformator daya. Tampilan antar muka pada halaman aplikasi dapat dilihat pada Gambar \ref{gambar:halaman awal mobile} pada perangkat \textit{mobile} dan Gambar \ref{gambar:halaman awal dekstop}.
+
+\centerline{\begin{minipage}{\linewidth}
+		\centering
+		\vspace{12 pt}
+		%		\input{BAB-4/image/WebAppTA.png}
+		\fbox{\includegraphics[width=0.4\textwidth]{BAB-4/image/mobile_awal.jpeg}}		
+		\captionof{figure}{Tampilan Aplikasi Diagnosis Indeks Kesehatan Transformator Daya pada Perangkat \textit{Mobile}}
+		\label{gambar:halaman awal mobile}
+\end{minipage}}
+
+Pada proses memasukkan masukan data yang diperlukan maka pengguna diharuskan untuk mengisi semua kolom yang diperlukan, jika tidak maka akan muncul peringatan yang menunjukkan data yang dimasukkan kurang. Tampilan peringatan kesalahan dalam mamasukkan data dapat dilihat pada Gambar \ref{gambar:kesalahan input}. Namun, apabila jika pada kondisi pada salah satu masukkan tidak dilakukan pengujian, maka pengguna tetap dapat melakukan diagnosis dengan memasukkan nilai 0. Dengan metode tersebut maka akan meminimalisasi adanya ada yang kosong pada saat mendiagnosis indeks kesehatan transformator daya.
+
+\centerline{\begin{minipage}{\linewidth}
+		\centering
+		\vspace{12 pt}
+		%		\input{BAB-4/image/WebAppTA.png}
+		\fbox{\includegraphics[width=\textwidth]{BAB-4/image/dekstop_view.png}}		
+		\captionof{figure}{Tampilan Aplikasi Diagnosis Indeks Kesehatan Transformator Daya pada Perangkat \textit{Mobile}}
+		\label{gambar:halaman awal dekstop}
+\end{minipage}}
+
+\centerline{\begin{minipage}{\linewidth}
+		\centering
+		\vspace{12 pt}
+		%		\input{BAB-4/image/WebAppTA.png}
+		\fbox{\includegraphics[width=0.4\textwidth]{BAB-4/image/lengkapi_data.jpeg}}		
+		\captionof{figure}{Peringatan Aplikasi Jika Terdapat Masukkan yang Belum Lengkap pada Perangkat \textit{Mobile}}
+		\label{gambar:kesalahan input}
+\end{minipage}}
+Kemudian Apabila semua \textit{input} yang diperlukan telah lengkap, pengguna dapat melakukan diagnosis indeks kesehatan transformator daya dengan menekan tombol "Diagnosis", maka hasil diagnosis akan ditampilkan seperti pada Gambar \ref{gambar:berhasil}.
+
+\centerline{\begin{minipage}{\linewidth}
+		\centering
+		\vspace{12 pt}
+		%		\input{BAB-4/image/WebAppTA.png}
+		\fbox{\includegraphics[width=0.4\textwidth]{BAB-4/image/berhasil.jpeg}}		
+		\captionof{figure}{Berhasil Mendiagnosis Indeks Kesehatan Transformator Daya pada Perangkat \textit{Mobile}}
+		\label{gambar:berhasil}
+\end{minipage}}
+
+ 

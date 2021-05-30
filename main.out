@@ -35,18 +35,24 @@
 \BOOKMARK [1][-]{section.3.3}{Perancangan Model LSTM}{chapter.3}% 35
 \BOOKMARK [2][-]{subsection.3.3.1}{Jumlah Neuron}{section.3.3}% 36
 \BOOKMARK [2][-]{subsection.3.3.2}{Multilayer layer LSTM}{section.3.3}% 37
-\BOOKMARK [2][-]{subsection.3.3.3}{Rasio Dataset}{section.3.3}% 38
+\BOOKMARK [2][-]{subsection.3.3.3}{Set Data Indeks Kesehatan Transformator Daya}{section.3.3}% 38
 \BOOKMARK [1][-]{section.3.4}{Analisis Teknis}{chapter.3}% 39
 \BOOKMARK [1][-]{section.3.5}{Peralatan dan Bahan}{chapter.3}% 40
 \BOOKMARK [0][-]{chapter.4}{HASIL DAN PEMBAHASAN}{}% 41
 \BOOKMARK [1][-]{section.4.1}{Spesfiksi Perangkat Keras dan Perangkat Lunak}{chapter.4}% 42
 \BOOKMARK [1][-]{section.4.2}{Menentukan Jumlah Backpropagation \(Epochs\)}{chapter.4}% 43
 \BOOKMARK [1][-]{section.4.3}{Kombinasi pada Fitur Input}{chapter.4}% 44
-\BOOKMARK [1][-]{section.4.4}{Diagnosis Indeks Kesehatan Transformator Daya: Perubahan Jumlah Layer}{chapter.4}% 45
-\BOOKMARK [1][-]{section.4.5}{Perubahan Fungsi Aktivasi}{chapter.4}% 46
-\BOOKMARK [1][-]{section.4.6}{Diagnosis Indeks Kesehatan Transformator Daya: Perubahan Rasio Dataset}{chapter.4}% 47
-\BOOKMARK [1][-]{section.4.7}{Perbandingan Terhadap Metode Artificial Neural Network \(ANN\) Sederhana}{chapter.4}% 48
-\BOOKMARK [0][-]{chapter.5}{KESIMPULAN DAN SARAN}{}% 49
-\BOOKMARK [1][-]{section.5.1}{Kesimpulan}{chapter.5}% 50
-\BOOKMARK [1][-]{section.5.2}{Saran}{chapter.5}% 51
-\BOOKMARK [0][-]{section.5.2}{DAFTAR PUSTAKA}{}% 52
+\BOOKMARK [1][-]{section.4.4}{Studi Kasus 1: Penggunaan Set Data 1}{chapter.4}% 45
+\BOOKMARK [2][-]{subsection.4.4.1}{Perubahan Jumlah Hidden Layer}{section.4.4}% 46
+\BOOKMARK [2][-]{subsection.4.4.2}{Perubahan Fungsi Aktivasi}{section.4.4}% 47
+\BOOKMARK [2][-]{subsection.4.4.3}{Perubahan Pembagian Data dengan Rasio 8:2}{section.4.4}% 48
+\BOOKMARK [1][-]{section.4.5}{Studi Kasus 2}{chapter.4}% 49
+\BOOKMARK [2][-]{subsection.4.5.1}{Perubahan Jumlah Hidden Layer}{section.4.5}% 50
+\BOOKMARK [2][-]{subsection.4.5.2}{Perubahan Fungsi Aktivasi}{section.4.5}% 51
+\BOOKMARK [2][-]{subsection.4.5.3}{Perubahan Pembagian Data dengan Rasio 8:2}{section.4.5}% 52
+\BOOKMARK [1][-]{section.4.6}{Perbandingan Terhadap Metode Artificial Neural Network \(ANN\) Sederhana}{chapter.4}% 53
+\BOOKMARK [1][-]{section.4.7}{Implementasi Model LSTM pada Aplikasi Website}{chapter.4}% 54
+\BOOKMARK [0][-]{chapter.5}{KESIMPULAN DAN SARAN}{}% 55
+\BOOKMARK [1][-]{section.5.1}{Kesimpulan}{chapter.5}% 56
+\BOOKMARK [1][-]{section.5.2}{Saran}{chapter.5}% 57
+\BOOKMARK [0][-]{Item.25}{DAFTAR PUSTAKA}{}% 58
