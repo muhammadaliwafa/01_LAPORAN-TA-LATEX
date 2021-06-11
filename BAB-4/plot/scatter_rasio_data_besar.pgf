@@ -981,14 +981,14 @@
 \definecolor{currentstroke}{rgb}{0.000000,0.000000,0.000000}%
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetdash{}{0pt}%
-\pgfpathmoveto{\pgfqpoint{5.305278in}{1.127497in}}%
-\pgfpathquadraticcurveto{\pgfqpoint{5.310175in}{1.635005in}}{\pgfqpoint{5.315072in}{2.142513in}}%
-\pgfpathlineto{\pgfqpoint{5.287296in}{2.142781in}}%
-\pgfpathquadraticcurveto{\pgfqpoint{5.305460in}{2.225933in}}{\pgfqpoint{5.323624in}{2.309085in}}%
-\pgfpathquadraticcurveto{\pgfqpoint{5.340181in}{2.225598in}}{\pgfqpoint{5.356737in}{2.142111in}}%
-\pgfpathlineto{\pgfqpoint{5.328961in}{2.142379in}}%
-\pgfpathquadraticcurveto{\pgfqpoint{5.324063in}{1.634871in}}{\pgfqpoint{5.319166in}{1.127363in}}%
-\pgfpathlineto{\pgfqpoint{5.305278in}{1.127497in}}%
+\pgfpathmoveto{\pgfqpoint{4.958247in}{2.627922in}}%
+\pgfpathquadraticcurveto{\pgfqpoint{5.053033in}{2.564966in}}{\pgfqpoint{5.147818in}{2.502011in}}%
+\pgfpathlineto{\pgfqpoint{5.163187in}{2.525150in}}%
+\pgfpathquadraticcurveto{\pgfqpoint{5.222992in}{2.464587in}}{\pgfqpoint{5.282797in}{2.404023in}}%
+\pgfpathquadraticcurveto{\pgfqpoint{5.203781in}{2.435663in}}{\pgfqpoint{5.124765in}{2.467303in}}%
+\pgfpathlineto{\pgfqpoint{5.140134in}{2.490442in}}%
+\pgfpathquadraticcurveto{\pgfqpoint{5.045348in}{2.553397in}}{\pgfqpoint{4.950563in}{2.616352in}}%
+\pgfpathlineto{\pgfqpoint{4.958247in}{2.627922in}}%
 \pgfpathclose%
 \pgfusepath{stroke,fill}%
 \end{pgfscope}%
@@ -996,13 +996,13 @@
 \definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
 \pgfsetstrokecolor{textcolor}%
 \pgfsetfillcolor{textcolor}%
-\pgftext[x=5.022495in, y=0.992146in, left, base]{\color{textcolor}\rmfamily\fontsize{10.000000}{12.000000}\selectfont maks }%
+\pgftext[x=4.344713in, y=2.829446in, left, base]{\color{textcolor}\rmfamily\fontsize{10.000000}{12.000000}\selectfont maks }%
 \end{pgfscope}%
 \begin{pgfscope}%
 \definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
 \pgfsetstrokecolor{textcolor}%
 \pgfsetfillcolor{textcolor}%
-\pgftext[x=5.022495in, y=0.840140in, left, base]{\color{textcolor}\rmfamily\fontsize{10.000000}{12.000000}\selectfont (23, 0.99)}%
+\pgftext[x=4.344713in, y=2.677440in, left, base]{\color{textcolor}\rmfamily\fontsize{10.000000}{12.000000}\selectfont (23, 0.99)}%
 \end{pgfscope}%
 \end{pgfpicture}%
 \makeatother%

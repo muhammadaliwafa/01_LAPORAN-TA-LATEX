@@ -22,37 +22,43 @@
 \contentsline {subsection}{\numberline {2.4.1}\textit {Forget Gate}}{9}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}\textit {Input Gate}}{10}{subsection.2.4.2}%
 \contentsline {subsection}{\numberline {2.4.3}\textit {Cell gate}}{10}{subsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.4.4}\textit {Output Gate}}{10}{subsection.2.4.4}%
-\contentsline {chapter}{\numberline {III}KONSEP PERANCANGAN}{13}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Diagram Alir Perancangan}{13}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Pertimbangan Perancangan}{14}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Akurasi}{14}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Presisi}{14}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Sensitifitas (\textit {recall})}{15}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Spesificitiy}{15}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}\textit {F1 Score}}{15}{subsection.3.2.5}%
-\contentsline {subsection}{\numberline {3.2.6}Waktu Pelatihan dan Pengujian}{15}{subsection.3.2.6}%
-\contentsline {section}{\numberline {3.3}Perancangan Model LSTM}{15}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Jumlah \textit {Neuron}}{15}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}\textit {Multilayer layer} LSTM}{16}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Set Data Indeks Kesehatan Transformator Daya}{16}{subsection.3.3.3}%
-\contentsline {section}{\numberline {3.4}Analisis Teknis}{38}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Peralatan dan Bahan}{39}{section.3.5}%
-\contentsline {chapter}{\numberline {IV}HASIL DAN PEMBAHASAN}{41}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Spesfiksi Perangkat Keras dan Perangkat Lunak}{41}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Menentukan Jumlah \textit {Backpropagation} (\textit {Epochs})}{41}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Kombinasi pada Fitur \textit {Input}}{42}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Studi Kasus 1: Penggunaan Set Data 1}{43}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Perubahan Jumlah \textit {Hidden Layer}}{43}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Perubahan Fungsi Aktivasi}{45}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Perubahan Pembagian Data dengan Rasio 8:2}{48}{subsection.4.4.3}%
-\contentsline {section}{\numberline {4.5}Studi Kasus 2}{51}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Perubahan Jumlah \textit {Hidden Layer}}{51}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Perubahan Fungsi Aktivasi}{53}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}Perubahan Pembagian Data dengan Rasio 8:2}{56}{subsection.4.5.3}%
-\contentsline {section}{\numberline {4.6}Perbandingan Terhadap Metode \textit {Artificial Neural Network} (ANN) Sederhana}{58}{section.4.6}%
-\contentsline {section}{\numberline {4.7}Implementasi Model LSTM pada Aplikasi Website}{59}{section.4.7}%
-\contentsline {chapter}{\numberline {V}KESIMPULAN DAN SARAN}{64}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Kesimpulan}{64}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Saran}{64}{section.5.2}%
-\contentsline {chapter}{DAFTAR PUSTAKA}{66}{Item.25}%
+\contentsline {subsection}{\numberline {2.4.4}\textit {Output Gate}}{11}{subsection.2.4.4}%
+\contentsline {section}{\numberline {2.5}Fungsi Aktivasi}{11}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Sigmoid}{11}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Tanh}{11}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Relu}{12}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.4}Softmax}{12}{subsection.2.5.4}%
+\contentsline {subsection}{\numberline {2.5.5}Selu}{12}{subsection.2.5.5}%
+\contentsline {chapter}{\numberline {III}KONSEP PERANCANGAN}{15}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Diagram Alir Perancangan}{15}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Pertimbangan Perancangan}{16}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Akurasi}{16}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Presisi}{16}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Sensitifitas (\textit {recall})}{17}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Spesificitiy}{17}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}\textit {F1 Score}}{17}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.6}Waktu Pelatihan dan Pengujian}{17}{subsection.3.2.6}%
+\contentsline {section}{\numberline {3.3}Perancangan Model LSTM}{17}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Jumlah \textit {Neuron}}{17}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}\textit {Multilayer layer} LSTM}{18}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Set Data Indeks Kesehatan Transformator Daya}{18}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}Analisis Teknis}{40}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Peralatan dan Bahan}{41}{section.3.5}%
+\contentsline {chapter}{\numberline {IV}HASIL DAN PEMBAHASAN}{43}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Spesfiksi Perangkat Keras dan Perangkat Lunak}{43}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Menentukan Jumlah \textit {Backpropagation} (\textit {Epochs})}{43}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Kombinasi pada Fitur \textit {Input}}{44}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Studi Kasus 1: Penggunaan Set Data 1}{45}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Perubahan Jumlah \textit {Hidden Layer}}{45}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Perubahan Fungsi Aktivasi}{47}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Perubahan Pembagian Data dengan Rasio 8:2}{50}{subsection.4.4.3}%
+\contentsline {section}{\numberline {4.5}Studi Kasus 2}{53}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Perubahan Jumlah \textit {Hidden Layer}}{53}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Perubahan Fungsi Aktivasi}{55}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Perubahan Pembagian Data dengan Rasio 8:2}{58}{subsection.4.5.3}%
+\contentsline {section}{\numberline {4.6}Perbandingan Terhadap Metode \textit {Artificial Neural Network} (ANN) Sederhana}{60}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Implementasi Model LSTM pada Aplikasi Website}{61}{section.4.7}%
+\contentsline {chapter}{\numberline {V}KESIMPULAN DAN SARAN}{66}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Kesimpulan}{66}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Saran}{66}{section.5.2}%
+\contentsline {chapter}{DAFTAR PUSTAKA}{68}{Item.25}%

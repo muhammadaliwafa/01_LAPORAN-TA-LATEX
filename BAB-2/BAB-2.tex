@@ -136,6 +136,13 @@ Pada pemodelan dengan menggunakan metode RNN secara umum memiliki kemampuan dala
 
 Kelebihan yang dimiliki LSTM dibandingkan dengan RNN dikarenakan algoritma yang digunakan terdiri dari struktur yang kompleks. Secara umum terdapat 4 bagian pada arsitektur LSTM yakni \textit{forget gate}, \textit{input gate}, \textit{Cell gate}, dan \textit{Output gate}. 
 \subsection{\textit{Forget Gate}}
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[width=0.7\textwidth]{BAB-2/figures/LSTM3-focus-f.png}	
+		\caption{Forget Gate \cite{olah2015understanding}}
+		\label{gambar:forget gate}
+	\end{center}
+\end{figure}
 Pada \textit{Forget gate} merupakan bagian yang menentukan mengenai informasi pada keluaran sel sebelumnya untuk dipertahankan atau dihapus. Hal ini dilakukan dengan memasukkan keluaran sel sebelumnya yang digabungkan dengan masukan baru ke dalam fungsi aktivasi sigmoid. Informasi akan dipertahankan untuk hasil dari sigmoid dengan nilai 1 dan dihapus untuk keluaran yang bernilai 0. Secara matematis pada \textit{forget gate} digunakan persamaan sebagai berikut:
 \begin{equation}
 	\boldsymbol{f_t} = \sigma_g(\boldsymbol{W_{f}}.[\boldsymbol{h_{t-1}}, \boldsymbol{x_t}] + \boldsymbol{b_f})
@@ -170,6 +177,87 @@ Pada bagian akhir merupakan keluaran dari sel lstm atau dapat berupa hasil predi
 	\boldsymbol{h_t} = \boldsymbol{o_t}*tanh(\boldsymbol{C_t})
 	\label{func:final_output}
 \end{equation}
+
+\section{Fungsi Aktivasi}
+
+\subsection{Sigmoid}
+\begin{equation}
+	f(x) = \frac{1}{1 + e^{-x}}
+	\label{func:sigmoid}
+\end{equation}
+
+\centerline{
+	\begin{minipage}{\linewidth}
+		\vspace{12 pt}
+		\centering
+		\input{BAB-2/figures/sigmoid.pgf}
+		\captionof{figure}{Plot Fungsi Aktivasi Sigmoid}
+		\label{gambar:sigmoid}
+	\end{minipage}
+}
+
+\subsection{Tanh}
+\begin{equation}
+	f(x) = \frac{e^{x} - e^{-x}}{e^{x} + e^{-x}}
+	\label{func:tanh}
+\end{equation}
+
+\centerline{
+	\begin{minipage}{\linewidth}
+		\vspace{12 pt}
+		\centering
+		\input{BAB-2/figures/tanh.pgf}
+		\captionof{figure}{Plot Fungsi Aktivasi Tanh}
+		\label{gambar:tanh}
+	\end{minipage}
+}
+
+\subsection{Relu}
+\begin{equation}
+	f(x) = \begin{cases}
+		x & \text{if } x > 0, \\
+		0.01x & \text{otherwise}.
+	\end{cases}
+	\label{func:relu}
+\end{equation}
+
+\centerline{
+	\begin{minipage}{\linewidth}
+		\vspace{12 pt}
+		\centering
+		\input{BAB-2/figures/relu.pgf}
+		\captionof{figure}{Plot Fungsi Aktivasi Relu}
+		\label{gambar:relu}
+	\end{minipage}
+}
+
+\subsection{Softmax}
+
+\begin{equation}
+	\sigma(\mathbf{z})_i = \frac{e^{z_i}}{\sum_{j=1}^K e^{z_j}} \ \ \ \ \text{ for } i = 1, \dotsc , K \text{ and } \mathbf z= (z_1,\dotsc,z_K) \in \mathbb{R}^K.
+	\label{func:softmax}
+\end{equation}
+
+
+\subsection{Selu}
+\begin{equation}
+	f(x) = \begin{cases}
+		x & \text{if } x > 0, \\
+		\alpha x - \alpha & \text{if } x \geqslant 0.
+	\end{cases}
+	\label{func:selu}
+\end{equation}
+
+\centerline{
+	\begin{minipage}{\linewidth}
+		\vspace{12 pt}
+		\centering
+		\input{BAB-2/figures/selu.pgf}
+		\captionof{figure}{Plot Fungsi Aktivasi Selu}
+		\label{gambar:selu}
+	\end{minipage}
+}
+
 
 %Informasi ini diperoleh pada lapisan sebelumnya yakni kombinasi dari \textit{forget gate} dan \textit{input gate}. Pada dasarnya 
 
