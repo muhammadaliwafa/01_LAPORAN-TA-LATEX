@@ -4,49 +4,55 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Segitiga Duval \cite {duval1989dissolved}\relax }}{7}{figure.caption.14}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Sel LSTM \cite {olah2015understanding}\relax }}{9}{figure.caption.17}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Forget Gate \cite {olah2015understanding}\relax }}{10}{figure.caption.18}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Plot Fungsi Aktivasi Sigmoid\relax }}{11}{figure.2.4}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Plot Fungsi Aktivasi Tanh\relax }}{12}{figure.2.5}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Plot Fungsi Aktivasi Relu\relax }}{12}{figure.2.6}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Plot Fungsi Aktivasi Selu\relax }}{13}{figure.2.7}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Forget Gate \cite {olah2015understanding}\relax }}{10}{figure.2.3}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Input Gate \cite {olah2015understanding}\relax }}{10}{figure.2.4}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Cell Gate \cite {olah2015understanding}\relax }}{11}{figure.2.5}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Output Gate \cite {olah2015understanding}\relax }}{11}{figure.2.6}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Plot Fungsi Aktivasi Sigmoid\relax }}{12}{figure.2.7}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Plot Fungsi Aktivasi Tanh\relax }}{12}{figure.2.8}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Plot Fungsi Aktivasi Relu\relax }}{13}{figure.2.9}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Plot Fungsi Aktivasi Elu\relax }}{13}{figure.2.10}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Plot Fungsi Aktivasi Selu\relax }}{14}{figure.2.11}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Plot Fungsi Aktivasi Softplus\relax }}{14}{figure.2.12}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Plot Fungsi Aktivasi Softplus\relax }}{14}{figure.2.13}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagram Alir Perancangan Sistem Model LSTM\relax }}{15}{figure.caption.19}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Pair Plot\relax }}{37}{figure.3.2}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Perbandingan Jumlah Kategori Dataset-1\relax }}{38}{figure.3.3}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Jumlah Untuk Setiap Kategori Dataset-2\relax }}{39}{figure.3.4}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Pair Plot Set Data 2\relax }}{40}{figure.3.5}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagram Alir Perancangan Sistem Model LSTM\relax }}{16}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Pair Plot\relax }}{36}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Perbandingan Jumlah Kategori Dataset-1\relax }}{37}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Jumlah Untuk Setiap Kategori Dataset-2\relax }}{38}{figure.3.4}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Pair Plot Set Data 2\relax }}{39}{figure.3.5}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Pengaruh \textit {Epochs} terhadap Akurasi dengan Set Data 1\relax }}{43}{figure.4.1}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Pengaruh Urutan Fitur dengan Set Data 1\relax }}{44}{figure.4.2}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Studi Kasus 1: Akurasi Percobaan Perubahan Layer\relax }}{45}{figure.4.3}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Studi Kasus 1: Persebaran Akurasi Menggunakan 2 Layer\relax }}{46}{figure.4.4}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Studi Kasus 1: \textit {Confusion Matrix} LSTM dengan 2 \textit {Hidden Layer}\relax }}{46}{figure.4.5}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Studi Kasus 1: Presisi Percobaan Perubahan Layer\relax }}{47}{figure.4.6}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Studi Kasus 1: Akurasi Percobaan Perubahan Fungsi Aktivasi\relax }}{48}{figure.4.7}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Studi Kasus 1: Persebaran Akurasi Menggunakan Fungsi Aktivasi \textit {Selu}\relax }}{49}{figure.4.8}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Studi Kasus 1: \textit {Confusion Matrix} Menggunakan Fungsi Aktivasi \textit {Selu}\relax }}{49}{figure.4.9}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Studi Kasus 1: Presisi Percobaan Perubahan Layer\relax }}{50}{figure.4.10}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Studi Kasus 1: Akurasi Percobaan Menggunakan Rasio Data Pelatihan dan Pengujian 8:2\relax }}{51}{figure.4.11}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Studi Kasus 1: Persebaran Akurasi Menggunakan Rasio Data Pelatihan dan Pengujian 8:2\relax }}{51}{figure.4.12}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Studi Kasus 1: \textit {Confusion Matrix} Percobaan Menggunakan Rasio Data Pelatihan dan Pengujian 8:2\relax }}{52}{figure.4.13}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Studi Kasus 1: Presisi dan Sensitivitas Percobaan Menggunakan Rasio Data Pelatihan dan Pengujian 8:2\relax }}{52}{figure.4.14}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Studi Kasus 2: Akurasi Percobaan Perubahan \textit {Hidden Layer}\relax }}{53}{figure.4.15}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Studi Kasus 2: Akurasi Percobaan Single Layer\relax }}{54}{figure.4.16}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Studi Kasus 2: \textit {Confusion Matrix} LSTM dengan 1 \textit {Hidden Layer}\relax }}{54}{figure.4.17}%
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Studi Kasus 2: Presisi Percobaan Perubahan Layer\relax }}{55}{figure.4.18}%
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Akurasi Percobaan Perubahan Fungsi Aktivasi\relax }}{56}{figure.4.19}%
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Studi Kasus 2: Akurasi Percobaan Menggunakan Fungsi Aktivasi \textit {Selu}\relax }}{56}{figure.4.20}%
-\contentsline {figure}{\numberline {4.21}{\ignorespaces Studi Kasus 2: \textit {Confusion Matrix} Menggunakan Fungsi Aktivasi \textit {Selu}\relax }}{57}{figure.4.21}%
-\contentsline {figure}{\numberline {4.22}{\ignorespaces Studi Kasus 2: Presisi dan Sensitivitas Percobaan Perubahan Layer\relax }}{57}{figure.4.22}%
-\contentsline {figure}{\numberline {4.23}{\ignorespaces Studi Kasus 2: Akurasi Percobaan Menggunakan Rasio Data Pelatihan dan Pengujian 8:2\relax }}{58}{figure.4.23}%
-\contentsline {figure}{\numberline {4.24}{\ignorespaces Studi Kasus 2: Akurasi Percobaan Menggunakan Rasio Data Pelatihan dan Pengujian 8:2\relax }}{58}{figure.4.24}%
-\contentsline {figure}{\numberline {4.25}{\ignorespaces \textit {Confusion Matrix} Percobaan Menggunakan Rasio Data Pelatihan dan Pengujian 8:2\relax }}{59}{figure.4.25}%
-\contentsline {figure}{\numberline {4.26}{\ignorespaces Grafik Presisi dan Sensitivitas Menggunakan Rasio Data Pelatihan dan Pengujian 8:2\relax }}{59}{figure.4.26}%
-\contentsline {figure}{\numberline {4.27}{\ignorespaces Perbandingan Neuron pada ANN dengan Set Data 2\relax }}{60}{figure.4.27}%
-\contentsline {figure}{\numberline {4.28}{\ignorespaces Perbandingan Neuron pada ANN dengan Set Data 2\relax }}{61}{figure.4.28}%
-\contentsline {figure}{\numberline {4.29}{\ignorespaces Tautan Aplikasi Diagnosis Indeks Kesehatan Transformator Daya\relax }}{61}{figure.4.29}%
-\contentsline {figure}{\numberline {4.30}{\ignorespaces Tampilan Aplikasi Diagnosis Indeks Kesehatan Transformator Daya pada Perangkat \textit {Mobile}\relax }}{62}{figure.4.30}%
-\contentsline {figure}{\numberline {4.31}{\ignorespaces Tampilan Aplikasi Diagnosis Indeks Kesehatan Transformator Daya pada Perangkat \textit {Mobile}\relax }}{63}{figure.4.31}%
-\contentsline {figure}{\numberline {4.32}{\ignorespaces Peringatan Aplikasi Jika Terdapat Masukkan yang Belum Lengkap pada Perangkat \textit {Mobile}\relax }}{63}{figure.4.32}%
-\contentsline {figure}{\numberline {4.33}{\ignorespaces Berhasil Mendiagnosis Indeks Kesehatan Transformator Daya pada Perangkat \textit {Mobile}\relax }}{64}{figure.4.33}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Pengaruh \textit {Epochs} terhadap Akurasi dengan Set Data 1\relax }}{44}{figure.4.1}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Pengaruh Urutan Fitur dengan Set Data 1\relax }}{45}{figure.4.2}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Studi Kasus 1: Akurasi Percobaan Perubahan Layer\relax }}{46}{figure.4.3}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Studi Kasus 1: Persebaran Akurasi Menggunakan 2 Layer\relax }}{47}{figure.4.4}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Studi Kasus 1: \textit {Confusion Matrix} LSTM dengan 2 \textit {Hidden Layer}\relax }}{47}{figure.4.5}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Studi Kasus 1: Presisi Percobaan Perubahan Layer\relax }}{48}{figure.4.6}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Studi Kasus 1: Akurasi Percobaan Perubahan Fungsi Aktivasi\relax }}{49}{figure.4.7}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Studi Kasus 1: Persebaran Akurasi Menggunakan Fungsi Aktivasi \textit {Selu}\relax }}{50}{figure.4.8}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Studi Kasus 1: \textit {Confusion Matrix} Menggunakan Fungsi Aktivasi \textit {Selu}\relax }}{50}{figure.4.9}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Studi Kasus 1: Presisi Percobaan Perubahan Layer\relax }}{51}{figure.4.10}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Studi Kasus 1: Akurasi Percobaan Menggunakan Rasio Data Pelatihan dan Pengujian 8:2\relax }}{52}{figure.4.11}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Studi Kasus 1: Persebaran Akurasi Menggunakan Rasio Data Pelatihan dan Pengujian 8:2\relax }}{52}{figure.4.12}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Studi Kasus 1: \textit {Confusion Matrix} Percobaan Menggunakan Rasio Data Pelatihan dan Pengujian 8:2\relax }}{53}{figure.4.13}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Studi Kasus 1: Presisi dan Sensitivitas Percobaan Menggunakan Rasio Data Pelatihan dan Pengujian 8:2\relax }}{53}{figure.4.14}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Studi Kasus 2: Akurasi Percobaan Perubahan \textit {Hidden Layer}\relax }}{54}{figure.4.15}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Studi Kasus 2: Akurasi Percobaan Single Layer\relax }}{55}{figure.4.16}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Studi Kasus 2: \textit {Confusion Matrix} LSTM dengan 1 \textit {Hidden Layer}\relax }}{55}{figure.4.17}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Studi Kasus 2: Presisi Percobaan Perubahan Layer\relax }}{56}{figure.4.18}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Akurasi Percobaan Perubahan Fungsi Aktivasi\relax }}{57}{figure.4.19}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Studi Kasus 2: Akurasi Percobaan Menggunakan Fungsi Aktivasi \textit {Selu}\relax }}{57}{figure.4.20}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Studi Kasus 2: \textit {Confusion Matrix} Menggunakan Fungsi Aktivasi \textit {Selu}\relax }}{58}{figure.4.21}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Studi Kasus 2: Presisi dan Sensitivitas Percobaan Perubahan Layer\relax }}{58}{figure.4.22}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Studi Kasus 2: Akurasi Percobaan Menggunakan Rasio Data Pelatihan dan Pengujian 8:2\relax }}{59}{figure.4.23}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Studi Kasus 2: Akurasi Percobaan Menggunakan Rasio Data Pelatihan dan Pengujian 8:2\relax }}{59}{figure.4.24}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces \textit {Confusion Matrix} Percobaan Menggunakan Rasio Data Pelatihan dan Pengujian 8:2\relax }}{60}{figure.4.25}%
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Grafik Presisi dan Sensitivitas Menggunakan Rasio Data Pelatihan dan Pengujian 8:2\relax }}{60}{figure.4.26}%
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Perbandingan Neuron pada ANN dengan Set Data 2\relax }}{61}{figure.4.27}%
+\contentsline {figure}{\numberline {4.28}{\ignorespaces Perbandingan Neuron pada ANN dengan Set Data 2\relax }}{62}{figure.4.28}%
+\contentsline {figure}{\numberline {4.29}{\ignorespaces Tautan Aplikasi Diagnosis Indeks Kesehatan Transformator Daya\relax }}{62}{figure.4.29}%
+\contentsline {figure}{\numberline {4.30}{\ignorespaces Tampilan Aplikasi Diagnosis Indeks Kesehatan Transformator Daya pada Perangkat \textit {Mobile}\relax }}{63}{figure.4.30}%
+\contentsline {figure}{\numberline {4.31}{\ignorespaces Tampilan Aplikasi Diagnosis Indeks Kesehatan Transformator Daya pada Perangkat \textit {Mobile}\relax }}{64}{figure.4.31}%
+\contentsline {figure}{\numberline {4.32}{\ignorespaces Peringatan Aplikasi Jika Terdapat Masukkan yang Belum Lengkap pada Perangkat \textit {Mobile}\relax }}{64}{figure.4.32}%
+\contentsline {figure}{\numberline {4.33}{\ignorespaces Berhasil Mendiagnosis Indeks Kesehatan Transformator Daya pada Perangkat \textit {Mobile}\relax }}{65}{figure.4.33}%
 \addvspace {10\p@ }

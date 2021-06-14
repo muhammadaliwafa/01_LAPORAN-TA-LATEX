@@ -136,18 +136,31 @@ Pada pemodelan dengan menggunakan metode RNN secara umum memiliki kemampuan dala
 
 Kelebihan yang dimiliki LSTM dibandingkan dengan RNN dikarenakan algoritma yang digunakan terdiri dari struktur yang kompleks. Secara umum terdapat 4 bagian pada arsitektur LSTM yakni \textit{forget gate}, \textit{input gate}, \textit{Cell gate}, dan \textit{Output gate}. 
 \subsection{\textit{Forget Gate}}
-\begin{figure}[h]
-	\begin{center}
-		\includegraphics[width=0.7\textwidth]{BAB-2/figures/LSTM3-focus-f.png}	
-		\caption{Forget Gate \cite{olah2015understanding}}
-		\label{gambar:forget gate}
-	\end{center}
-\end{figure}
-Pada \textit{Forget gate} merupakan bagian yang menentukan mengenai informasi pada keluaran sel sebelumnya untuk dipertahankan atau dihapus. Hal ini dilakukan dengan memasukkan keluaran sel sebelumnya yang digabungkan dengan masukan baru ke dalam fungsi aktivasi sigmoid. Informasi akan dipertahankan untuk hasil dari sigmoid dengan nilai 1 dan dihapus untuk keluaran yang bernilai 0. Secara matematis pada \textit{forget gate} digunakan persamaan sebagai berikut:
+%\begin{figure}[h]
+%	\begin{center}
+%		\includegraphics[width=0.7\textwidth]{BAB-2/figures/LSTM3-focus-f.png}	
+%		\caption{Forget Gate \cite{olah2015understanding}}
+%		\label{gambar:forget gate}
+%	\end{center}
+%\end{figure}
+
+
+Pada \textit{Forget gate} merupakan bagian yang menentukan mengenai informasi pada keluaran sel sebelumnya untuk dipertahankan atau dihapus. Hal ini dilakukan dengan memasukkan keluaran sel sebelumnya yang digabungkan dengan masukan baru ke dalam fungsi aktivasi \textit{sigmoid}. Informasi akan dipertahankan untuk hasil dari \textit{sigmoid} dengan nilai 1 dan dihapus untuk keluaran yang bernilai 0. Secara matematis pada \textit{forget gate} digunakan persamaan sebagai berikut:
 \begin{equation}
 	\boldsymbol{f_t} = \sigma_g(\boldsymbol{W_{f}}.[\boldsymbol{h_{t-1}}, \boldsymbol{x_t}] + \boldsymbol{b_f})
 	\label{func:forget}
 \end{equation} 
+
+\centerline{
+	\begin{minipage}{\linewidth}
+		\vspace{12 pt}
+		\centering
+		\includegraphics[width=0.4\textwidth]{BAB-2/figures/LSTM-forget.png}	
+		\captionof{figure}{Forget Gate \cite{olah2015understanding}}
+		\label{gambar:forget gate}
+	\end{minipage}
+}
+
 Berdasarkan persamaan~(\ref{func:forget}) dapat diketahui pada persamaan tersebut terdapat bentuk $[\boldsymbol{h_{t-1}}, \boldsymbol{x_t}]$. Hal ini merupakan operasi penggabungan vektor yakni penggabungan baris pada $\boldsymbol{h_{t-1}}$ dengan baris pada $\boldsymbol{x_t}$.
 \subsection{\textit{Input Gate}}
 Salah satu kelebihan LSTM adalah dapat mengingat informasi data masukan yang lama. Hal ini dikarenakan karena adanya satu bagian yang berperan dalam memperbarui memori berdasarkan informasi penting dari masukan baru. Kemampuan ini diperoleh karena ada dua tahapan penting pada \textit{input gate} yakni melalui lapisan \textit{sigmoid} dan \textit{tanh}. lapisan akan memberikan keluaran berupa nilai mana saja yang harus dilakukan pembaruan pada memori sedangkan lapisan \textit{tanh} memberikan keluaran berupa calon ($\boldsymbol{\tilde{C}}$) yang ditambahkan pada memori. 
@@ -159,6 +172,17 @@ Salah satu kelebihan LSTM adalah dapat mengingat informasi data masukan yang lam
 	\boldsymbol{\tilde{C}} = tanh(\boldsymbol{W_{C}}.[\boldsymbol{h_{t-1}}, \boldsymbol{x_t}] + \boldsymbol{b_C})
 	\label{func:C-tilde}
 \end{equation}
+
+\centerline{
+	\begin{minipage}{\linewidth}
+		\vspace{12 pt}
+		\centering
+		\includegraphics[width=0.4\textwidth]{BAB-2/figures/LSTM-input.png}	
+		\captionof{figure}{Input Gate \cite{olah2015understanding}}
+		\label{gambar:input gate}
+	\end{minipage}
+}
+
 Hasil perkalian dari dua lapisan pada \textit{input gate} akan menjadi \textit{input} pada memori sebagai pembaruan. pembaruan yang terjadi dalam hanya dalam jumlah yang sedikit, oleh karena itu informasi penting pada data yang lampau akan tetap tersimpan untuk jumlah data yang banyak.
 \subsection{\textit{Cell gate}}
 \textit{Cell gate} merupakan tempat penyimpanan informasi penting pada setiap data yang diberikan pada LSTM. \textit{cell gate} terdiri dari masukan dari \textit{forget gate} untuk mengurangi informasi yang tidak diperlukan dari semua masukan sebelumnya melalui persamaan ~(\ref{func:forget}). Kemudian ditambahkan dengan hasil perkalian dari $\boldsymbol{i_t}$ dan $\boldsymbol{\tilde{C}}$.
@@ -166,9 +190,19 @@ Hasil perkalian dari dua lapisan pada \textit{input gate} akan menjadi \textit{i
 	\boldsymbol{C_t} = \boldsymbol{f_t}*\boldsymbol{C_{t-1}} + \boldsymbol{i_t} * \boldsymbol{\tilde{C}}
 	\label{func:cell_gate}
 \end{equation}
+
+\centerline{
+	\begin{minipage}{\linewidth}
+		\vspace{12 pt}
+		\centering
+		\includegraphics[width=0.4\textwidth]{BAB-2/figures/LSTM-cell.png}	
+		\captionof{figure}{Cell Gate \cite{olah2015understanding}}
+		\label{gambar:cell gate}
+	\end{minipage}
+}
 Hal utama yang perlu diperhatikan adalah bahwa pada LSTM bagian \textit{cell gate} merupakan lapisan yang saling terhubung, sehingga antar sel yang berjauhan pun dapat terintegrasi. Kondisi ini yang menjadikan LSTM dapat mengatasi permasalahan versi RNN sebelumnya yang diakibatkan adanya \textit{vanishing gradient}.
 \subsection{\textit{Output Gate}}
-Pada bagian akhir merupakan keluaran dari sel lstm atau dapat berupa hasil prediksi berdasarkan masukan yang diberikan. Keluaran ditentukan oleh memori $\boldsymbol{C_t}$ dan masukan yang diberikan. Hal ini dilakukan dengan memasukkan  $\boldsymbol{x_t}$ dan keluaran sebelumnya ($\boldsymbol{h_{t-1}}$) pada fungsi \textit{sigmoid}. Hasil dari fungsi \textit{sigmoid} kemudian akan memfilter nilai dari \textit{cell state} yang dapat diteruskan menuju keluaran. Sebelum dikalikan dengan hasil dari gerbang \textit{sigmoid}, \textit{cell state} terlebih dahulu melewati gerbang tanh untuk mengubah nilai pada rentang -1 sampai 1. Secara matematis dapat dituliskan sebagai berikut:
+Pada bagian akhir merupakan keluaran dari sel LSTM atau dapat berupa hasil prediksi berdasarkan masukan yang diberikan. Keluaran ditentukan oleh memori $\boldsymbol{C_t}$ dan masukan yang diberikan. Hal ini dilakukan dengan memasukkan  $\boldsymbol{x_t}$ dan keluaran sebelumnya ($\boldsymbol{h_{t-1}}$) pada fungsi \textit{sigmoid}. Hasil dari fungsi \textit{sigmoid} kemudian akan memfilter nilai dari \textit{cell state} yang dapat diteruskan menuju keluaran. Sebelum dikalikan dengan hasil dari gerbang \textit{sigmoid}, \textit{cell state} terlebih dahulu melewati gerbang tanh untuk mengubah nilai pada rentang -1 sampai 1. Secara matematis dapat dituliskan sebagai berikut:
 \begin{equation}
 	\boldsymbol{o_t} = \sigma(\boldsymbol{W_i}.[\boldsymbol{h_{t-1}}, \boldsymbol{x_t}] + \boldsymbol{b_o})
 	\label{func:ouput_sigmoid}
@@ -177,12 +211,22 @@ Pada bagian akhir merupakan keluaran dari sel lstm atau dapat berupa hasil predi
 	\boldsymbol{h_t} = \boldsymbol{o_t}*tanh(\boldsymbol{C_t})
 	\label{func:final_output}
 \end{equation}
+\centerline{
+	\begin{minipage}{\linewidth}
+		\vspace{12 pt}
+		\centering
+		\includegraphics[width=0.4\textwidth]{BAB-2/figures/LSTM-output.png}	
+		\captionof{figure}{Output Gate \cite{olah2015understanding}}
+		\label{gambar:output gate}
+	\end{minipage}
+}
 
 \section{Fungsi Aktivasi}
+Fungsi aktivasi merupakan sebuah fungsi matematis yang diterapkan setiap keluaran dari \textit{neuron} pada pemodelan ANN. Model LSTM pada dasarnya dibentuk berdasarkan model dari ANN, sehingga arsitekturnya menggunakan fungsi aktivasi. Hampir di setiap bagian pada LSTM terdapat adanya fungsi aktivasi. Pada model LSTM, umumnya melibatkan dua fungsi aktivasi yakni \textit{tanh} dan \textit{sigmoid}($\sigma$). Selain fungsi aktivasi tersebut terdapat juga jenis yang lain. Secara detail persamaan fungsi aktivasi dan plot grafik adalah sebagai berikut:
 
-\subsection{Sigmoid}
+\textit{Sigmoid}:
 \begin{equation}
-	f(x) = \frac{1}{1 + e^{-x}}
+	\sigma (x) = \frac{1}{1 + e^{-x}}
 	\label{func:sigmoid}
 \end{equation}
 
@@ -196,7 +240,7 @@ Pada bagian akhir merupakan keluaran dari sel lstm atau dapat berupa hasil predi
 	\end{minipage}
 }
 
-\subsection{Tanh}
+\textit{Tanh}:
 \begin{equation}
 	f(x) = \frac{e^{x} - e^{-x}}{e^{x} + e^{-x}}
 	\label{func:tanh}
@@ -212,7 +256,7 @@ Pada bagian akhir merupakan keluaran dari sel lstm atau dapat berupa hasil predi
 	\end{minipage}
 }
 
-\subsection{Relu}
+\textit{Relu}: 
 \begin{equation}
 	f(x) = \begin{cases}
 		x & \text{if } x > 0, \\
@@ -231,22 +275,46 @@ Pada bagian akhir merupakan keluaran dari sel lstm atau dapat berupa hasil predi
 	\end{minipage}
 }
 
-\subsection{Softmax}
+\textit{Softmax}:
 
 \begin{equation}
-	\sigma(\mathbf{z})_i = \frac{e^{z_i}}{\sum_{j=1}^K e^{z_j}} \ \ \ \ \text{ for } i = 1, \dotsc , K \text{ and } \mathbf z= (z_1,\dotsc,z_K) \in \mathbb{R}^K.
+	f(\mathbf{z})_i = \frac{e^{z_i}}{\sum_{j=1}^K e^{z_j}} \ \ \ \ \text{ for } i = 1, \dotsc , K \text{ and } \mathbf z= (z_1,\dotsc,z_K) \in \mathbb{R}^K.
 	\label{func:softmax}
 \end{equation}
 
 
-\subsection{Selu}
+\textit{Elu}:
 \begin{equation}
 	f(x) = \begin{cases}
-		x & \text{if } x > 0, \\
-		\alpha x - \alpha & \text{if } x \geqslant 0.
+		\alpha\left(e^x - 1\right) & \text{if } x \le 0\\
+		x & \text{if } x > 0
+	\end{cases}
+	\label{func:elu}
+\end{equation} \par
+
+untuk $\alpha = 1$
+
+\centerline{
+	\begin{minipage}{\linewidth}
+		\vspace{12 pt}
+		\centering
+		\input{BAB-2/figures/elu.pgf}
+		\captionof{figure}{Plot Fungsi Aktivasi Elu}
+		\label{gambar:elu}
+	\end{minipage}
+}
+
+
+\textit{Selu}:
+
+\begin{equation}
+	f(x) = \lambda \begin{cases}
+		\alpha(e^x - 1) & \text{if } x < 0\\
+		x & \text{if } x \ge 0
 	\end{cases}
 	\label{func:selu}
-\end{equation}
+\end{equation} \par
+dengan $\lambda = 1.05070098$ dan $\alpha = 1.67326324$
 
 \centerline{
 	\begin{minipage}{\linewidth}
@@ -258,6 +326,39 @@ Pada bagian akhir merupakan keluaran dari sel lstm atau dapat berupa hasil predi
 	\end{minipage}
 }
 
+\textit{Softplus}:
+
+\begin{equation}
+	f(x) = \ln(1 + e^x)
+	\label{func:softplus}
+\end{equation}
+
+\centerline{
+	\begin{minipage}{\linewidth}
+		\vspace{12 pt}
+		\centering
+		\input{BAB-2/figures/softplus.pgf}
+		\captionof{figure}{Plot Fungsi Aktivasi Softplus}
+		\label{gambar:softplus}
+	\end{minipage}
+}
+
+
+\textit{Softsign}:
+\begin{equation}
+	f(x) = \frac{x}{\lvert x \lvert + 1}
+	\label{func:softsign}
+\end{equation}
+
+\centerline{
+	\begin{minipage}{\linewidth}
+		\vspace{12 pt}
+		\centering
+		\input{BAB-2/figures/softsign.pgf}
+		\captionof{figure}{Plot Fungsi Aktivasi Softplus}
+		\label{gambar:softsign}
+	\end{minipage}
+}
 
 %Informasi ini diperoleh pada lapisan sebelumnya yakni kombinasi dari \textit{forget gate} dan \textit{input gate}. Pada dasarnya 
 

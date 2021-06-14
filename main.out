@@ -24,41 +24,36 @@
 \BOOKMARK [2][-]{subsection.2.4.3}{Cell gate}{section.2.4}% 24
 \BOOKMARK [2][-]{subsection.2.4.4}{Output Gate}{section.2.4}% 25
 \BOOKMARK [1][-]{section.2.5}{Fungsi Aktivasi}{chapter.2}% 26
-\BOOKMARK [2][-]{subsection.2.5.1}{Sigmoid}{section.2.5}% 27
-\BOOKMARK [2][-]{subsection.2.5.2}{Tanh}{section.2.5}% 28
-\BOOKMARK [2][-]{subsection.2.5.3}{Relu}{section.2.5}% 29
-\BOOKMARK [2][-]{subsection.2.5.4}{Softmax}{section.2.5}% 30
-\BOOKMARK [2][-]{subsection.2.5.5}{Selu}{section.2.5}% 31
-\BOOKMARK [0][-]{chapter.3}{KONSEP PERANCANGAN}{}% 32
-\BOOKMARK [1][-]{section.3.1}{Diagram Alir Perancangan}{chapter.3}% 33
-\BOOKMARK [1][-]{section.3.2}{Pertimbangan Perancangan}{chapter.3}% 34
-\BOOKMARK [2][-]{subsection.3.2.1}{Akurasi}{section.3.2}% 35
-\BOOKMARK [2][-]{subsection.3.2.2}{Presisi}{section.3.2}% 36
-\BOOKMARK [2][-]{subsection.3.2.3}{Sensitifitas \(recall\)}{section.3.2}% 37
-\BOOKMARK [2][-]{subsection.3.2.4}{Spesificitiy}{section.3.2}% 38
-\BOOKMARK [2][-]{subsection.3.2.5}{F1 Score}{section.3.2}% 39
-\BOOKMARK [2][-]{subsection.3.2.6}{Waktu Pelatihan dan Pengujian}{section.3.2}% 40
-\BOOKMARK [1][-]{section.3.3}{Perancangan Model LSTM}{chapter.3}% 41
-\BOOKMARK [2][-]{subsection.3.3.1}{Jumlah Neuron}{section.3.3}% 42
-\BOOKMARK [2][-]{subsection.3.3.2}{Multilayer layer LSTM}{section.3.3}% 43
-\BOOKMARK [2][-]{subsection.3.3.3}{Set Data Indeks Kesehatan Transformator Daya}{section.3.3}% 44
-\BOOKMARK [1][-]{section.3.4}{Analisis Teknis}{chapter.3}% 45
-\BOOKMARK [1][-]{section.3.5}{Peralatan dan Bahan}{chapter.3}% 46
-\BOOKMARK [0][-]{chapter.4}{HASIL DAN PEMBAHASAN}{}% 47
-\BOOKMARK [1][-]{section.4.1}{Spesfiksi Perangkat Keras dan Perangkat Lunak}{chapter.4}% 48
-\BOOKMARK [1][-]{section.4.2}{Menentukan Jumlah Backpropagation \(Epochs\)}{chapter.4}% 49
-\BOOKMARK [1][-]{section.4.3}{Kombinasi pada Fitur Input}{chapter.4}% 50
-\BOOKMARK [1][-]{section.4.4}{Studi Kasus 1: Penggunaan Set Data 1}{chapter.4}% 51
-\BOOKMARK [2][-]{subsection.4.4.1}{Perubahan Jumlah Hidden Layer}{section.4.4}% 52
-\BOOKMARK [2][-]{subsection.4.4.2}{Perubahan Fungsi Aktivasi}{section.4.4}% 53
-\BOOKMARK [2][-]{subsection.4.4.3}{Perubahan Pembagian Data dengan Rasio 8:2}{section.4.4}% 54
-\BOOKMARK [1][-]{section.4.5}{Studi Kasus 2}{chapter.4}% 55
-\BOOKMARK [2][-]{subsection.4.5.1}{Perubahan Jumlah Hidden Layer}{section.4.5}% 56
-\BOOKMARK [2][-]{subsection.4.5.2}{Perubahan Fungsi Aktivasi}{section.4.5}% 57
-\BOOKMARK [2][-]{subsection.4.5.3}{Perubahan Pembagian Data dengan Rasio 8:2}{section.4.5}% 58
-\BOOKMARK [1][-]{section.4.6}{Perbandingan Terhadap Metode Artificial Neural Network \(ANN\) Sederhana}{chapter.4}% 59
-\BOOKMARK [1][-]{section.4.7}{Implementasi Model LSTM pada Aplikasi Website}{chapter.4}% 60
-\BOOKMARK [0][-]{chapter.5}{KESIMPULAN DAN SARAN}{}% 61
-\BOOKMARK [1][-]{section.5.1}{Kesimpulan}{chapter.5}% 62
-\BOOKMARK [1][-]{section.5.2}{Saran}{chapter.5}% 63
-\BOOKMARK [0][-]{Item.25}{DAFTAR PUSTAKA}{}% 64
+\BOOKMARK [0][-]{chapter.3}{KONSEP PERANCANGAN}{}% 27
+\BOOKMARK [1][-]{section.3.1}{Diagram Alir Perancangan}{chapter.3}% 28
+\BOOKMARK [1][-]{section.3.2}{Perancangan Model}{chapter.3}% 29
+\BOOKMARK [2][-]{subsection.3.2.1}{Set Data Indeks Kesehatan Transformator Daya}{section.3.2}% 30
+\BOOKMARK [2][-]{subsection.3.2.2}{Perancangan Model LSTM}{section.3.2}% 31
+\BOOKMARK [2][-]{subsection.3.2.3}{Multilayer layer LSTM}{section.3.2}% 32
+\BOOKMARK [1][-]{section.3.3}{Pertimbangan Perancangan}{chapter.3}% 33
+\BOOKMARK [2][-]{subsection.3.3.1}{Akurasi}{section.3.3}% 34
+\BOOKMARK [2][-]{subsection.3.3.2}{Presisi}{section.3.3}% 35
+\BOOKMARK [2][-]{subsection.3.3.3}{Sensitifitas \(recall\)}{section.3.3}% 36
+\BOOKMARK [2][-]{subsection.3.3.4}{Spesificitiy}{section.3.3}% 37
+\BOOKMARK [2][-]{subsection.3.3.5}{F1 Score}{section.3.3}% 38
+\BOOKMARK [2][-]{subsection.3.3.6}{Waktu Pelatihan dan Pengujian}{section.3.3}% 39
+\BOOKMARK [1][-]{section.3.4}{Analisis Teknis}{chapter.3}% 40
+\BOOKMARK [1][-]{section.3.5}{Peralatan dan Bahan}{chapter.3}% 41
+\BOOKMARK [0][-]{chapter.4}{HASIL DAN PEMBAHASAN}{}% 42
+\BOOKMARK [1][-]{section.4.1}{Spesfiksi Perangkat Keras dan Perangkat Lunak}{chapter.4}% 43
+\BOOKMARK [1][-]{section.4.2}{Menentukan Jumlah Backpropagation \(Epochs\)}{chapter.4}% 44
+\BOOKMARK [1][-]{section.4.3}{Kombinasi pada Fitur Input}{chapter.4}% 45
+\BOOKMARK [1][-]{section.4.4}{Studi Kasus 1: Penggunaan Set Data 1}{chapter.4}% 46
+\BOOKMARK [2][-]{subsection.4.4.1}{Perubahan Jumlah Hidden Layer}{section.4.4}% 47
+\BOOKMARK [2][-]{subsection.4.4.2}{Perubahan Fungsi Aktivasi}{section.4.4}% 48
+\BOOKMARK [2][-]{subsection.4.4.3}{Perubahan Pembagian Data dengan Rasio 8:2}{section.4.4}% 49
+\BOOKMARK [1][-]{section.4.5}{Studi Kasus 2}{chapter.4}% 50
+\BOOKMARK [2][-]{subsection.4.5.1}{Perubahan Jumlah Hidden Layer}{section.4.5}% 51
+\BOOKMARK [2][-]{subsection.4.5.2}{Perubahan Fungsi Aktivasi}{section.4.5}% 52
+\BOOKMARK [2][-]{subsection.4.5.3}{Perubahan Pembagian Data dengan Rasio 8:2}{section.4.5}% 53
+\BOOKMARK [1][-]{section.4.6}{Perbandingan Terhadap Metode Artificial Neural Network \(ANN\) Sederhana}{chapter.4}% 54
+\BOOKMARK [1][-]{section.4.7}{Implementasi Model LSTM pada Aplikasi Website}{chapter.4}% 55
+\BOOKMARK [0][-]{chapter.5}{KESIMPULAN DAN SARAN}{}% 56
+\BOOKMARK [1][-]{section.5.1}{Kesimpulan}{chapter.5}% 57
+\BOOKMARK [1][-]{section.5.2}{Saran}{chapter.5}% 58
+\BOOKMARK [0][-]{Item.25}{DAFTAR PUSTAKA}{}% 59

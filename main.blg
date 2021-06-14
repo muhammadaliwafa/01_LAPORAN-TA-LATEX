@@ -26,45 +26,45 @@ Warning--empty journal in ieee2007ieee
 Warning--empty journal in shah2016predict
 
 Done.
-You've used 27 entries,
+You've used 28 entries,
             4855 wiz_defined-function locations,
-            1097 strings with 13102 characters,
-and the built_in function-call counts, 23642 in all, are:
-= -- 2090
-> -- 689
-< -- 179
-+ -- 349
-- -- 156
-* -- 1322
-:= -- 3601
-add.period$ -- 60
-call.type$ -- 27
-change.case$ -- 52
-chr.to.int$ -- 405
-cite$ -- 31
-duplicate$ -- 1562
-empty$ -- 1713
-format.name$ -- 209
-if$ -- 5333
+            1104 strings with 13290 characters,
+and the built_in function-call counts, 24627 in all, are:
+= -- 2187
+> -- 704
+< -- 191
++ -- 359
+- -- 158
+* -- 1369
+:= -- 3752
+add.period$ -- 62
+call.type$ -- 28
+change.case$ -- 54
+chr.to.int$ -- 430
+cite$ -- 32
+duplicate$ -- 1627
+empty$ -- 1778
+format.name$ -- 212
+if$ -- 5559
 int.to.chr$ -- 1
-int.to.str$ -- 28
-missing$ -- 237
-newline$ -- 105
-num.names$ -- 81
-pop$ -- 599
+int.to.str$ -- 29
+missing$ -- 245
+newline$ -- 108
+num.names$ -- 84
+pop$ -- 612
 preamble$ -- 1
-purify$ -- 27
+purify$ -- 28
 quote$ -- 2
-skip$ -- 1746
+skip$ -- 1825
 stack$ -- 0
-substring$ -- 976
-swap$ -- 1148
-text.length$ -- 39
+substring$ -- 1035
+swap$ -- 1204
+text.length$ -- 42
 text.prefix$ -- 0
 top$ -- 6
-type$ -- 416
+type$ -- 432
 warning$ -- 4
-while$ -- 121
+while$ -- 127
 width$ -- 0
-write$ -- 327
+write$ -- 340
 (There were 4 warnings)
