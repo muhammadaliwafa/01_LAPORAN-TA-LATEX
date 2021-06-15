@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.4.29)  15 JUN 2021 06:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.4.29)  15 JUN 2021 09:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2024,21 +2024,23 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 301.
 See the caption package documentation for explanation.
 
-<BAB-4/plot/CM_rasio_data_kecil.pdf, id=1265, 363.48811pt x 290.10742pt>
+[59]
+<BAB-4/plot/CM_rasio_data_kecil.pdf, id=1270, 363.48811pt x 290.10742pt>
 File: BAB-4/plot/CM_rasio_data_kecil.pdf Graphic file (type pdf)
 <use BAB-4/plot/CM_rasio_data_kecil.pdf>
 Package pdftex.def Info: BAB-4/plot/CM_rasio_data_kecil.pdf  used on input line
  313.
 (pdftex.def)             Requested size: 264.61333pt x 211.20117pt.
 
+
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 313.
 See the caption package documentation for explanation.
 
-[59]
-Overfull \hbox (17.32114pt too wide) in paragraph at lines 315--316
-\OT1/ptm/m/n/10.95 sen-si-tiv-i-tas, edan-gkan kat-e-gori "Baik" men-jadi memi-
-liki sen-si-tiv-i-tas yang tinggi. Hal ini mengindikasikan
+[60]
+Overfull \hbox (21.58057pt too wide) in paragraph at lines 315--316
+\OT1/ptm/m/n/10.95 sen-si-tiv-i-tas, sedan-gkan kat-e-gori "Baik" men-jadi memi
+-liki sen-si-tiv-i-tas yang tinggi. Hal ini mengindikasikan
  []
 
 (./BAB-4/plot/presisi_sensitivity_rasio_data_kecil.pgf)
@@ -2047,7 +2049,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 323.
 See the caption package documentation for explanation.
 
-[60 <./BAB-4/plot/CM_rasio_data_kecil.pdf>]
+[61 <./BAB-4/plot/CM_rasio_data_kecil.pdf>]
 (./BAB-4/plot/ANN_perbandingan_neuron_data_besar.pgf)
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -2060,8 +2062,8 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 347.
 See the caption package documentation for explanation.
 
-[61]
-<BAB-4/image/WebAppTA.png, id=1332, 602.25pt x 602.25pt>
+[62]
+<BAB-4/image/WebAppTA.png, id=1337, 602.25pt x 602.25pt>
 File: BAB-4/image/WebAppTA.png Graphic file (type png)
 <use BAB-4/image/WebAppTA.png>
 Package pdftex.def Info: BAB-4/image/WebAppTA.png  used on input line 378.
@@ -2072,7 +2074,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 378.
 See the caption package documentation for explanation.
 
-<BAB-4/image/mobile_awal.jpeg, id=1335, 578.16pt x 1027.84pt>
+<BAB-4/image/mobile_awal.jpeg, id=1340, 578.16pt x 1027.84pt>
 File: BAB-4/image/mobile_awal.jpeg Graphic file (type jpg)
 <use BAB-4/image/mobile_awal.jpeg>
 Package pdftex.def Info: BAB-4/image/mobile_awal.jpeg  used on input line 389.
@@ -2082,17 +2084,13 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 389.
 See the caption package documentation for explanation.
 
-[62 <./BAB-4/image/WebAppTA.png>]
-Overfull \hbox (4.99928pt too wide) in paragraph at lines 391--392
-[]\OT1/ptm/m/n/10.95 Pada proses mema-sukkan ma-sukan data yang diper-lukan mak
-a peng-guna di-haruskan un-tuk mengisi
- []
-
-<BAB-4/image/dekstop_view.png, id=1342, 1371.1225pt x 770.88pt>
+[63 <./BAB-4/image/WebAppTA.png>]
+<BAB-4/image/dekstop_view.png, id=1347, 1371.1225pt x 770.88pt>
 File: BAB-4/image/dekstop_view.png Graphic file (type png)
 <use BAB-4/image/dekstop_view.png>
 Package pdftex.def Info: BAB-4/image/dekstop_view.png  used on input line 400.
 (pdftex.def)             Requested size: 441.01773pt x 247.94525pt.
+
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 400.
@@ -2103,7 +2101,7 @@ Overfull \hbox (6.79999pt too wide) in paragraph at lines 400--400
  [][] 
  []
 
-<BAB-4/image/lengkapi_data.jpeg, id=1343, 578.16pt x 1027.84pt>
+<BAB-4/image/lengkapi_data.jpeg, id=1348, 578.16pt x 1027.84pt>
 File: BAB-4/image/lengkapi_data.jpeg Graphic file (type jpg)
 <use BAB-4/image/lengkapi_data.jpeg>
 Package pdftex.def Info: BAB-4/image/lengkapi_data.jpeg  used on input line 409
@@ -2114,9 +2112,9 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 409.
 See the caption package documentation for explanation.
 
-[63 <./BAB-4/image/mobile_awal.jpeg>] [64 <./BAB-4/image/dekstop_view.png> <./B
+[64 <./BAB-4/image/mobile_awal.jpeg>] [65 <./BAB-4/image/dekstop_view.png> <./B
 AB-4/image/lengkapi_data.jpeg>]
-<BAB-4/image/berhasil.jpeg, id=1354, 578.16pt x 1027.84pt>
+<BAB-4/image/berhasil.jpeg, id=1359, 578.16pt x 1027.84pt>
 File: BAB-4/image/berhasil.jpeg Graphic file (type jpg)
 <use BAB-4/image/berhasil.jpeg>
 Package pdftex.def Info: BAB-4/image/berhasil.jpeg  used on input line 419.
@@ -2127,7 +2125,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 419.
 See the caption package documentation for explanation.
 
-) [65 <./BAB-4/image/berhasil.jpeg>]
+) [66 <./BAB-4/image/berhasil.jpeg>]
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf>
 Package pdftex.def Info: Includes/Pemisah.pdf  used on input line 146.
@@ -2164,14 +2162,14 @@ File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
 Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 146.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-[66
+[67
 
 ]
 \openout2 = `BAB-5/BAB-5.aux'.
 
  (./BAB-5/BAB-5.tex
 BAB V.
-) [67
+) [68
 
 
 ]
@@ -2211,9 +2209,9 @@ File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
 Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 148.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-[68
+[69
 
-] (./main.bbl [69
+] (./main.bbl [70
 
 ])
 File: Includes/Pemisah.pdf Graphic file (type pdf)
@@ -2240,7 +2238,7 @@ File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
 Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 160.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-[70]
+[71]
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
 Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 160.
@@ -2253,7 +2251,7 @@ File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
 Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 160.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
- [71]
+ [72]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 175.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 175.
  (./main.aux (./BAB-1/BAB-1.aux) (./BAB-2/BAB-2.aux)
@@ -2265,9 +2263,9 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 175.
  ) 
 Here is how much of TeX's memory you used:
- 35260 strings out of 481239
- 817361 string characters out of 5920377
- 1513277 words of memory out of 5000000
+ 35261 strings out of 481239
+ 817368 string characters out of 5920377
+ 1513279 words of memory out of 5000000
  49378 multiletter control sequences out of 15000+600000
  575378 words of font info for 110 fonts, out of 8000000 for 9000
  1159 hyphenation exceptions out of 8191
@@ -2295,10 +2293,10 @@ elvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (83 pages, 1533158 bytes).
+Output written on main.pdf (84 pages, 1534365 bytes).
 PDF statistics:
- 1533 PDF objects out of 1728 (max. 8388607)
- 1105 compressed objects within 12 object streams
- 271 named destinations out of 1000 (max. 500000)
+ 1538 PDF objects out of 1728 (max. 8388607)
+ 1109 compressed objects within 12 object streams
+ 272 named destinations out of 1000 (max. 500000)
  680 words of extra memory for PDF output out of 10000 (max. 10000000)
 

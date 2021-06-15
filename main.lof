@@ -41,18 +41,18 @@
 \contentsline {figure}{\numberline {4.17}{\ignorespaces Studi Kasus 2: \textit {Confusion Matrix} LSTM dengan 1 \textit {Hidden Layer}\relax }}{55}{figure.4.17}%
 \contentsline {figure}{\numberline {4.18}{\ignorespaces Studi Kasus 2: Presisi Percobaan Perubahan Layer\relax }}{56}{figure.4.18}%
 \contentsline {figure}{\numberline {4.19}{\ignorespaces Akurasi Percobaan Perubahan Fungsi Aktivasi\relax }}{57}{figure.4.19}%
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Studi Kasus 2: Akurasi Percobaan Menggunakan Fungsi Aktivasi \textit {Selu}\relax }}{57}{figure.4.20}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Studi Kasus 2: Akurasi Percobaan Menggunakan Fungsi Aktivasi \textit {Selu}\relax }}{58}{figure.4.20}%
 \contentsline {figure}{\numberline {4.21}{\ignorespaces Studi Kasus 2: \textit {Confusion Matrix} Menggunakan Fungsi Aktivasi \textit {Selu}\relax }}{58}{figure.4.21}%
-\contentsline {figure}{\numberline {4.22}{\ignorespaces Studi Kasus 2: Presisi dan Sensitivitas Percobaan Perubahan Layer\relax }}{58}{figure.4.22}%
-\contentsline {figure}{\numberline {4.23}{\ignorespaces Studi Kasus 2: Akurasi Percobaan Menggunakan Rasio Data Pelatihan dan Pengujian 8:2\relax }}{59}{figure.4.23}%
-\contentsline {figure}{\numberline {4.24}{\ignorespaces Studi Kasus 2: Akurasi Percobaan Menggunakan Rasio Data Pelatihan dan Pengujian 8:2\relax }}{59}{figure.4.24}%
-\contentsline {figure}{\numberline {4.25}{\ignorespaces \textit {Confusion Matrix} Percobaan Menggunakan Rasio Data Pelatihan dan Pengujian 8:2\relax }}{60}{figure.4.25}%
-\contentsline {figure}{\numberline {4.26}{\ignorespaces Grafik Presisi dan Sensitivitas Menggunakan Rasio Data Pelatihan dan Pengujian 8:2\relax }}{60}{figure.4.26}%
-\contentsline {figure}{\numberline {4.27}{\ignorespaces Perbandingan Neuron pada ANN dengan Set Data 2\relax }}{61}{figure.4.27}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Studi Kasus 2: Presisi dan Sensitivitas Percobaan Perubahan Layer\relax }}{59}{figure.4.22}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Studi Kasus 2: Akurasi Percobaan Menggunakan Rasio Data Pelatihan dan Pengujian 8:2\relax }}{60}{figure.4.23}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Studi Kasus 2: Akurasi Percobaan Menggunakan Rasio Data Pelatihan dan Pengujian 8:2\relax }}{60}{figure.4.24}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces \textit {Confusion Matrix} Percobaan Menggunakan Rasio Data Pelatihan dan Pengujian 8:2\relax }}{61}{figure.4.25}%
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Grafik Presisi dan Sensitivitas Menggunakan Rasio Data Pelatihan dan Pengujian 8:2\relax }}{61}{figure.4.26}%
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Perbandingan Neuron pada ANN dengan Set Data 2\relax }}{62}{figure.4.27}%
 \contentsline {figure}{\numberline {4.28}{\ignorespaces Perbandingan Neuron pada ANN dengan Set Data 2\relax }}{62}{figure.4.28}%
-\contentsline {figure}{\numberline {4.29}{\ignorespaces Tautan Aplikasi Diagnosis Indeks Kesehatan Transformator Daya\relax }}{62}{figure.4.29}%
-\contentsline {figure}{\numberline {4.30}{\ignorespaces Tampilan Aplikasi Diagnosis Indeks Kesehatan Transformator Daya pada Perangkat \textit {Mobile}\relax }}{63}{figure.4.30}%
-\contentsline {figure}{\numberline {4.31}{\ignorespaces Tampilan Aplikasi Diagnosis Indeks Kesehatan Transformator Daya pada Perangkat \textit {Mobile}\relax }}{64}{figure.4.31}%
-\contentsline {figure}{\numberline {4.32}{\ignorespaces Peringatan Aplikasi Jika Terdapat Masukkan yang Belum Lengkap pada Perangkat \textit {Mobile}\relax }}{64}{figure.4.32}%
-\contentsline {figure}{\numberline {4.33}{\ignorespaces Berhasil Mendiagnosis Indeks Kesehatan Transformator Daya pada Perangkat \textit {Mobile}\relax }}{65}{figure.4.33}%
+\contentsline {figure}{\numberline {4.29}{\ignorespaces Tautan Aplikasi Diagnosis Indeks Kesehatan Transformator Daya\relax }}{63}{figure.4.29}%
+\contentsline {figure}{\numberline {4.30}{\ignorespaces Tampilan Aplikasi Diagnosis Indeks Kesehatan Transformator Daya pada Perangkat \textit {Mobile}\relax }}{64}{figure.4.30}%
+\contentsline {figure}{\numberline {4.31}{\ignorespaces Tampilan Aplikasi Diagnosis Indeks Kesehatan Transformator Daya pada Perangkat \textit {Dekstop}\relax }}{65}{figure.4.31}%
+\contentsline {figure}{\numberline {4.32}{\ignorespaces Peringatan Aplikasi Jika Terdapat Masukkan yang Belum Lengkap pada Perangkat \textit {Mobile}\relax }}{65}{figure.4.32}%
+\contentsline {figure}{\numberline {4.33}{\ignorespaces Berhasil Mendiagnosis Indeks Kesehatan Transformator Daya pada Perangkat \textit {Mobile}\relax }}{66}{figure.4.33}%
 \addvspace {10\p@ }
