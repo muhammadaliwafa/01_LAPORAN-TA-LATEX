@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.4.29)  15 JUN 2021 09:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.4.29)  22 JUN 2021 14:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1840,13 +1840,13 @@ Overfull \hbox (17.0pt too wide) in paragraph at lines 18--24
 [44
 
 
-] (./BAB-4/plot/kombinasi_fitur.pgf)
+] (./BAB-4/plot/kombinasi_fitur_correlation.pgf)
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 40.
 See the caption package documentation for explanation.
 
-[45] (./BAB-4/plot/accuracy_5_layer_data_besar_random_21.pgf)
+[45] [46] (./BAB-4/plot/accuracy_5_layer_data_besar_random_21.pgf)
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 55.
@@ -1858,8 +1858,8 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 67.
 See the caption package documentation for explanation.
 
-[46]
-<BAB-4/plot/CM_2_layer_data_besar.pdf, id=1024, 345.17657pt x 275.64581pt>
+[47]
+<BAB-4/plot/CM_2_layer_data_besar.pdf, id=1026, 345.17657pt x 275.64581pt>
 File: BAB-4/plot/CM_2_layer_data_besar.pdf Graphic file (type pdf)
 <use BAB-4/plot/CM_2_layer_data_besar.pdf>
 Package pdftex.def Info: BAB-4/plot/CM_2_layer_data_besar.pdf  used on input li
@@ -1877,7 +1877,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 91.
 See the caption package documentation for explanation.
 
-[47 <./BAB-4/plot/CM_2_layer_data_besar.pdf>]
+[48 <./BAB-4/plot/CM_2_layer_data_besar.pdf>]
 (./BAB-4/plot/accuracy_perbandingan_AV_data_besar.pgf
 LaTeX Font Info:    Trying to load font information for OT1+phv on input line 3
 87.
@@ -1890,14 +1890,14 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 109.
 See the caption package documentation for explanation.
 
-[48] (./BAB-4/plot/scatter_selu_data_besar.pgf)
+[49] (./BAB-4/plot/scatter_selu_data_besar.pgf)
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 121.
 See the caption package documentation for explanation.
 
-[49]
-<BAB-4/plot/CM_selu_data_besar.pdf, id=1062, 345.17657pt x 275.64581pt>
+[50]
+<BAB-4/plot/CM_selu_data_besar.pdf, id=1064, 345.17657pt x 275.64581pt>
 File: BAB-4/plot/CM_selu_data_besar.pdf Graphic file (type pdf)
 <use BAB-4/plot/CM_selu_data_besar.pdf>
 Package pdftex.def Info: BAB-4/plot/CM_selu_data_besar.pdf  used on input line 
@@ -1915,7 +1915,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 142.
 See the caption package documentation for explanation.
 
-[50 <./BAB-4/plot/CM_selu_data_besar.pdf>]
+[51 <./BAB-4/plot/CM_selu_data_besar.pdf>]
 (./BAB-4/plot/accuracy_rasio_data_besar.pgf)
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -1928,8 +1928,8 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 167.
 See the caption package documentation for explanation.
 
-[51]
-<BAB-4/plot/CM_rasio_data_besar.pdf, id=1092, 367.3306pt x 285.52782pt>
+[52]
+<BAB-4/plot/CM_rasio_data_besar.pdf, id=1094, 367.3306pt x 285.52782pt>
 File: BAB-4/plot/CM_rasio_data_besar.pdf Graphic file (type pdf)
 <use BAB-4/plot/CM_rasio_data_besar.pdf>
 Package pdftex.def Info: BAB-4/plot/CM_rasio_data_besar.pdf  used on input line
@@ -1941,13 +1941,13 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 180.
 See the caption package documentation for explanation.
 
-[52] (./BAB-4/plot/presisi_sensitivity_rasio_data_besar.pgf)
+[53] (./BAB-4/plot/presisi_sensitivity_rasio_data_besar.pgf)
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 189.
 See the caption package documentation for explanation.
 
-[53 <./BAB-4/plot/CM_rasio_data_besar.pdf>]
+[54 <./BAB-4/plot/CM_rasio_data_besar.pdf>]
 (./BAB-4/plot/accuracy_5_layer_data_kecil_random_16.pgf)
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -1960,8 +1960,8 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 214.
 See the caption package documentation for explanation.
 
-[54]
-<BAB-4/plot/CM_1_layer_data_kecil.pdf, id=1166, 342.55579pt x 279.82744pt>
+[55]
+<BAB-4/plot/CM_1_layer_data_kecil.pdf, id=1169, 342.55579pt x 279.82744pt>
 File: BAB-4/plot/CM_1_layer_data_kecil.pdf Graphic file (type pdf)
 <use BAB-4/plot/CM_1_layer_data_kecil.pdf>
 Package pdftex.def Info: BAB-4/plot/CM_1_layer_data_kecil.pdf  used on input li
@@ -1979,21 +1979,21 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 234.
 See the caption package documentation for explanation.
 
-[55 <./BAB-4/plot/CM_1_layer_data_kecil.pdf>]
+[56 <./BAB-4/plot/CM_1_layer_data_kecil.pdf>]
 (./BAB-4/plot/accuracy_perbandingan_AV_data_kecil.pgf)
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 248.
 See the caption package documentation for explanation.
 
-[56] (./BAB-4/plot/single_layer_selu_data_kecil.pgf)
+[57] (./BAB-4/plot/single_layer_selu_data_kecil.pgf)
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 258.
 See the caption package documentation for explanation.
 
-[57]
-<BAB-4/plot/CM_selu_data_kecil.pdf, id=1205, 363.48811pt x 290.10742pt>
+[58]
+<BAB-4/plot/CM_selu_data_kecil.pdf, id=1207, 363.48811pt x 290.10742pt>
 File: BAB-4/plot/CM_selu_data_kecil.pdf Graphic file (type pdf)
 <use BAB-4/plot/CM_selu_data_kecil.pdf>
 Package pdftex.def Info: BAB-4/plot/CM_selu_data_kecil.pdf  used on input line 
@@ -2011,7 +2011,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 279.
 See the caption package documentation for explanation.
 
-[58 <./BAB-4/plot/CM_selu_data_kecil.pdf>]
+[59 <./BAB-4/plot/CM_selu_data_kecil.pdf>]
 (./BAB-4/plot/akurasi_rata_rasio_data_kecil.pgf)
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -2024,8 +2024,8 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 301.
 See the caption package documentation for explanation.
 
-[59]
-<BAB-4/plot/CM_rasio_data_kecil.pdf, id=1270, 363.48811pt x 290.10742pt>
+[60]
+<BAB-4/plot/CM_rasio_data_kecil.pdf, id=1272, 363.48811pt x 290.10742pt>
 File: BAB-4/plot/CM_rasio_data_kecil.pdf Graphic file (type pdf)
 <use BAB-4/plot/CM_rasio_data_kecil.pdf>
 Package pdftex.def Info: BAB-4/plot/CM_rasio_data_kecil.pdf  used on input line
@@ -2037,7 +2037,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 313.
 See the caption package documentation for explanation.
 
-[60]
+[61]
 Overfull \hbox (21.58057pt too wide) in paragraph at lines 315--316
 \OT1/ptm/m/n/10.95 sen-si-tiv-i-tas, sedan-gkan kat-e-gori "Baik" men-jadi memi
 -liki sen-si-tiv-i-tas yang tinggi. Hal ini mengindikasikan
@@ -2049,7 +2049,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 323.
 See the caption package documentation for explanation.
 
-[61 <./BAB-4/plot/CM_rasio_data_kecil.pdf>]
+[62 <./BAB-4/plot/CM_rasio_data_kecil.pdf>]
 (./BAB-4/plot/ANN_perbandingan_neuron_data_besar.pgf)
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -2062,8 +2062,8 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 347.
 See the caption package documentation for explanation.
 
-[62]
-<BAB-4/image/WebAppTA.png, id=1337, 602.25pt x 602.25pt>
+[63]
+<BAB-4/image/WebAppTA.png, id=1339, 602.25pt x 602.25pt>
 File: BAB-4/image/WebAppTA.png Graphic file (type png)
 <use BAB-4/image/WebAppTA.png>
 Package pdftex.def Info: BAB-4/image/WebAppTA.png  used on input line 378.
@@ -2074,7 +2074,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 378.
 See the caption package documentation for explanation.
 
-<BAB-4/image/mobile_awal.jpeg, id=1340, 578.16pt x 1027.84pt>
+<BAB-4/image/mobile_awal.jpeg, id=1342, 578.16pt x 1027.84pt>
 File: BAB-4/image/mobile_awal.jpeg Graphic file (type jpg)
 <use BAB-4/image/mobile_awal.jpeg>
 Package pdftex.def Info: BAB-4/image/mobile_awal.jpeg  used on input line 389.
@@ -2084,8 +2084,8 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 389.
 See the caption package documentation for explanation.
 
-[63 <./BAB-4/image/WebAppTA.png>]
-<BAB-4/image/dekstop_view.png, id=1347, 1371.1225pt x 770.88pt>
+[64 <./BAB-4/image/WebAppTA.png>]
+<BAB-4/image/dekstop_view.png, id=1349, 1371.1225pt x 770.88pt>
 File: BAB-4/image/dekstop_view.png Graphic file (type png)
 <use BAB-4/image/dekstop_view.png>
 Package pdftex.def Info: BAB-4/image/dekstop_view.png  used on input line 400.
@@ -2101,7 +2101,7 @@ Overfull \hbox (6.79999pt too wide) in paragraph at lines 400--400
  [][] 
  []
 
-<BAB-4/image/lengkapi_data.jpeg, id=1348, 578.16pt x 1027.84pt>
+<BAB-4/image/lengkapi_data.jpeg, id=1350, 578.16pt x 1027.84pt>
 File: BAB-4/image/lengkapi_data.jpeg Graphic file (type jpg)
 <use BAB-4/image/lengkapi_data.jpeg>
 Package pdftex.def Info: BAB-4/image/lengkapi_data.jpeg  used on input line 409
@@ -2112,9 +2112,9 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 409.
 See the caption package documentation for explanation.
 
-[64 <./BAB-4/image/mobile_awal.jpeg>] [65 <./BAB-4/image/dekstop_view.png> <./B
+[65 <./BAB-4/image/mobile_awal.jpeg>] [66 <./BAB-4/image/dekstop_view.png> <./B
 AB-4/image/lengkapi_data.jpeg>]
-<BAB-4/image/berhasil.jpeg, id=1359, 578.16pt x 1027.84pt>
+<BAB-4/image/berhasil.jpeg, id=1361, 578.16pt x 1027.84pt>
 File: BAB-4/image/berhasil.jpeg Graphic file (type jpg)
 <use BAB-4/image/berhasil.jpeg>
 Package pdftex.def Info: BAB-4/image/berhasil.jpeg  used on input line 419.
@@ -2125,7 +2125,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 419.
 See the caption package documentation for explanation.
 
-) [66 <./BAB-4/image/berhasil.jpeg>]
+) [67 <./BAB-4/image/berhasil.jpeg>]
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf>
 Package pdftex.def Info: Includes/Pemisah.pdf  used on input line 146.
@@ -2162,14 +2162,14 @@ File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
 Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 146.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-[67
+[68
 
 ]
 \openout2 = `BAB-5/BAB-5.aux'.
 
  (./BAB-5/BAB-5.tex
 BAB V.
-) [68
+) [69
 
 
 ]
@@ -2209,9 +2209,9 @@ File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
 Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 148.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-[69
+[70
 
-] (./main.bbl [70
+] (./main.bbl [71
 
 ])
 File: Includes/Pemisah.pdf Graphic file (type pdf)
@@ -2238,7 +2238,7 @@ File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
 Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 160.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-[71]
+[72]
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
 Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 160.
@@ -2251,7 +2251,7 @@ File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
 Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 160.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
- [72]
+ [73]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 175.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 175.
  (./main.aux (./BAB-1/BAB-1.aux) (./BAB-2/BAB-2.aux)
@@ -2263,9 +2263,9 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 175.
  ) 
 Here is how much of TeX's memory you used:
- 35261 strings out of 481239
- 817368 string characters out of 5920377
- 1513279 words of memory out of 5000000
+ 35262 strings out of 481239
+ 817423 string characters out of 5920377
+ 1672901 words of memory out of 5000000
  49378 multiletter control sequences out of 15000+600000
  575378 words of font info for 110 fonts, out of 8000000 for 9000
  1159 hyphenation exceptions out of 8191
@@ -2279,24 +2279,22 @@ ype1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/h
-elvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf
--dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (84 pages, 1534365 bytes).
+mmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
+w/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (85 pages, 1533014 bytes).
 PDF statistics:
- 1538 PDF objects out of 1728 (max. 8388607)
- 1109 compressed objects within 12 object streams
- 272 named destinations out of 1000 (max. 500000)
+ 1535 PDF objects out of 1728 (max. 8388607)
+ 1107 compressed objects within 12 object streams
+ 273 named destinations out of 1000 (max. 500000)
  680 words of extra memory for PDF output out of 10000 (max. 10000000)
 

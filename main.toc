@@ -43,17 +43,17 @@
 \contentsline {section}{\numberline {4.1}Spesfiksi Perangkat Keras dan Perangkat Lunak}{44}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Menentukan Jumlah \textit {Backpropagation} (\textit {Epochs})}{44}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Kombinasi pada Fitur \textit {Input}}{45}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Studi Kasus 1: Penggunaan Set Data 1}{46}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Perubahan Jumlah \textit {Hidden Layer}}{46}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Perubahan Fungsi Aktivasi}{48}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Perubahan Pembagian Data dengan Rasio 8:2}{51}{subsection.4.4.3}%
-\contentsline {section}{\numberline {4.5}Studi Kasus 2}{54}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Perubahan Jumlah \textit {Hidden Layer}}{54}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Perubahan Fungsi Aktivasi}{56}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}Perubahan Pembagian Data dengan Rasio 8:2}{59}{subsection.4.5.3}%
-\contentsline {section}{\numberline {4.6}Perbandingan Terhadap Metode \textit {Artificial Neural Network} (ANN) Sederhana}{61}{section.4.6}%
-\contentsline {section}{\numberline {4.7}Implementasi Model LSTM pada Aplikasi Website}{63}{section.4.7}%
-\contentsline {chapter}{\numberline {V}KESIMPULAN DAN SARAN}{68}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Kesimpulan}{68}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Saran}{68}{section.5.2}%
-\contentsline {chapter}{DAFTAR PUSTAKA}{70}{Item.25}%
+\contentsline {section}{\numberline {4.4}Studi Kasus 1: Penggunaan Set Data 1}{47}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Perubahan Jumlah \textit {Hidden Layer}}{47}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Perubahan Fungsi Aktivasi}{49}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Perubahan Pembagian Data dengan Rasio 8:2}{52}{subsection.4.4.3}%
+\contentsline {section}{\numberline {4.5}Studi Kasus 2}{55}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Perubahan Jumlah \textit {Hidden Layer}}{55}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Perubahan Fungsi Aktivasi}{57}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Perubahan Pembagian Data dengan Rasio 8:2}{60}{subsection.4.5.3}%
+\contentsline {section}{\numberline {4.6}Perbandingan Terhadap Metode \textit {Artificial Neural Network} (ANN) Sederhana}{62}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Implementasi Model LSTM pada Aplikasi Website}{64}{section.4.7}%
+\contentsline {chapter}{\numberline {V}KESIMPULAN DAN SARAN}{69}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Kesimpulan}{69}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Saran}{69}{section.5.2}%
+\contentsline {chapter}{DAFTAR PUSTAKA}{71}{Item.25}%
