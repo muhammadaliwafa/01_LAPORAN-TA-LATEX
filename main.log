@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.4.29)  22 JUN 2021 14:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.7.16)  17 JUL 2021 17:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1233,56 +1233,127 @@ File: LogoUP.png Graphic file (type png)
 <use LogoUP.png>
 Package pdftex.def Info: LogoUP.png  used on input line 124.
 (pdftex.def)             Requested size: 113.73425pt x 82.71582pt.
-
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Includes/Pemisah.pdf): PDF inclusion:
- found PDF version <1.7>, but at most version <1.5> allowed
-<Includes/Pemisah.pdf, id=254, 597.55246pt x 845.07718pt>
+<Includes/Pemisah.pdf, id=254, 597.53635pt x 845.18912pt>
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf>
 Package pdftex.def Info: Includes/Pemisah.pdf  used on input line 126.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Includes/Pemisah.pdf): PDF inclusion:
- found PDF version <1.7>, but at most version <1.5> allowed
+(pdftex.def)             Requested size: 597.53488pt x 845.18706pt.
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf>
 Package pdftex.def Info: Includes/Pemisah.pdf  used on input line 126.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Includes/Pemisah.pdf): PDF inclusion:
- found PDF version <1.7>, but at most version <1.5> allowed
-
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Includes/Pemisah.pdf): PDF inclusion:
- found PDF version <1.7>, but at most version <1.5> allowed
-<Includes/Pemisah.pdf, id=257, page=1, 597.55246pt x 845.07718pt>
+(pdftex.def)             Requested size: 597.53488pt x 845.18706pt.
+<Includes/Pemisah.pdf, id=257, page=1, 597.53635pt x 845.18912pt>
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
 Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 126.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+(pdftex.def)             Requested size: 597.53488pt x 845.18706pt.
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
 Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 126.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-[2
+(pdftex.def)             Requested size: 597.56223pt x 845.22574pt.
+ [2
 
 ]
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
 Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 126.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+(pdftex.def)             Requested size: 597.56223pt x 845.22574pt.
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
 Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 126.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+(pdftex.def)             Requested size: 597.56223pt x 845.22574pt.
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
 Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 126.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+(pdftex.def)             Requested size: 597.56223pt x 845.22574pt.
  [3 <./Includes/Pemisah.pdf>]
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Front/Lembar Pengesahan.pdf): PDF inc
+lusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Front/Lembar Pengesahan.pdf, id=276, 597.50829pt x 845.0471pt>
+File: Front/Lembar Pengesahan.pdf Graphic file (type pdf)
+<use Front/Lembar Pengesahan.pdf>
+Package pdftex.def Info: Front/Lembar Pengesahan.pdf  used on input line 128.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Front/Lembar Pengesahan.pdf): PDF inc
+lusion: found PDF version <1.7>, but at most version <1.5> allowed
+File: Front/Lembar Pengesahan.pdf Graphic file (type pdf)
+<use Front/Lembar Pengesahan.pdf>
+Package pdftex.def Info: Front/Lembar Pengesahan.pdf  used on input line 128.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Front/Lembar Pengesahan.pdf): PDF inc
+lusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Front/Lembar Pengesahan.pdf): PDF inc
+lusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Front/Lembar Pengesahan.pdf, id=279, page=1, 597.50829pt x 845.0471pt>
+File: Front/Lembar Pengesahan.pdf Graphic file (type pdf)
+<use Front/Lembar Pengesahan.pdf, page 1>
+Package pdftex.def Info: Front/Lembar Pengesahan.pdf , page1 used on input line
+ 128.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: Front/Lembar Pengesahan.pdf Graphic file (type pdf)
+<use Front/Lembar Pengesahan.pdf, page 1>
+Package pdftex.def Info: Front/Lembar Pengesahan.pdf , page1 used on input line
+ 128.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Front/Lembar Pengesahan.pdf Graphic file (type pdf)
+<use Front/Lembar Pengesahan.pdf, page 1>
+Package pdftex.def Info: Front/Lembar Pengesahan.pdf , page1 used on input line
+ 128.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Front/Lembar Pengesahan.pdf Graphic file (type pdf)
+<use Front/Lembar Pengesahan.pdf, page 1>
+Package pdftex.def Info: Front/Lembar Pengesahan.pdf , page1 used on input line
+ 128.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Front/Lembar Pengesahan.pdf Graphic file (type pdf)
+<use Front/Lembar Pengesahan.pdf, page 1>
+Package pdftex.def Info: Front/Lembar Pengesahan.pdf , page1 used on input line
+ 128.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+[4 <./Front/Lembar Pengesahan.pdf>]
+<Front/Lembar Pernyataan.pdf, id=324, 597.23125pt x 845.1575pt>
+File: Front/Lembar Pernyataan.pdf Graphic file (type pdf)
+<use Front/Lembar Pernyataan.pdf>
+Package pdftex.def Info: Front/Lembar Pernyataan.pdf  used on input line 129.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: Front/Lembar Pernyataan.pdf Graphic file (type pdf)
+<use Front/Lembar Pernyataan.pdf>
+Package pdftex.def Info: Front/Lembar Pernyataan.pdf  used on input line 129.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+<Front/Lembar Pernyataan.pdf, id=327, page=1, 597.23125pt x 845.1575pt>
+File: Front/Lembar Pernyataan.pdf Graphic file (type pdf)
+<use Front/Lembar Pernyataan.pdf, page 1>
+Package pdftex.def Info: Front/Lembar Pernyataan.pdf , page1 used on input line
+ 129.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: Front/Lembar Pernyataan.pdf Graphic file (type pdf)
+<use Front/Lembar Pernyataan.pdf, page 1>
+Package pdftex.def Info: Front/Lembar Pernyataan.pdf , page1 used on input line
+ 129.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: Front/Lembar Pernyataan.pdf Graphic file (type pdf)
+<use Front/Lembar Pernyataan.pdf, page 1>
+Package pdftex.def Info: Front/Lembar Pernyataan.pdf , page1 used on input line
+ 129.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: Front/Lembar Pernyataan.pdf Graphic file (type pdf)
+<use Front/Lembar Pernyataan.pdf, page 1>
+Package pdftex.def Info: Front/Lembar Pernyataan.pdf , page1 used on input line
+ 129.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: Front/Lembar Pernyataan.pdf Graphic file (type pdf)
+<use Front/Lembar Pernyataan.pdf, page 1>
+Package pdftex.def Info: Front/Lembar Pernyataan.pdf , page1 used on input line
+ 129.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+ [5 <./Front/Lembar Pernyataan.pdf>]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -1315,7 +1386,8 @@ Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 126.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- (./Front/abstrakind.tex
+
+(./Front/abstrakind.tex
 Overfull \hbox (4.40628pt too wide) in paragraph at lines 1--2
 \OT1/ptm/m/n/12 memas-tikan kon-disi trans-for-ma-tor daya da-pat bek-erja den-
 gan baik men-jadi pent-ing di-lakukan.
@@ -1325,7 +1397,7 @@ gan baik men-jadi pent-ing di-lakukan.
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.129 \abstrakind{Front/abstrakind}
+l.131 \abstrakind{Front/abstrakind}
                                     [1
 
 
@@ -1366,7 +1438,7 @@ l.129 \abstrakind{Front/abstrakind}
 ifier (name{page.ii}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.130 \abstrakeng{Front/abstrakeng}
+l.132 \abstrakeng{Front/abstrakeng}
                                     [2
 
 
@@ -1407,7 +1479,7 @@ l.130 \abstrakeng{Front/abstrakeng}
 entifier (name{page.iii}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.132 \daftarisi
+l.134 \daftarisi
                  [3
 
 
@@ -1421,18 +1493,28 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 1.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [4
+)pdfTeX warning (ext4): destination with the same identifier (name{page.iv}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.26 ...ine {2.5}Fungsi Aktivasi}{12}{section.2.5}
+                                                  % [4
 
-] [5])
+]pdfTeX warning (ext4): destination with the same identifier (name{page.v}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.56 ...ne {V}KESIMPULAN DAN SARAN}{69}{chapter.5}
+                                                  % [5])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- [6]
-(./main.lot)
+ [6] (./main.lot)
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
- [7
+
+[7
 
 ] (./main.lof [8
 
@@ -1440,6 +1522,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ]
 Overfull \hbox (3.05382pt too wide) in paragraph at lines 37--37
  [][] [][]\OT1/ptm/m/n/10.95 Studi Ka-sus 1: \OT1/ptm/m/it/10.95 Con-fu-sion Ma
+-trix \OT1/ptm/m/n/10.95 Per-cobaan Meng-gu-na-kan Ra-sio Data Pelati- 
+ []
+
+
+Overfull \hbox (3.05382pt too wide) in paragraph at lines 49--49
+ [][] [][]\OT1/ptm/m/n/10.95 Studi Ka-sus 2: \OT1/ptm/m/it/10.95 Con-fu-sion Ma
 -trix \OT1/ptm/m/n/10.95 Per-cobaan Meng-gu-na-kan Ra-sio Data Pelati- 
  []
 
@@ -1456,41 +1544,33 @@ s-for-ma-tor Daya pada Perangkat
  [9]
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf>
-Package pdftex.def Info: Includes/Pemisah.pdf  used on input line 137.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Includes/Pemisah.pdf): PDF inclusion:
- found PDF version <1.7>, but at most version <1.5> allowed
+Package pdftex.def Info: Includes/Pemisah.pdf  used on input line 139.
+(pdftex.def)             Requested size: 597.53488pt x 845.18706pt.
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf>
-Package pdftex.def Info: Includes/Pemisah.pdf  used on input line 137.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Includes/Pemisah.pdf): PDF inclusion:
- found PDF version <1.7>, but at most version <1.5> allowed
+Package pdftex.def Info: Includes/Pemisah.pdf  used on input line 139.
+(pdftex.def)             Requested size: 597.53488pt x 845.18706pt.
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 137.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 139.
+(pdftex.def)             Requested size: 597.53488pt x 845.18706pt.
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 137.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 139.
+(pdftex.def)             Requested size: 597.56223pt x 845.22574pt.
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 137.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 139.
+(pdftex.def)             Requested size: 597.56223pt x 845.22574pt.
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 137.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 139.
+(pdftex.def)             Requested size: 597.56223pt x 845.22574pt.
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 137.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-[1
+Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 139.
+(pdftex.def)             Requested size: 597.56223pt x 845.22574pt.
+ [1
 
 
 ]
@@ -1504,41 +1584,33 @@ BAB I.
 ] [3]) [4]
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf>
-Package pdftex.def Info: Includes/Pemisah.pdf  used on input line 140.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Includes/Pemisah.pdf): PDF inclusion:
- found PDF version <1.7>, but at most version <1.5> allowed
+Package pdftex.def Info: Includes/Pemisah.pdf  used on input line 142.
+(pdftex.def)             Requested size: 597.53488pt x 845.18706pt.
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf>
-Package pdftex.def Info: Includes/Pemisah.pdf  used on input line 140.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Includes/Pemisah.pdf): PDF inclusion:
- found PDF version <1.7>, but at most version <1.5> allowed
+Package pdftex.def Info: Includes/Pemisah.pdf  used on input line 142.
+(pdftex.def)             Requested size: 597.53488pt x 845.18706pt.
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 140.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 142.
+(pdftex.def)             Requested size: 597.53488pt x 845.18706pt.
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 140.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 142.
+(pdftex.def)             Requested size: 597.56223pt x 845.22574pt.
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 140.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 142.
+(pdftex.def)             Requested size: 597.56223pt x 845.22574pt.
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 140.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 142.
+(pdftex.def)             Requested size: 597.56223pt x 845.22574pt.
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 140.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-[5
+Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 142.
+(pdftex.def)             Requested size: 597.56223pt x 845.22574pt.
+ [5
 
 ]
 \openout2 = `BAB-2/BAB-2.aux'.
@@ -1549,171 +1621,163 @@ BAB II.
 
 
 ]
-<BAB-2/figures/duval triangle.png, id=613, 301.8778pt x 262.73157pt>
+<BAB-2/figures/duval triangle.png, id=667, 301.8778pt x 262.73157pt>
 File: BAB-2/figures/duval triangle.png Graphic file (type png)
 <use BAB-2/figures/duval triangle.png>
 Package pdftex.def Info: BAB-2/figures/duval triangle.png  used on input line 3
-2.
+3.
 (pdftex.def)             Requested size: 220.50887pt x 191.9127pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [7 <./BAB-2/figures/duval triangle.png (PNG copy)>]
-Overfull \hbox (3.91444pt too wide) in paragraph at lines 122--123
+Overfull \hbox (3.91444pt too wide) in paragraph at lines 123--124
 []\OT1/ptm/m/n/10.95 Machine learn-ing meru-pakan salah satu metode yang di-gu-
 na-kan dalam mem-pela-jari pola serangka-
  []
 
 [8]
-<BAB-2/figures/LSTM3-chain.png, id=642, 806.89455pt x 303.17265pt>
+<BAB-2/figures/LSTM3-chain.png, id=694, 806.89455pt x 303.17265pt>
 File: BAB-2/figures/LSTM3-chain.png Graphic file (type png)
 <use BAB-2/figures/LSTM3-chain.png>
-Package pdftex.def Info: BAB-2/figures/LSTM3-chain.png  used on input line 131.
+Package pdftex.def Info: BAB-2/figures/LSTM3-chain.png  used on input line 132.
 
 (pdftex.def)             Requested size: 308.71106pt x 115.99323pt.
  [9 <./BAB-2/figures/LSTM3-chain.png>]
-<BAB-2/figures/LSTM-forget.png, id=652, 313.29045pt x 203.8014pt>
+<BAB-2/figures/LSTM-forget.png, id=704, 313.29045pt x 203.8014pt>
 File: BAB-2/figures/LSTM-forget.png Graphic file (type png)
 <use BAB-2/figures/LSTM-forget.png>
-Package pdftex.def Info: BAB-2/figures/LSTM-forget.png  used on input line 162.
+Package pdftex.def Info: BAB-2/figures/LSTM-forget.png  used on input line 163.
 
 (pdftex.def)             Requested size: 176.40439pt x 114.75616pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 162.
+(caption)                particular \caption on input line 163.
 See the caption package documentation for explanation.
 
-<BAB-2/figures/LSTM-input.png, id=656, 314.01315pt x 201.6333pt>
+<BAB-2/figures/LSTM-input.png, id=708, 314.01315pt x 201.6333pt>
 File: BAB-2/figures/LSTM-input.png Graphic file (type png)
 <use BAB-2/figures/LSTM-input.png>
-Package pdftex.def Info: BAB-2/figures/LSTM-input.png  used on input line 184.
+Package pdftex.def Info: BAB-2/figures/LSTM-input.png  used on input line 185.
 (pdftex.def)             Requested size: 176.40439pt x 113.27383pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 184.
+(caption)                particular \caption on input line 185.
 See the caption package documentation for explanation.
 
 [10 <./BAB-2/figures/LSTM-forget.png> <./BAB-2/figures/LSTM-input.png>]
-<BAB-2/figures/LSTM-cell.png, id=676, 302.44995pt x 201.6333pt>
+<BAB-2/figures/LSTM-cell.png, id=728, 302.44995pt x 201.6333pt>
 File: BAB-2/figures/LSTM-cell.png Graphic file (type png)
 <use BAB-2/figures/LSTM-cell.png>
-Package pdftex.def Info: BAB-2/figures/LSTM-cell.png  used on input line 202.
+Package pdftex.def Info: BAB-2/figures/LSTM-cell.png  used on input line 203.
 (pdftex.def)             Requested size: 176.40439pt x 117.60579pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 202.
+(caption)                particular \caption on input line 203.
 See the caption package documentation for explanation.
 
-<BAB-2/figures/LSTM-output.png, id=679, 314.73586pt x 203.8014pt>
+<BAB-2/figures/LSTM-output.png, id=731, 314.73586pt x 203.8014pt>
 File: BAB-2/figures/LSTM-output.png Graphic file (type png)
 <use BAB-2/figures/LSTM-output.png>
-Package pdftex.def Info: BAB-2/figures/LSTM-output.png  used on input line 222.
+Package pdftex.def Info: BAB-2/figures/LSTM-output.png  used on input line 223.
 
 (pdftex.def)             Requested size: 176.40439pt x 114.22751pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 222.
+(caption)                particular \caption on input line 223.
 See the caption package documentation for explanation.
 
 [11 <./BAB-2/figures/LSTM-cell.png> <./BAB-2/figures/LSTM-output.png>]
 (./BAB-2/figures/sigmoid.pgf)
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 241.
+(caption)                particular \caption on input line 242.
 See the caption package documentation for explanation.
 
 (./BAB-2/figures/tanh.pgf)
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 257.
+(caption)                particular \caption on input line 258.
 See the caption package documentation for explanation.
 
 (./BAB-2/figures/relu.pgf)
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 276.
+(caption)                particular \caption on input line 277.
 See the caption package documentation for explanation.
 
 [12] (./BAB-2/figures/elu.pgf)
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 305.
+(caption)                particular \caption on input line 306.
 See the caption package documentation for explanation.
 
 (./BAB-2/figures/selu.pgf)
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 327.
+(caption)                particular \caption on input line 328.
 See the caption package documentation for explanation.
 
 [13] (./BAB-2/figures/softplus.pgf)
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 344.
+(caption)                particular \caption on input line 345.
 See the caption package documentation for explanation.
 
 (./BAB-2/figures/softsign.pgf)
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 361.
+(caption)                particular \caption on input line 362.
 See the caption package documentation for explanation.
 
 ) [14]
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf>
-Package pdftex.def Info: Includes/Pemisah.pdf  used on input line 142.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Includes/Pemisah.pdf): PDF inclusion:
- found PDF version <1.7>, but at most version <1.5> allowed
+Package pdftex.def Info: Includes/Pemisah.pdf  used on input line 144.
+(pdftex.def)             Requested size: 597.53488pt x 845.18706pt.
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf>
-Package pdftex.def Info: Includes/Pemisah.pdf  used on input line 142.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Includes/Pemisah.pdf): PDF inclusion:
- found PDF version <1.7>, but at most version <1.5> allowed
+Package pdftex.def Info: Includes/Pemisah.pdf  used on input line 144.
+(pdftex.def)             Requested size: 597.53488pt x 845.18706pt.
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 142.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 144.
+(pdftex.def)             Requested size: 597.53488pt x 845.18706pt.
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 142.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 144.
+(pdftex.def)             Requested size: 597.56223pt x 845.22574pt.
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 142.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 144.
+(pdftex.def)             Requested size: 597.56223pt x 845.22574pt.
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 142.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 144.
+(pdftex.def)             Requested size: 597.56223pt x 845.22574pt.
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 142.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-[15
+Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 144.
+(pdftex.def)             Requested size: 597.56223pt x 845.22574pt.
+ [15
 
 ]
 \openout2 = `BAB-3/BAB-3.aux'.
 
  (./BAB-3/BAB-3.tex
 BAB III.
-<BAB-3/figures/diagram alir.png, id=723, 243.4185pt x 354.4515pt>
+<BAB-3/figures/diagram alir.png, id=775, 243.4185pt x 354.4515pt>
 File: BAB-3/figures/diagram alir.png Graphic file (type png)
 <use BAB-3/figures/diagram alir.png>
-Package pdftex.def Info: BAB-3/figures/diagram alir.png  used on input line 24.
+Package pdftex.def Info: BAB-3/figures/diagram alir.png  used on input line 25.
 
 (pdftex.def)             Requested size: 308.71106pt x 449.54807pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 24.
+(caption)                particular \caption on input line 25.
 See the caption package documentation for explanation.
 
 [16
@@ -1721,26 +1785,26 @@ See the caption package documentation for explanation.
 
  <./BAB-3/figures/diagram alir.png>] [17] [18] [19] [20] [21] [22] [23]
 [24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34]
-<BAB-3/data/pairplot-setdata-1.pdf, id=813, 865.22809pt x 878.1809pt>
+<BAB-3/data/pairplot-setdata-1.pdf, id=865, 865.22809pt x 878.1809pt>
 File: BAB-3/data/pairplot-setdata-1.pdf Graphic file (type pdf)
 <use BAB-3/data/pairplot-setdata-1.pdf>
 Package pdftex.def Info: BAB-3/data/pairplot-setdata-1.pdf  used on input line 
-75.
+76.
 (pdftex.def)             Requested size: 441.01773pt x 447.61172pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 75.
+(caption)                particular \caption on input line 76.
 See the caption package documentation for explanation.
 
 [35] (./BAB-3/data/pie-kategori-set-1.pgf)
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 84.
+(caption)                particular \caption on input line 85.
 See the caption package documentation for explanation.
 
 [36 <./BAB-3/data/pairplot-setdata-1.pdf>]
-Overfull \hbox (0.46059pt too wide) in paragraph at lines 86--86
+Overfull \hbox (0.46059pt too wide) in paragraph at lines 87--87
 \OT1/ptm/m/n/10.95 (1%) jika diband-ingkan den-gan kat-e-gori yang lain, sedan-
 gkan kat-e-gori "Baik" ter-hi-tung pal-ing banyak
  []
@@ -1748,78 +1812,70 @@ gkan kat-e-gori "Baik" ter-hi-tung pal-ing banyak
 [37] (./BAB-3/data/pie-kategori-set-2.pgf)
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 120.
+(caption)                particular \caption on input line 121.
 See the caption package documentation for explanation.
 
-<BAB-3/data/pairplot-setdata-2.pdf, id=897, 1042.28961pt x 1057.0491pt>
+<BAB-3/data/pairplot-setdata-2.pdf, id=949, 1042.28961pt x 1057.0491pt>
 File: BAB-3/data/pairplot-setdata-2.pdf Graphic file (type pdf)
 <use BAB-3/data/pairplot-setdata-2.pdf>
 Package pdftex.def Info: BAB-3/data/pairplot-setdata-2.pdf  used on input line 
-133.
+134.
 (pdftex.def)             Requested size: 441.01773pt x 447.2641pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 133.
+(caption)                particular \caption on input line 134.
 See the caption package documentation for explanation.
 
 [38] [39 <./BAB-3/data/pairplot-setdata-2.pdf>]
-Overfull \hbox (0.42183pt too wide) in paragraph at lines 149--149
+Overfull \hbox (0.42183pt too wide) in paragraph at lines 150--150
 []\OT1/ptm/m/n/10.95 Pada per-an-can-gan ini per-tim-ban-gan utama peng-gu-naan
  model LSTM adalah karena pada dasarnya
  []
 
 
-Package makecell Warning: \rotcell needs rotating package on input line 164.
+Package makecell Warning: \rotcell needs rotating package on input line 165.
 
 [40] [41]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 263.
+(caption)                particular \caption on input line 264.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 261--280
+Overfull \hbox (17.0pt too wide) in paragraph at lines 262--281
 []$[]$ 
  []
 
 ) [42]
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf>
-Package pdftex.def Info: Includes/Pemisah.pdf  used on input line 144.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Includes/Pemisah.pdf): PDF inclusion:
- found PDF version <1.7>, but at most version <1.5> allowed
+Package pdftex.def Info: Includes/Pemisah.pdf  used on input line 146.
+(pdftex.def)             Requested size: 597.53488pt x 845.18706pt.
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf>
-Package pdftex.def Info: Includes/Pemisah.pdf  used on input line 144.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Includes/Pemisah.pdf): PDF inclusion:
- found PDF version <1.7>, but at most version <1.5> allowed
+Package pdftex.def Info: Includes/Pemisah.pdf  used on input line 146.
+(pdftex.def)             Requested size: 597.53488pt x 845.18706pt.
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 144.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 146.
+(pdftex.def)             Requested size: 597.53488pt x 845.18706pt.
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 144.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 146.
+(pdftex.def)             Requested size: 597.56223pt x 845.22574pt.
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 144.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 146.
+(pdftex.def)             Requested size: 597.56223pt x 845.22574pt.
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 144.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 146.
+(pdftex.def)             Requested size: 597.56223pt x 845.22574pt.
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 144.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-[43
+Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 146.
+(pdftex.def)             Requested size: 597.56223pt x 845.22574pt.
+ [43
 
 ]
 \openout2 = `BAB-4/BAB-4.aux'.
@@ -1829,11 +1885,11 @@ BAB IV.
 (./BAB-4/plot/accuracy_vs_epochs.pgf)
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 21.
+(caption)                particular \caption on input line 22.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 18--24
+Overfull \hbox (17.0pt too wide) in paragraph at lines 19--25
 []$[]$ 
  []
 
@@ -1843,38 +1899,38 @@ Overfull \hbox (17.0pt too wide) in paragraph at lines 18--24
 ] (./BAB-4/plot/kombinasi_fitur_correlation.pgf)
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 40.
+(caption)                particular \caption on input line 41.
 See the caption package documentation for explanation.
 
 [45] [46] (./BAB-4/plot/accuracy_5_layer_data_besar_random_21.pgf)
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 55.
+(caption)                particular \caption on input line 56.
 See the caption package documentation for explanation.
 
 (./BAB-4/plot/scatter_dual_layer_data_besar.pgf)
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 67.
+(caption)                particular \caption on input line 68.
 See the caption package documentation for explanation.
 
 [47]
-<BAB-4/plot/CM_2_layer_data_besar.pdf, id=1026, 345.17657pt x 275.64581pt>
+<BAB-4/plot/CM_2_layer_data_besar.pdf, id=1079, 345.17657pt x 275.64581pt>
 File: BAB-4/plot/CM_2_layer_data_besar.pdf Graphic file (type pdf)
 <use BAB-4/plot/CM_2_layer_data_besar.pdf>
 Package pdftex.def Info: BAB-4/plot/CM_2_layer_data_besar.pdf  used on input li
-ne 81.
+ne 82.
 (pdftex.def)             Requested size: 264.61333pt x 211.3226pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 81.
+(caption)                particular \caption on input line 82.
 See the caption package documentation for explanation.
 
 (./BAB-4/plot/presisi_sensitivity_2_layer_data_besar.pgf)
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 91.
+(caption)                particular \caption on input line 92.
 See the caption package documentation for explanation.
 
 [48 <./BAB-4/plot/CM_2_layer_data_besar.pdf>]
@@ -1887,158 +1943,158 @@ File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 ))
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 109.
+(caption)                particular \caption on input line 110.
 See the caption package documentation for explanation.
 
 [49] (./BAB-4/plot/scatter_selu_data_besar.pgf)
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 121.
+(caption)                particular \caption on input line 122.
 See the caption package documentation for explanation.
 
 [50]
-<BAB-4/plot/CM_selu_data_besar.pdf, id=1064, 345.17657pt x 275.64581pt>
+<BAB-4/plot/CM_selu_data_besar.pdf, id=1116, 345.17657pt x 275.64581pt>
 File: BAB-4/plot/CM_selu_data_besar.pdf Graphic file (type pdf)
 <use BAB-4/plot/CM_selu_data_besar.pdf>
 Package pdftex.def Info: BAB-4/plot/CM_selu_data_besar.pdf  used on input line 
-133.
+134.
 (pdftex.def)             Requested size: 264.61333pt x 211.3226pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 133.
+(caption)                particular \caption on input line 134.
 See the caption package documentation for explanation.
 
 (./BAB-4/plot/presisi_sensitivity_selu_data_besar.pgf)
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 142.
+(caption)                particular \caption on input line 143.
 See the caption package documentation for explanation.
 
 [51 <./BAB-4/plot/CM_selu_data_besar.pdf>]
 (./BAB-4/plot/accuracy_rasio_data_besar.pgf)
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 159.
+(caption)                particular \caption on input line 160.
 See the caption package documentation for explanation.
 
 (./BAB-4/plot/scatter_rasio_data_besar.pgf)
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 167.
+(caption)                particular \caption on input line 168.
 See the caption package documentation for explanation.
 
 [52]
-<BAB-4/plot/CM_rasio_data_besar.pdf, id=1094, 367.3306pt x 285.52782pt>
+<BAB-4/plot/CM_rasio_data_besar.pdf, id=1147, 367.3306pt x 285.52782pt>
 File: BAB-4/plot/CM_rasio_data_besar.pdf Graphic file (type pdf)
 <use BAB-4/plot/CM_rasio_data_besar.pdf>
 Package pdftex.def Info: BAB-4/plot/CM_rasio_data_besar.pdf  used on input line
- 180.
+ 181.
 (pdftex.def)             Requested size: 264.61333pt x 205.69313pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 180.
+(caption)                particular \caption on input line 181.
 See the caption package documentation for explanation.
 
 [53] (./BAB-4/plot/presisi_sensitivity_rasio_data_besar.pgf)
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 189.
+(caption)                particular \caption on input line 190.
 See the caption package documentation for explanation.
 
 [54 <./BAB-4/plot/CM_rasio_data_besar.pdf>]
 (./BAB-4/plot/accuracy_5_layer_data_kecil_random_16.pgf)
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 204.
+(caption)                particular \caption on input line 205.
 See the caption package documentation for explanation.
 
 (./BAB-4/plot/single_layer_data_kecil.pgf)
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 214.
+(caption)                particular \caption on input line 215.
 See the caption package documentation for explanation.
 
 [55]
-<BAB-4/plot/CM_1_layer_data_kecil.pdf, id=1169, 342.55579pt x 279.82744pt>
+<BAB-4/plot/CM_1_layer_data_kecil.pdf, id=1221, 342.55579pt x 279.82744pt>
 File: BAB-4/plot/CM_1_layer_data_kecil.pdf Graphic file (type pdf)
 <use BAB-4/plot/CM_1_layer_data_kecil.pdf>
 Package pdftex.def Info: BAB-4/plot/CM_1_layer_data_kecil.pdf  used on input li
-ne 226.
+ne 227.
 (pdftex.def)             Requested size: 264.61333pt x 216.1723pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 226.
+(caption)                particular \caption on input line 227.
 See the caption package documentation for explanation.
 
 (./BAB-4/plot/presisi_sensitivity_single_layer_data_kecil.pgf)
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 234.
+(caption)                particular \caption on input line 235.
 See the caption package documentation for explanation.
 
 [56 <./BAB-4/plot/CM_1_layer_data_kecil.pdf>]
 (./BAB-4/plot/accuracy_perbandingan_AV_data_kecil.pgf)
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 248.
+(caption)                particular \caption on input line 249.
 See the caption package documentation for explanation.
 
 [57] (./BAB-4/plot/single_layer_selu_data_kecil.pgf)
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 258.
+(caption)                particular \caption on input line 259.
 See the caption package documentation for explanation.
 
 [58]
-<BAB-4/plot/CM_selu_data_kecil.pdf, id=1207, 363.48811pt x 290.10742pt>
+<BAB-4/plot/CM_selu_data_kecil.pdf, id=1259, 363.48811pt x 290.10742pt>
 File: BAB-4/plot/CM_selu_data_kecil.pdf Graphic file (type pdf)
 <use BAB-4/plot/CM_selu_data_kecil.pdf>
 Package pdftex.def Info: BAB-4/plot/CM_selu_data_kecil.pdf  used on input line 
-271.
+272.
 (pdftex.def)             Requested size: 264.61333pt x 211.20117pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 271.
+(caption)                particular \caption on input line 272.
 See the caption package documentation for explanation.
 
 (./BAB-4/plot/presisi_sensitivity_selu_data_kecil.pgf)
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 279.
+(caption)                particular \caption on input line 280.
 See the caption package documentation for explanation.
 
 [59 <./BAB-4/plot/CM_selu_data_kecil.pdf>]
 (./BAB-4/plot/akurasi_rata_rasio_data_kecil.pgf)
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 293.
+(caption)                particular \caption on input line 294.
 See the caption package documentation for explanation.
 
 (./BAB-4/plot/scatter_rasio_data_kecil.pgf)
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 301.
+(caption)                particular \caption on input line 302.
 See the caption package documentation for explanation.
 
 [60]
-<BAB-4/plot/CM_rasio_data_kecil.pdf, id=1272, 363.48811pt x 290.10742pt>
+<BAB-4/plot/CM_rasio_data_kecil.pdf, id=1326, 363.48811pt x 290.10742pt>
 File: BAB-4/plot/CM_rasio_data_kecil.pdf Graphic file (type pdf)
 <use BAB-4/plot/CM_rasio_data_kecil.pdf>
 Package pdftex.def Info: BAB-4/plot/CM_rasio_data_kecil.pdf  used on input line
- 313.
+ 314.
 (pdftex.def)             Requested size: 264.61333pt x 211.20117pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 313.
+(caption)                particular \caption on input line 314.
 See the caption package documentation for explanation.
 
 [61]
-Overfull \hbox (21.58057pt too wide) in paragraph at lines 315--316
+Overfull \hbox (21.58057pt too wide) in paragraph at lines 316--317
 \OT1/ptm/m/n/10.95 sen-si-tiv-i-tas, sedan-gkan kat-e-gori "Baik" men-jadi memi
 -liki sen-si-tiv-i-tas yang tinggi. Hal ini mengindikasikan
  []
@@ -2046,123 +2102,115 @@ Overfull \hbox (21.58057pt too wide) in paragraph at lines 315--316
 (./BAB-4/plot/presisi_sensitivity_rasio_data_kecil.pgf)
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 323.
+(caption)                particular \caption on input line 324.
 See the caption package documentation for explanation.
 
 [62 <./BAB-4/plot/CM_rasio_data_kecil.pdf>]
 (./BAB-4/plot/ANN_perbandingan_neuron_data_besar.pgf)
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 337.
+(caption)                particular \caption on input line 338.
 See the caption package documentation for explanation.
 
 (./BAB-4/plot/accuracy_5_layer_data_kecil.pgf)
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 347.
+(caption)                particular \caption on input line 348.
 See the caption package documentation for explanation.
 
 [63]
-<BAB-4/image/WebAppTA.png, id=1339, 602.25pt x 602.25pt>
+<BAB-4/image/WebAppTA.png, id=1391, 602.25pt x 602.25pt>
 File: BAB-4/image/WebAppTA.png Graphic file (type png)
 <use BAB-4/image/WebAppTA.png>
-Package pdftex.def Info: BAB-4/image/WebAppTA.png  used on input line 378.
+Package pdftex.def Info: BAB-4/image/WebAppTA.png  used on input line 379.
 (pdftex.def)             Requested size: 176.40439pt x 176.40323pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 378.
+(caption)                particular \caption on input line 379.
 See the caption package documentation for explanation.
 
-<BAB-4/image/mobile_awal.jpeg, id=1342, 578.16pt x 1027.84pt>
+<BAB-4/image/mobile_awal.jpeg, id=1394, 578.16pt x 1027.84pt>
 File: BAB-4/image/mobile_awal.jpeg Graphic file (type jpg)
 <use BAB-4/image/mobile_awal.jpeg>
-Package pdftex.def Info: BAB-4/image/mobile_awal.jpeg  used on input line 389.
+Package pdftex.def Info: BAB-4/image/mobile_awal.jpeg  used on input line 390.
 (pdftex.def)             Requested size: 176.40439pt x 313.60837pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 389.
+(caption)                particular \caption on input line 390.
 See the caption package documentation for explanation.
 
 [64 <./BAB-4/image/WebAppTA.png>]
-<BAB-4/image/dekstop_view.png, id=1349, 1371.1225pt x 770.88pt>
+<BAB-4/image/dekstop_view.png, id=1401, 1371.1225pt x 770.88pt>
 File: BAB-4/image/dekstop_view.png Graphic file (type png)
 <use BAB-4/image/dekstop_view.png>
-Package pdftex.def Info: BAB-4/image/dekstop_view.png  used on input line 400.
+Package pdftex.def Info: BAB-4/image/dekstop_view.png  used on input line 401.
 (pdftex.def)             Requested size: 441.01773pt x 247.94525pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 400.
+(caption)                particular \caption on input line 401.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 400--400
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 401--401
  [][] 
  []
 
-<BAB-4/image/lengkapi_data.jpeg, id=1350, 578.16pt x 1027.84pt>
+<BAB-4/image/lengkapi_data.jpeg, id=1402, 578.16pt x 1027.84pt>
 File: BAB-4/image/lengkapi_data.jpeg Graphic file (type jpg)
 <use BAB-4/image/lengkapi_data.jpeg>
-Package pdftex.def Info: BAB-4/image/lengkapi_data.jpeg  used on input line 409
+Package pdftex.def Info: BAB-4/image/lengkapi_data.jpeg  used on input line 410
 .
 (pdftex.def)             Requested size: 176.40439pt x 313.60837pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 409.
+(caption)                particular \caption on input line 410.
 See the caption package documentation for explanation.
 
 [65 <./BAB-4/image/mobile_awal.jpeg>] [66 <./BAB-4/image/dekstop_view.png> <./B
 AB-4/image/lengkapi_data.jpeg>]
-<BAB-4/image/berhasil.jpeg, id=1361, 578.16pt x 1027.84pt>
+<BAB-4/image/berhasil.jpeg, id=1414, 578.16pt x 1027.84pt>
 File: BAB-4/image/berhasil.jpeg Graphic file (type jpg)
 <use BAB-4/image/berhasil.jpeg>
-Package pdftex.def Info: BAB-4/image/berhasil.jpeg  used on input line 419.
+Package pdftex.def Info: BAB-4/image/berhasil.jpeg  used on input line 420.
 (pdftex.def)             Requested size: 176.40439pt x 313.60837pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 419.
+(caption)                particular \caption on input line 420.
 See the caption package documentation for explanation.
 
 ) [67 <./BAB-4/image/berhasil.jpeg>]
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf>
-Package pdftex.def Info: Includes/Pemisah.pdf  used on input line 146.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Includes/Pemisah.pdf): PDF inclusion:
- found PDF version <1.7>, but at most version <1.5> allowed
+Package pdftex.def Info: Includes/Pemisah.pdf  used on input line 148.
+(pdftex.def)             Requested size: 597.53488pt x 845.18706pt.
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf>
-Package pdftex.def Info: Includes/Pemisah.pdf  used on input line 146.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Includes/Pemisah.pdf): PDF inclusion:
- found PDF version <1.7>, but at most version <1.5> allowed
+Package pdftex.def Info: Includes/Pemisah.pdf  used on input line 148.
+(pdftex.def)             Requested size: 597.53488pt x 845.18706pt.
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 146.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 148.
+(pdftex.def)             Requested size: 597.53488pt x 845.18706pt.
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 146.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 148.
+(pdftex.def)             Requested size: 597.56223pt x 845.22574pt.
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 146.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 148.
+(pdftex.def)             Requested size: 597.56223pt x 845.22574pt.
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 146.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 148.
+(pdftex.def)             Requested size: 597.56223pt x 845.22574pt.
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 146.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-[68
+Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 148.
+(pdftex.def)             Requested size: 597.56223pt x 845.22574pt.
+ [68
 
 ]
 \openout2 = `BAB-5/BAB-5.aux'.
@@ -2175,98 +2223,336 @@ BAB V.
 ]
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf>
-Package pdftex.def Info: Includes/Pemisah.pdf  used on input line 148.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Includes/Pemisah.pdf): PDF inclusion:
- found PDF version <1.7>, but at most version <1.5> allowed
+Package pdftex.def Info: Includes/Pemisah.pdf  used on input line 150.
+(pdftex.def)             Requested size: 597.53488pt x 845.18706pt.
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf>
-Package pdftex.def Info: Includes/Pemisah.pdf  used on input line 148.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Includes/Pemisah.pdf): PDF inclusion:
- found PDF version <1.7>, but at most version <1.5> allowed
+Package pdftex.def Info: Includes/Pemisah.pdf  used on input line 150.
+(pdftex.def)             Requested size: 597.53488pt x 845.18706pt.
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 148.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 150.
+(pdftex.def)             Requested size: 597.53488pt x 845.18706pt.
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 148.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 150.
+(pdftex.def)             Requested size: 597.56223pt x 845.22574pt.
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 148.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 150.
+(pdftex.def)             Requested size: 597.56223pt x 845.22574pt.
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 148.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 150.
+(pdftex.def)             Requested size: 597.56223pt x 845.22574pt.
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 148.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-[70
+Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 150.
+(pdftex.def)             Requested size: 597.56223pt x 845.22574pt.
+ [70
 
 ] (./main.bbl [71
 
 ])
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf>
-Package pdftex.def Info: Includes/Pemisah.pdf  used on input line 160.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Includes/Pemisah.pdf): PDF inclusion:
- found PDF version <1.7>, but at most version <1.5> allowed
+Package pdftex.def Info: Includes/Pemisah.pdf  used on input line 162.
+(pdftex.def)             Requested size: 597.53488pt x 845.18706pt.
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf>
-Package pdftex.def Info: Includes/Pemisah.pdf  used on input line 160.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Includes/Pemisah.pdf): PDF inclusion:
- found PDF version <1.7>, but at most version <1.5> allowed
+Package pdftex.def Info: Includes/Pemisah.pdf  used on input line 162.
+(pdftex.def)             Requested size: 597.53488pt x 845.18706pt.
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 160.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 162.
+(pdftex.def)             Requested size: 597.53488pt x 845.18706pt.
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 160.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-[72]
+Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 162.
+(pdftex.def)             Requested size: 597.56223pt x 845.22574pt.
+ [72]
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 160.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 162.
+(pdftex.def)             Requested size: 597.56223pt x 845.22574pt.
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 160.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 162.
+(pdftex.def)             Requested size: 597.56223pt x 845.22574pt.
 File: Includes/Pemisah.pdf Graphic file (type pdf)
 <use Includes/Pemisah.pdf, page 1>
-Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 160.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+Package pdftex.def Info: Includes/Pemisah.pdf , page1 used on input line 162.
+(pdftex.def)             Requested size: 597.56223pt x 845.22574pt.
  [73]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 175.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 175.
- (./main.aux (./BAB-1/BAB-1.aux) (./BAB-2/BAB-2.aux)
-(./BAB-3/BAB-3.aux) (./BAB-4/BAB-4.aux) (./BAB-5/BAB-5.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 175.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 175.
+<Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf, id=1
+459, 597.62169pt x 844.9046pt>
+File: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf 
+Graphic file (type pdf)
+<use Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf>
+Package pdftex.def Info: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali 
+Wafa_102117002.pdf  used on input line 168.
+(pdftex.def)             Requested size: 597.62022pt x 844.90254pt.
+File: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf 
+Graphic file (type pdf)
+<use Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf>
+Package pdftex.def Info: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali 
+Wafa_102117002.pdf  used on input line 168.
+(pdftex.def)             Requested size: 597.62022pt x 844.90254pt.
+<Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf, id=1
+462, page=1, 597.62169pt x 844.9046pt>
+File: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf 
+Graphic file (type pdf)
+<use Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf, 
+page 1>
+Package pdftex.def Info: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali 
+Wafa_102117002.pdf , page1 used on input line 168.
+(pdftex.def)             Requested size: 597.62022pt x 844.90254pt.
+File: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf 
+Graphic file (type pdf)
+<use Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf, 
+page 1>
+Package pdftex.def Info: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali 
+Wafa_102117002.pdf , page1 used on input line 168.
+(pdftex.def)             Requested size: 598.12177pt x 845.6116pt.
+File: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf 
+Graphic file (type pdf)
+<use Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf, 
+page 1>
+Package pdftex.def Info: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali 
+Wafa_102117002.pdf , page1 used on input line 168.
+(pdftex.def)             Requested size: 598.12177pt x 845.6116pt.
+File: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf 
+Graphic file (type pdf)
+<use Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf, 
+page 1>
+Package pdftex.def Info: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali 
+Wafa_102117002.pdf , page1 used on input line 168.
+(pdftex.def)             Requested size: 598.12177pt x 845.6116pt.
+File: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf 
+Graphic file (type pdf)
+<use Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf, 
+page 1>
+Package pdftex.def Info: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali 
+Wafa_102117002.pdf , page1 used on input line 168.
+(pdftex.def)             Requested size: 598.12177pt x 845.6116pt.
+ [74 <./Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pd
+f>]
+<Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf, id=1
+509, page=2, 597.62169pt x 844.9046pt>
+File: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf 
+Graphic file (type pdf)
+<use Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf, 
+page 2>
+Package pdftex.def Info: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali 
+Wafa_102117002.pdf , page2 used on input line 168.
+(pdftex.def)             Requested size: 598.12177pt x 845.6116pt.
+File: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf 
+Graphic file (type pdf)
+<use Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf, 
+page 2>
+Package pdftex.def Info: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali 
+Wafa_102117002.pdf , page2 used on input line 168.
+(pdftex.def)             Requested size: 598.12177pt x 845.6116pt.
+File: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf 
+Graphic file (type pdf)
+<use Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf, 
+page 2>
+Package pdftex.def Info: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali 
+Wafa_102117002.pdf , page2 used on input line 168.
+(pdftex.def)             Requested size: 598.12177pt x 845.6116pt.
+ [75 <./Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pd
+f>]
+<Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf, id=1
+515, page=3, 597.62169pt x 844.9046pt>
+File: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf 
+Graphic file (type pdf)
+<use Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf, 
+page 3>
+Package pdftex.def Info: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali 
+Wafa_102117002.pdf , page3 used on input line 168.
+(pdftex.def)             Requested size: 598.12177pt x 845.6116pt.
+File: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf 
+Graphic file (type pdf)
+<use Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf, 
+page 3>
+Package pdftex.def Info: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali 
+Wafa_102117002.pdf , page3 used on input line 168.
+(pdftex.def)             Requested size: 598.12177pt x 845.6116pt.
+File: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf 
+Graphic file (type pdf)
+<use Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf, 
+page 3>
+Package pdftex.def Info: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali 
+Wafa_102117002.pdf , page3 used on input line 168.
+(pdftex.def)             Requested size: 598.12177pt x 845.6116pt.
+ [76 <./Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pd
+f>]
+<Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf, id=1
+521, page=4, 597.62169pt x 844.9046pt>
+File: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf 
+Graphic file (type pdf)
+<use Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf, 
+page 4>
+Package pdftex.def Info: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali 
+Wafa_102117002.pdf , page4 used on input line 168.
+(pdftex.def)             Requested size: 598.12177pt x 845.6116pt.
+File: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf 
+Graphic file (type pdf)
+<use Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf, 
+page 4>
+Package pdftex.def Info: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali 
+Wafa_102117002.pdf , page4 used on input line 168.
+(pdftex.def)             Requested size: 598.12177pt x 845.6116pt.
+File: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf 
+Graphic file (type pdf)
+<use Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf, 
+page 4>
+Package pdftex.def Info: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali 
+Wafa_102117002.pdf , page4 used on input line 168.
+(pdftex.def)             Requested size: 598.12177pt x 845.6116pt.
+ [77 <./Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pd
+f>]
+<Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf, id=1
+528, page=5, 597.62169pt x 844.9046pt>
+File: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf 
+Graphic file (type pdf)
+<use Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf, 
+page 5>
+Package pdftex.def Info: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali 
+Wafa_102117002.pdf , page5 used on input line 168.
+(pdftex.def)             Requested size: 598.12177pt x 845.6116pt.
+File: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf 
+Graphic file (type pdf)
+<use Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf, 
+page 5>
+Package pdftex.def Info: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali 
+Wafa_102117002.pdf , page5 used on input line 168.
+(pdftex.def)             Requested size: 598.12177pt x 845.6116pt.
+File: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf 
+Graphic file (type pdf)
+<use Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf, 
+page 5>
+Package pdftex.def Info: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali 
+Wafa_102117002.pdf , page5 used on input line 168.
+(pdftex.def)             Requested size: 598.12177pt x 845.6116pt.
+ [78 <./Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pd
+f>]
+<Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf, id=1
+534, page=6, 597.62169pt x 844.9046pt>
+File: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf 
+Graphic file (type pdf)
+<use Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf, 
+page 6>
+Package pdftex.def Info: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali 
+Wafa_102117002.pdf , page6 used on input line 168.
+(pdftex.def)             Requested size: 598.12177pt x 845.6116pt.
+File: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf 
+Graphic file (type pdf)
+<use Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf, 
+page 6>
+Package pdftex.def Info: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali 
+Wafa_102117002.pdf , page6 used on input line 168.
+(pdftex.def)             Requested size: 598.12177pt x 845.6116pt.
+File: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf 
+Graphic file (type pdf)
+<use Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf, 
+page 6>
+Package pdftex.def Info: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali 
+Wafa_102117002.pdf , page6 used on input line 168.
+(pdftex.def)             Requested size: 598.12177pt x 845.6116pt.
+ [79 <./Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pd
+f>]
+<Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf, id=1
+540, page=7, 597.62169pt x 844.9046pt>
+File: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf 
+Graphic file (type pdf)
+<use Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf, 
+page 7>
+Package pdftex.def Info: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali 
+Wafa_102117002.pdf , page7 used on input line 168.
+(pdftex.def)             Requested size: 598.12177pt x 845.6116pt.
+File: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf 
+Graphic file (type pdf)
+<use Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf, 
+page 7>
+Package pdftex.def Info: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali 
+Wafa_102117002.pdf , page7 used on input line 168.
+(pdftex.def)             Requested size: 598.12177pt x 845.6116pt.
+File: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf 
+Graphic file (type pdf)
+<use Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf, 
+page 7>
+Package pdftex.def Info: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali 
+Wafa_102117002.pdf , page7 used on input line 168.
+(pdftex.def)             Requested size: 598.12177pt x 845.6116pt.
+ [80 <./Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pd
+f>]
+<Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf, id=1
+546, page=8, 597.62169pt x 844.9046pt>
+File: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf 
+Graphic file (type pdf)
+<use Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf, 
+page 8>
+Package pdftex.def Info: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali 
+Wafa_102117002.pdf , page8 used on input line 168.
+(pdftex.def)             Requested size: 598.12177pt x 845.6116pt.
+File: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf 
+Graphic file (type pdf)
+<use Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf, 
+page 8>
+Package pdftex.def Info: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali 
+Wafa_102117002.pdf , page8 used on input line 168.
+(pdftex.def)             Requested size: 598.12177pt x 845.6116pt.
+File: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf 
+Graphic file (type pdf)
+<use Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf, 
+page 8>
+Package pdftex.def Info: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali 
+Wafa_102117002.pdf , page8 used on input line 168.
+(pdftex.def)             Requested size: 598.12177pt x 845.6116pt.
+ [81 <./Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pd
+f>]
+<Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf, id=1
+552, page=9, 597.62169pt x 844.9046pt>
+File: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf 
+Graphic file (type pdf)
+<use Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf, 
+page 9>
+Package pdftex.def Info: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali 
+Wafa_102117002.pdf , page9 used on input line 168.
+(pdftex.def)             Requested size: 598.12177pt x 845.6116pt.
+File: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf 
+Graphic file (type pdf)
+<use Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf, 
+page 9>
+Package pdftex.def Info: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali 
+Wafa_102117002.pdf , page9 used on input line 168.
+(pdftex.def)             Requested size: 598.12177pt x 845.6116pt.
+File: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf 
+Graphic file (type pdf)
+<use Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pdf, 
+page 9>
+Package pdftex.def Info: Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali 
+Wafa_102117002.pdf , page9 used on input line 168.
+(pdftex.def)             Requested size: 598.12177pt x 845.6116pt.
+ [82 <./Lampiran-Bimbingan/004_Form Bimbingan TA_Muhammad Ali Wafa_102117002.pd
+f>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 177.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 177.
+ (./main.aux
+(./BAB-1/BAB-1.aux) (./BAB-2/BAB-2.aux) (./BAB-3/BAB-3.aux) (./BAB-4/BAB-4.aux)
+(./BAB-5/BAB-5.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 177.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 177.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 729CB3452B2EC680BBBB3FCCD731B0B0;4038.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 175.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 177.
  ) 
 Here is how much of TeX's memory you used:
- 35262 strings out of 481239
- 817423 string characters out of 5920377
- 1672901 words of memory out of 5000000
- 49378 multiletter control sequences out of 15000+600000
+ 35329 strings out of 481239
+ 821282 string characters out of 5920377
+ 1673126 words of memory out of 5000000
+ 49429 multiletter control sequences out of 15000+600000
  575378 words of font info for 110 fonts, out of 8000000 for 9000
  1159 hyphenation exceptions out of 8191
  66i,24n,98p,1532b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2291,10 +2577,10 @@ nts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
 w/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (85 pages, 1533014 bytes).
+Output written on main.pdf (96 pages, 2507684 bytes).
 PDF statistics:
- 1535 PDF objects out of 1728 (max. 8388607)
- 1107 compressed objects within 12 object streams
- 273 named destinations out of 1000 (max. 500000)
- 680 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1687 PDF objects out of 1728 (max. 8388607)
+ 1189 compressed objects within 12 object streams
+ 282 named destinations out of 1000 (max. 500000)
+ 780 words of extra memory for PDF output out of 10000 (max. 10000000)
 
